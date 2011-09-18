@@ -20,8 +20,8 @@
  * @version    $Id: GenericTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once "Zend/Test/DbAdapter.php";
-require_once "Zend/Test/PHPUnit/Db/Metadata/Generic.php";
+// require_once "Zend/Test/DbAdapter.php";
+// require_once "Zend/Test/PHPUnit/Db/Metadata/Generic.php";
 
 /**
  * @category   Zend

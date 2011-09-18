@@ -22,7 +22,7 @@
 /**
  * @see Zend_XmlRpc_Client
  */
-require_once 'Zend/XmlRpc/Client.php';
+// require_once 'Zend/XmlRpc/Client.php';
 
 $server = new Zend_XmlRpc_Client('http://www.upcdatabase.com/rpc');
 

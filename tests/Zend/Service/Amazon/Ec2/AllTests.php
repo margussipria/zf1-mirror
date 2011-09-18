@@ -24,15 +24,15 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Amazon_Ec2_AllTests::main');
 }
 
-require_once 'Zend/Service/Amazon/Ec2/AvailabilityzonesTest.php';
-require_once 'Zend/Service/Amazon/Ec2/EbsTest.php';
-require_once 'Zend/Service/Amazon/Ec2/Ec2Test.php';
-require_once 'Zend/Service/Amazon/Ec2/ElasticipTest.php';
-require_once 'Zend/Service/Amazon/Ec2/ImageTest.php';
-require_once 'Zend/Service/Amazon/Ec2/InstanceTest.php';
-require_once 'Zend/Service/Amazon/Ec2/KeypairTest.php';
-require_once 'Zend/Service/Amazon/Ec2/RegionTest.php';
-require_once 'Zend/Service/Amazon/Ec2/SecuritygroupsTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/AvailabilityzonesTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/EbsTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/Ec2Test.php';
+// require_once 'Zend/Service/Amazon/Ec2/ElasticipTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/ImageTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/InstanceTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/KeypairTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/RegionTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/SecuritygroupsTest.php';
 
 /**
  * @category   Zend

@@ -24,19 +24,19 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Form_Decorator_AllTests::main');
 }
 
-require_once 'Zend/Form/Decorator/AbstractTest.php';
-require_once 'Zend/Form/Decorator/CallbackTest.php';
-require_once 'Zend/Form/Decorator/DescriptionTest.php';
-require_once 'Zend/Form/Decorator/ErrorsTest.php';
-require_once 'Zend/Form/Decorator/FieldsetTest.php';
-require_once 'Zend/Form/Decorator/FileTest.php';
-require_once 'Zend/Form/Decorator/FormErrorsTest.php';
-require_once 'Zend/Form/Decorator/FormTest.php';
-require_once 'Zend/Form/Decorator/HtmlTagTest.php';
-require_once 'Zend/Form/Decorator/ImageTest.php';
-require_once 'Zend/Form/Decorator/LabelTest.php';
-require_once 'Zend/Form/Decorator/ViewHelperTest.php';
-require_once 'Zend/Form/Decorator/ViewScriptTest.php';
+// require_once 'Zend/Form/Decorator/AbstractTest.php';
+// require_once 'Zend/Form/Decorator/CallbackTest.php';
+// require_once 'Zend/Form/Decorator/DescriptionTest.php';
+// require_once 'Zend/Form/Decorator/ErrorsTest.php';
+// require_once 'Zend/Form/Decorator/FieldsetTest.php';
+// require_once 'Zend/Form/Decorator/FileTest.php';
+// require_once 'Zend/Form/Decorator/FormErrorsTest.php';
+// require_once 'Zend/Form/Decorator/FormTest.php';
+// require_once 'Zend/Form/Decorator/HtmlTagTest.php';
+// require_once 'Zend/Form/Decorator/ImageTest.php';
+// require_once 'Zend/Form/Decorator/LabelTest.php';
+// require_once 'Zend/Form/Decorator/ViewHelperTest.php';
+// require_once 'Zend/Form/Decorator/ViewScriptTest.php';
 
 /**
  * @category   Zend

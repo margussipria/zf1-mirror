@@ -20,11 +20,11 @@
  * @version    $Id: SimpleTesterTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once "Zend/Test/PHPUnit/Db/SimpleTester.php";
-require_once "Zend/Test/PHPUnit/Db/Connection.php";
-require_once "Zend/Test/DbAdapter.php";
-require_once "PHPUnit/Extensions/Database/DataSet/IDataSet.php";
-require_once "Zend/Test/PHPUnit/Db/Exception.php";
+// require_once "Zend/Test/PHPUnit/Db/SimpleTester.php";
+// require_once "Zend/Test/PHPUnit/Db/Connection.php";
+// require_once "Zend/Test/DbAdapter.php";
+// require_once "PHPUnit/Extensions/Database/DataSet/IDataSet.php";
+// require_once "Zend/Test/PHPUnit/Db/Exception.php";
 
 /**
  * @category   Zend

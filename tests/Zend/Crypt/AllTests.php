@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Crypt_AllTests::main');
 }
 
-require_once 'DiffieHellmanTest.php';
-require_once 'HmacTest.php';
-require_once 'MathTest.php';
-require_once 'Rsa/AllTests.php';
-require_once 'Math/AllTests.php';
+// require_once 'DiffieHellmanTest.php';
+// require_once 'HmacTest.php';
+// require_once 'MathTest.php';
+// require_once 'Rsa/AllTests.php';
+// require_once 'Math/AllTests.php';
 
 /**
  * @category   Zend

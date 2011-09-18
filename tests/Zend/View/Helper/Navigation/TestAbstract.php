@@ -20,15 +20,15 @@
  * @version    $Id: TestAbstract.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Acl.php';
-require_once 'Zend/Acl/Resource.php';
-require_once 'Zend/Acl/Role.php';
-require_once 'Zend/Controller/Front.php';
-require_once 'Zend/Config/Xml.php';
-require_once 'Zend/Registry.php';
-require_once 'Zend/Translate.php';
-require_once 'Zend/View.php';
-require_once 'Zend/Navigation.php';
+// require_once 'Zend/Acl.php';
+// require_once 'Zend/Acl/Resource.php';
+// require_once 'Zend/Acl/Role.php';
+// require_once 'Zend/Controller/Front.php';
+// require_once 'Zend/Config/Xml.php';
+// require_once 'Zend/Registry.php';
+// require_once 'Zend/Translate.php';
+// require_once 'Zend/View.php';
+// require_once 'Zend/Navigation.php';
 
 /**
  * Base class for navigation view helper tests

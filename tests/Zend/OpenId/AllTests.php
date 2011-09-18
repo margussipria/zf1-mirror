@@ -24,13 +24,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_OpenId_AllTests::main');
 }
 
-require_once 'Zend/OpenId/ConsumerTest.php';
-require_once 'Zend/OpenId/Consumer/Storage/FileTest.php';
-require_once 'Zend/OpenId/ProviderTest.php';
-require_once 'Zend/OpenId/Provider/Storage/FileTest.php';
-require_once 'Zend/OpenId/Provider/User/SessionTest.php';
-require_once 'Zend/OpenId/ExtensionTest.php';
-require_once 'Zend/OpenId/Extension/SregTest.php';
+// require_once 'Zend/OpenId/ConsumerTest.php';
+// require_once 'Zend/OpenId/Consumer/Storage/FileTest.php';
+// require_once 'Zend/OpenId/ProviderTest.php';
+// require_once 'Zend/OpenId/Provider/Storage/FileTest.php';
+// require_once 'Zend/OpenId/Provider/User/SessionTest.php';
+// require_once 'Zend/OpenId/ExtensionTest.php';
+// require_once 'Zend/OpenId/Extension/SregTest.php';
 
 /**
  * @category   Zend

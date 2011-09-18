@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Wildfire_AllTests::main');
 }
 
-require_once 'Zend/Wildfire/WildfireTest.php';
+// require_once 'Zend/Wildfire/WildfireTest.php';
 
 /**
  * @category   Zend

@@ -29,7 +29,7 @@
  */
 
 /** Zend/Queue/Adapter/Stomp/IO.php */
-require_once 'Zend/Queue/Adapter/Stomp/IO.php';
+// require_once 'Zend/Queue/Adapter/Stomp/IO.php';
 
 /**
  * @category   Zend

@@ -23,12 +23,12 @@
 /**
  * Zend_OpenId
  */
-require_once 'Zend/OpenId/Provider.php';
+// require_once 'Zend/OpenId/Provider.php';
 
 /**
  * Zend_OpenId_ResponseHelper
  */
-require_once 'Zend/OpenId/ResponseHelper.php';
+// require_once 'Zend/OpenId/ResponseHelper.php';
 
 /**
  * @category   Zend

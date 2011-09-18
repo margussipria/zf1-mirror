@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_DeveloperGarden_SmsValidation
  */
-require_once 'Zend/Service/DeveloperGarden/SmsValidation.php';
+// require_once 'Zend/Service/DeveloperGarden/SmsValidation.php';
 
 /**
  * Zend_Service_DeveloperGarden test case

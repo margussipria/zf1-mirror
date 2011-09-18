@@ -22,7 +22,7 @@
  */
 
 /** Zend_Date **/
-require_once 'Zend/Date.php';
+// require_once 'Zend/Date.php';
 
 /**
  * @category   Demos

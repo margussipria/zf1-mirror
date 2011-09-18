@@ -1,19 +1,19 @@
 <?php
 
-require_once('Symbol.php');
+// require_once('Symbol.php');
 
-require_once('JavaScriptFunctionCall.php');
-require_once('JavaScriptLiteral.php');
-require_once('JavaScriptString.php');
-require_once('JavaScriptNumber.php');
-require_once('JavaScriptRegExp.php');
-require_once('JavaScriptFunction.php');
-require_once('JavaScriptTernary.php');
-require_once('JavaScriptObject.php');
-require_once('JavaScriptArray.php');
-require_once('JavaScriptVariable.php');
-require_once('JavaScriptAssignment.php');
-require_once('JavaScriptOr.php');
+// require_once('JavaScriptFunctionCall.php');
+// require_once('JavaScriptLiteral.php');
+// require_once('JavaScriptString.php');
+// require_once('JavaScriptNumber.php');
+// require_once('JavaScriptRegExp.php');
+// require_once('JavaScriptFunction.php');
+// require_once('JavaScriptTernary.php');
+// require_once('JavaScriptObject.php');
+// require_once('JavaScriptArray.php');
+// require_once('JavaScriptVariable.php');
+// require_once('JavaScriptAssignment.php');
+// require_once('JavaScriptOr.php');
 
 class JavaScriptSymbol extends Symbol {
   /**

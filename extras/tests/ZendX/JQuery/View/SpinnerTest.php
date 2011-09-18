@@ -20,8 +20,8 @@
  * @version     $Id: SpinnerTest.php 20755 2010-01-29 12:29:45Z beberlei $
  */
 
-require_once "jQueryTestCase.php";
-require_once "ZendX/JQuery/View/Helper/Spinner.php";
+// require_once "jQueryTestCase.php";
+// require_once "ZendX/JQuery/View/Helper/Spinner.php";
 
 class ZendX_JQuery_View_SpinnerTest extends ZendX_JQuery_View_jQueryTestCase
 {

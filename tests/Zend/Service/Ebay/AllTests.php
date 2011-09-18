@@ -26,12 +26,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_Ebay_AllTests
  */
-require_once 'Zend/Service/Ebay/Finding/AllTests.php';
+// require_once 'Zend/Service/Ebay/Finding/AllTests.php';
 
 /**
  * @see Zend_Service_Ebay_AbstractTest
  */
-require_once 'Zend/Service/Ebay/AbstractTest.php';
+// require_once 'Zend/Service/Ebay/AbstractTest.php';
 
 /**
  * @category   Zend

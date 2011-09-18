@@ -20,8 +20,8 @@
  * @version    $Id $
  */
 
-require_once 'Zend/Gdata/YouTube/SubscriptionEntry.php';
-require_once 'Zend/Gdata/YouTube.php';
+// require_once 'Zend/Gdata/YouTube/SubscriptionEntry.php';
+// require_once 'Zend/Gdata/YouTube.php';
 
 /**
  * @category   Zend

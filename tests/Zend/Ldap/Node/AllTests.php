@@ -24,17 +24,17 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Ldap_Node_AllTests::main');
 }
 
-require_once 'Zend/Ldap/Node/OfflineTest.php';
-require_once 'Zend/Ldap/Node/AttributeIterationTest.php';
+// require_once 'Zend/Ldap/Node/OfflineTest.php';
+// require_once 'Zend/Ldap/Node/AttributeIterationTest.php';
 
 if (defined('TESTS_ZEND_LDAP_ONLINE_ENABLED')
 	&& constant('TESTS_ZEND_LDAP_ONLINE_ENABLED')) {
-    require_once 'Zend/Ldap/Node/OnlineTest.php';
-    require_once 'Zend/Ldap/Node/ChildrenTest.php';
-    require_once 'Zend/Ldap/Node/ChildrenIterationTest.php';
-    require_once 'Zend/Ldap/Node/UpdateTest.php';
-    require_once 'Zend/Ldap/Node/RootDseTest.php';
-    require_once 'Zend/Ldap/Node/SchemaTest.php';
+    // require_once 'Zend/Ldap/Node/OnlineTest.php';
+    // require_once 'Zend/Ldap/Node/ChildrenTest.php';
+    // require_once 'Zend/Ldap/Node/ChildrenIterationTest.php';
+    // require_once 'Zend/Ldap/Node/UpdateTest.php';
+    // require_once 'Zend/Ldap/Node/RootDseTest.php';
+    // require_once 'Zend/Ldap/Node/SchemaTest.php';
 }
 
 /**

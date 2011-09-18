@@ -24,18 +24,18 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Filter_Word_AllTests::main');
 }
 
-require_once 'Zend/Filter/Word/CamelCaseToDashTest.php';
-require_once 'Zend/Filter/Word/CamelCaseToSeparatorTest.php';
-require_once 'Zend/Filter/Word/CamelCaseToUnderscoreTest.php';
-require_once 'Zend/Filter/Word/DashToCamelCaseTest.php';
-require_once 'Zend/Filter/Word/DashToSeparatorTest.php';
-require_once 'Zend/Filter/Word/DashToUnderscoreTest.php';
-require_once 'Zend/Filter/Word/SeparatorToCamelCaseTest.php';
-require_once 'Zend/Filter/Word/SeparatorToDashTest.php';
-require_once 'Zend/Filter/Word/SeparatorToSeparatorTest.php';
-require_once 'Zend/Filter/Word/UnderscoreToCamelCaseTest.php';
-require_once 'Zend/Filter/Word/UnderscoreToDashTest.php';
-require_once 'Zend/Filter/Word/UnderscoreToSeparatorTest.php';
+// require_once 'Zend/Filter/Word/CamelCaseToDashTest.php';
+// require_once 'Zend/Filter/Word/CamelCaseToSeparatorTest.php';
+// require_once 'Zend/Filter/Word/CamelCaseToUnderscoreTest.php';
+// require_once 'Zend/Filter/Word/DashToCamelCaseTest.php';
+// require_once 'Zend/Filter/Word/DashToSeparatorTest.php';
+// require_once 'Zend/Filter/Word/DashToUnderscoreTest.php';
+// require_once 'Zend/Filter/Word/SeparatorToCamelCaseTest.php';
+// require_once 'Zend/Filter/Word/SeparatorToDashTest.php';
+// require_once 'Zend/Filter/Word/SeparatorToSeparatorTest.php';
+// require_once 'Zend/Filter/Word/UnderscoreToCamelCaseTest.php';
+// require_once 'Zend/Filter/Word/UnderscoreToDashTest.php';
+// require_once 'Zend/Filter/Word/UnderscoreToSeparatorTest.php';
 
 /**
  * @category   Zend

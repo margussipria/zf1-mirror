@@ -21,7 +21,7 @@
  */
 
 /** Zend_Service_WindowsAzure_Storage_DynamicTableEntity */
-require_once 'Zend/Service/WindowsAzure/Storage/DynamicTableEntity.php';
+// require_once 'Zend/Service/WindowsAzure/Storage/DynamicTableEntity.php';
 
 /**
  * @category   Zend

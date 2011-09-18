@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Ldap_Ldif_AllTests::main');
 }
 
-require_once 'Zend/Ldap/Ldif/SimpleEncoderTest.php';
-require_once 'Zend/Ldap/Ldif/SimpleDecoderTest.php';
+// require_once 'Zend/Ldap/Ldif/SimpleEncoderTest.php';
+// require_once 'Zend/Ldap/Ldif/SimpleDecoderTest.php';
 
 /**
  * @category   Zend

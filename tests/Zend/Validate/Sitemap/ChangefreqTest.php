@@ -20,7 +20,7 @@
  * @version    $Id: ChangefreqTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Validate/Sitemap/Changefreq.php';
+// require_once 'Zend/Validate/Sitemap/Changefreq.php';
 
 /**
  * Tests Zym_Validate_Sitemap_Changefreq

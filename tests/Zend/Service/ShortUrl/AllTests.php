@@ -27,22 +27,22 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_ShortUrl_IsGdTest
  */
-require_once 'Zend/Service/ShortUrl/IsGdTest.php';
+// require_once 'Zend/Service/ShortUrl/IsGdTest.php';
 
 /**
  * @see Zend_Service_ShortUrl_JdemCzTest
  */
-require_once 'Zend/Service/ShortUrl/JdemCzTest.php';
+// require_once 'Zend/Service/ShortUrl/JdemCzTest.php';
 
 /**
  * @see Zend_Service_ShortUrl_MetamarkNetTest
  */
-require_once 'Zend/Service/ShortUrl/MetamarkNetTest.php';
+// require_once 'Zend/Service/ShortUrl/MetamarkNetTest.php';
 
 /**
  * @see Zend_Service_ShortUrl_TinyUrlComTest
  */
-require_once 'Zend/Service/ShortUrl/TinyUrlComTest.php';
+// require_once 'Zend/Service/ShortUrl/TinyUrlComTest.php';
 
 /**
  * @category   Zend

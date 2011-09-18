@@ -20,7 +20,7 @@
  * @version    $Id: OnlineProxy.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'BaseProxy.php';
+// require_once 'BaseProxy.php';
 
 /**
  * @category   Zend

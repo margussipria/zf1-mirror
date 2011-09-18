@@ -1,6 +1,6 @@
 <?php
-require_once 'Zend/Oauth/Consumer.php';
-require_once 'Zend/Gdata/Query.php';
+// require_once 'Zend/Oauth/Consumer.php';
+// require_once 'Zend/Gdata/Query.php';
 
 /**
  * Wrapper class for Google's OAuth implementation. In particular, this helper

@@ -24,14 +24,14 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_StrikeIron_AllTests::main');
 }
 
-require_once 'Zend/Service/StrikeIron/StrikeIronTest.php';
-require_once 'Zend/Service/StrikeIron/BaseTest.php';
-require_once 'Zend/Service/StrikeIron/DecoratorTest.php';
-require_once 'Zend/Service/StrikeIron/ExceptionTest.php';
-require_once 'Zend/Service/StrikeIron/SalesUseTaxBasicTest.php';
-require_once 'Zend/Service/StrikeIron/USAddressVerificationTest.php';
-require_once 'Zend/Service/StrikeIron/ZipCodeInfoTest.php';
-require_once 'Zend/Service/StrikeIron/NoSoapTest.php';
+// require_once 'Zend/Service/StrikeIron/StrikeIronTest.php';
+// require_once 'Zend/Service/StrikeIron/BaseTest.php';
+// require_once 'Zend/Service/StrikeIron/DecoratorTest.php';
+// require_once 'Zend/Service/StrikeIron/ExceptionTest.php';
+// require_once 'Zend/Service/StrikeIron/SalesUseTaxBasicTest.php';
+// require_once 'Zend/Service/StrikeIron/USAddressVerificationTest.php';
+// require_once 'Zend/Service/StrikeIron/ZipCodeInfoTest.php';
+// require_once 'Zend/Service/StrikeIron/NoSoapTest.php';
 
 
 /**

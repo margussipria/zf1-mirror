@@ -20,9 +20,9 @@
  * @version    $Id $
  */
 
-require_once 'Zend/Gdata/Health.php';
-require_once 'Zend/Gdata/Health/ProfileFeed.php';
-require_once 'Zend/Gdata/Health/ProfileEntry.php';
+// require_once 'Zend/Gdata/Health.php';
+// require_once 'Zend/Gdata/Health/ProfileFeed.php';
+// require_once 'Zend/Gdata/Health/ProfileEntry.php';
 
 /**
  * @category   Zend

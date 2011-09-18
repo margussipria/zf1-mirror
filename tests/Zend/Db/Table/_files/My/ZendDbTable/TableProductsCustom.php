@@ -25,8 +25,8 @@
  * require other test files needed, this will
  * ensure that Zend_Loader::loadClass is not called
  */
-require_once 'TableProducts.php';
-require_once 'TableBugsProductsCustom.php';
+// require_once 'TableProducts.php';
+// require_once 'TableBugsProductsCustom.php';
 
 
 

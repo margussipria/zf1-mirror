@@ -25,17 +25,17 @@ set_include_path("$dir/library" . PATH_SEPARATOR . get_include_path());
 /**
  * @see Zend_OpenId_Provider
  */
-require_once "Zend/OpenId/Provider.php";
+// require_once "Zend/OpenId/Provider.php";
 
 /**
  * @see Zend_OpenId_Extension_Sreg
  */
-require_once "Zend/OpenId/Extension/Sreg.php";
+// require_once "Zend/OpenId/Extension/Sreg.php";
 
 /**
  * @see Zend_Session_Namespace
  */
-require_once "Zend/Session/Namespace.php";
+// require_once "Zend/Session/Namespace.php";
 
 $server = new Zend_OpenId_Provider();
 
@@ -115,7 +115,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     if (!isset($_GET['openid_action']) && isset($_GET['openid_mode'])) {
         $ret = $server->handle($_GET, new Zend_OpenId_Extension_Sreg());
     } else {
-        require_once 'Zend/View.php';
+        // require_once 'Zend/View.php';
 
         $view = new Zend_View();
         $view->setScriptPath(dirname(__FILE__) . '/templates');

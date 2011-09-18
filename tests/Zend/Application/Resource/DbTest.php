@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Zend_Loader_Autoloader
  */
-require_once 'Zend/Loader/Autoloader.php';
+// require_once 'Zend/Loader/Autoloader.php';
 
 /**
  * @category   Zend
@@ -60,7 +60,7 @@ class Zend_Application_Resource_DbTest extends PHPUnit_Framework_TestCase
 
         $this->application = new Zend_Application('testing');
 
-        require_once dirname(__FILE__) . '/../_files/ZfAppBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfAppBootstrap.php';
         $this->bootstrap = new ZfAppBootstrap($this->application);
     }
 
@@ -84,21 +84,21 @@ class Zend_Application_Resource_DbTest extends PHPUnit_Framework_TestCase
 
     public function testAdapterIsNullByDefault()
     {
-        require_once 'Zend/Application/Resource/Db.php';
+        // require_once 'Zend/Application/Resource/Db.php';
         $resource = new Zend_Application_Resource_Db();
         $this->assertNull($resource->getAdapter());
     }
 
     public function testDbIsNullByDefault()
     {
-        require_once 'Zend/Application/Resource/Db.php';
+        // require_once 'Zend/Application/Resource/Db.php';
         $resource = new Zend_Application_Resource_Db();
         $this->assertNull($resource->getDbAdapter());
     }
 
     public function testParamsAreEmptyByDefault()
     {
-        require_once 'Zend/Application/Resource/Db.php';
+        // require_once 'Zend/Application/Resource/Db.php';
         $resource = new Zend_Application_Resource_Db();
         $params = $resource->getParams();
         $this->assertTrue(empty($params));
@@ -106,14 +106,14 @@ class Zend_Application_Resource_DbTest extends PHPUnit_Framework_TestCase
 
     public function testIsDefaultTableAdapter()
     {
-        require_once 'Zend/Application/Resource/Db.php';
+        // require_once 'Zend/Application/Resource/Db.php';
         $resource = new Zend_Application_Resource_Db();
         $this->assertTrue($resource->isDefaultTableAdapter());
     }
 
     public function testPassingDatabaseConfigurationSetsObjectState()
     {
-        require_once 'Zend/Application/Resource/Db.php';
+        // require_once 'Zend/Application/Resource/Db.php';
         $config = array(
             'adapter' => 'Pdo_Sqlite',
             'params'  => array(
@@ -129,7 +129,7 @@ class Zend_Application_Resource_DbTest extends PHPUnit_Framework_TestCase
 
     public function testInitShouldInitializeDbAdapter()
     {
-        require_once 'Zend/Application/Resource/Db.php';
+        // require_once 'Zend/Application/Resource/Db.php';
         $config = array(
             'adapter' => 'Pdo_Sqlite',
             'params'  => array(

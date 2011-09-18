@@ -24,9 +24,9 @@
  * Add our Firebug Log Writer to the registry
  */
 
-require_once 'Zend/Registry.php';
-require_once 'Zend/Log.php';
-require_once 'Zend/Log/Writer/Firebug.php';
+// require_once 'Zend/Registry.php';
+// require_once 'Zend/Log.php';
+// require_once 'Zend/Log/Writer/Firebug.php';
 
 $writer = new Zend_Log_Writer_Firebug();
 $writer->setPriorityStyle(8, 'TABLE');
@@ -43,8 +43,8 @@ Zend_Registry::set('logger',$logger);
  * Add our Firebug DB Profiler to the registry
  */
 
-require_once 'Zend/Db.php';
-require_once 'Zend/Db/Profiler/Firebug.php';
+// require_once 'Zend/Db.php';
+// require_once 'Zend/Db/Profiler/Firebug.php';
 
 $profiler = new Zend_Db_Profiler_Firebug('All DB Queries');
 
@@ -61,6 +61,6 @@ Zend_Registry::set('db',$db);
  * Run the front controller
  */
 
-require_once 'Zend/Controller/Front.php';
+// require_once 'Zend/Controller/Front.php';
 
 Zend_Controller_Front::run(dirname(dirname(__FILE__)).'/application/controllers');

@@ -20,7 +20,7 @@
  * @version    $Id: AbstractTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Service/Amazon/Abstract.php';
+// require_once 'Zend/Service/Amazon/Abstract.php';
 
 /**
  * @todo: Rename class to Zend_Service_Amazon_AbstractTest

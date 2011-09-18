@@ -1,12 +1,12 @@
 <?php
 
-require_once('DojoString.php');
-require_once('DojoNull.php');
-require_once('DojoBoolean.php');
-require_once('DojoVariable.php');
-require_once('DojoObject.php');
-require_once('DojoFunctionDeclare.php');
-require_once('DojoBlock.php');
+// require_once('DojoString.php');
+// require_once('DojoNull.php');
+// require_once('DojoBoolean.php');
+// require_once('DojoVariable.php');
+// require_once('DojoObject.php');
+// require_once('DojoFunctionDeclare.php');
+// require_once('DojoBlock.php');
 
 class DojoParameter extends DojoBlock
 {
@@ -81,7 +81,7 @@ class DojoParameter extends DojoBlock
       $this->parameter_value->build();
       return $this->parameter_value;
     }
-    require_once('DojoArray.php'); // Chase condition
+    // require_once('DojoArray.php'); // Chase condition
     return new DojoArray($this->package);
   }
 
@@ -128,7 +128,7 @@ class DojoParameter extends DojoBlock
     elseif ($parameter_value{0} == '[') {
       foreach ($lines as $line_number => $line) {
         if (($position = strpos($line, '[')) !== false) {
-          require_once('DojoArray.php'); // Chase condition
+          // require_once('DojoArray.php'); // Chase condition
           $this->parameter_value = new DojoArray($this->package, $line_number, $position);
           break;
         }
