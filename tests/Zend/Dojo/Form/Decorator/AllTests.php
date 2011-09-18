@@ -24,15 +24,15 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Dojo_Form_Decorator_AllTests::main');
 }
 
-require_once 'Zend/Dojo/Form/Decorator/AccordionContainerTest.php';
-require_once 'Zend/Dojo/Form/Decorator/AccordionPaneTest.php';
-require_once 'Zend/Dojo/Form/Decorator/BorderContainerTest.php';
-require_once 'Zend/Dojo/Form/Decorator/DijitContainerTest.php';
-require_once 'Zend/Dojo/Form/Decorator/DijitElementTest.php';
-require_once 'Zend/Dojo/Form/Decorator/DijitFormTest.php';
-require_once 'Zend/Dojo/Form/Decorator/SplitContainerTest.php';
-require_once 'Zend/Dojo/Form/Decorator/StackContainerTest.php';
-require_once 'Zend/Dojo/Form/Decorator/TabContainerTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/AccordionContainerTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/AccordionPaneTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/BorderContainerTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/DijitContainerTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/DijitElementTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/DijitFormTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/SplitContainerTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/StackContainerTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/TabContainerTest.php';
 
 /**
  * @category   Zend

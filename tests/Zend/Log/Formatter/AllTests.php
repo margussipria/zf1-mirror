@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Log_Formatter_AllTests::main');
 }
 
-require_once 'Zend/Log/Formatter/FirebugTest.php';
-require_once 'Zend/Log/Formatter/SimpleTest.php';
-require_once 'Zend/Log/Formatter/XmlTest.php';
+// require_once 'Zend/Log/Formatter/FirebugTest.php';
+// require_once 'Zend/Log/Formatter/SimpleTest.php';
+// require_once 'Zend/Log/Formatter/XmlTest.php';
 
 /**
  * @category   Zend

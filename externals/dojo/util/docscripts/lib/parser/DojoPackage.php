@@ -1,8 +1,8 @@
 <?php
 
-require_once('Text.php');
-require_once('DojoFunctionCall.php');
-require_once('DojoExecutedFunction.php');
+// require_once('Text.php');
+// require_once('DojoFunctionCall.php');
+// require_once('DojoExecutedFunction.php');
 
 class DojoPackage
 {

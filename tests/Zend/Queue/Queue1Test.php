@@ -29,7 +29,7 @@
  */
 
 /** Zend_Queue_Queue2Test */
-require_once 'Zend/Queue/QueueBaseTest.php';
+// require_once 'Zend/Queue/QueueBaseTest.php';
 
 /**
  * @category   Zend

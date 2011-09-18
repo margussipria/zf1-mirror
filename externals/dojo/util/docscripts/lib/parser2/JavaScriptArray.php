@@ -1,14 +1,14 @@
 <?php
 
-require_once('JavaScriptStatements.php');
-require_once('JavaScriptVariable.php');
-require_once('JavaScriptLiteral.php');
-require_once('JavaScriptString.php');
-require_once('JavaScriptNumber.php');
-require_once('JavaScriptRegExp.php');
-require_once('JavaScriptFunction.php');
-require_once('JavaScriptObject.php');
-require_once('Destructable.php');
+// require_once('JavaScriptStatements.php');
+// require_once('JavaScriptVariable.php');
+// require_once('JavaScriptLiteral.php');
+// require_once('JavaScriptString.php');
+// require_once('JavaScriptNumber.php');
+// require_once('JavaScriptRegExp.php');
+// require_once('JavaScriptFunction.php');
+// require_once('JavaScriptObject.php');
+// require_once('Destructable.php');
 
 class JavaScriptArray extends Destructable {
   protected $args;

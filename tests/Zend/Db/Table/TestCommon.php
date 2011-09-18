@@ -24,17 +24,17 @@
 /**
  * @see Zend_Db_Table_TestSetup
  */
-require_once 'Zend/Db/Table/TestSetup.php';
+// require_once 'Zend/Db/Table/TestSetup.php';
 
 /**
  * @see Zend_Registry
  */
-require_once 'Zend/Registry.php';
+// require_once 'Zend/Registry.php';
 
 /**
  * @see Zend_Db_Table
  */
-require_once 'Zend/Db/Table.php';
+// require_once 'Zend/Db/Table.php';
 
 
 
@@ -1665,7 +1665,7 @@ abstract class Zend_Db_Table_TestCommon extends Zend_Db_Table_TestSetup
         /**
          * @see Zend_Cache
          */
-        require_once 'Zend/Cache.php';
+        // require_once 'Zend/Cache.php';
 
         $folder = dirname(__FILE__) . DIRECTORY_SEPARATOR . '_files' . DIRECTORY_SEPARATOR . 'cachefiles';
 
@@ -1695,7 +1695,7 @@ abstract class Zend_Db_Table_TestCommon extends Zend_Db_Table_TestSetup
         /**
          * @see Zend_Cache
          */
-        require_once 'Zend/Cache.php';
+        // require_once 'Zend/Cache.php';
 
         $folder = dirname(__FILE__) . DIRECTORY_SEPARATOR . '_files' . DIRECTORY_SEPARATOR . 'nofiles';
         if (!file_exists($folder)) {
@@ -1754,12 +1754,12 @@ abstract class Zend_Db_Table_TestCommon extends Zend_Db_Table_TestSetup
         /**
          * @see Zend_Cache
          */
-        require_once 'Zend/Cache.php';
+        // require_once 'Zend/Cache.php';
 
         /**
          * @see Zend_Cache_Backend_BlackHole
          */
-        require_once 'Zend/Cache/Backend/BlackHole.php';
+        // require_once 'Zend/Cache/Backend/BlackHole.php';
 
         Zend_Db_Table::setDefaultAdapter($this->_db);
         $dbConfig     = $this->_db->getConfig();

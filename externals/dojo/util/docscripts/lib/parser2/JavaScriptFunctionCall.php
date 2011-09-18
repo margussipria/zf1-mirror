@@ -1,8 +1,8 @@
 <?php
 
-require_once('JavaScriptStatements.php');
-require_once('JavaScriptArray.php');
-require_once('Destructable.php');
+// require_once('JavaScriptStatements.php');
+// require_once('JavaScriptArray.php');
+// require_once('Destructable.php');
 
 class JavaScriptFunctionCall extends Destructable {
   protected $call;

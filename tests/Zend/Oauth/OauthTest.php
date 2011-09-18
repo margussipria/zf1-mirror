@@ -20,7 +20,7 @@
  * @version    $Id: OauthTest.php 23983 2011-05-03 19:27:35Z ralph $
  */
 
-require_once 'Zend/Oauth.php';
+// require_once 'Zend/Oauth.php';
 
 class Test_Http_Client_19485876 extends Zend_Http_Client {}
 
@@ -75,8 +75,8 @@ class Zend_OauthTest extends PHPUnit_Framework_TestCase
             'siteUrl'       => 'http://www.example.com'
         );
 
-        require_once 'Zend/Config.php';
-        require_once 'Zend/Oauth/Client.php';
+        // require_once 'Zend/Config.php';
+        // require_once 'Zend/Oauth/Client.php';
         $config = new Zend_Config($options);
         $client = new Zend_Oauth_Client($config);
         $this->assertEquals('GET', $client->getRequestMethod());
@@ -93,7 +93,7 @@ class Zend_OauthTest extends PHPUnit_Framework_TestCase
             'siteUrl'       => 'http://www.example.com'
         );
 
-        require_once 'Zend/Oauth/Client.php';
+        // require_once 'Zend/Oauth/Client.php';
         $client = new Zend_Oauth_Client($options);
         $this->assertEquals('GET', $client->getRequestMethod());
         $this->assertEquals('http://www.example.com', $client->getSiteUrl());
@@ -108,7 +108,7 @@ class Zend_OauthTest extends PHPUnit_Framework_TestCase
             'realm'			=> 'http://www.example.com'
         );
 
-        require_once 'Zend/Oauth/Client.php';
+        // require_once 'Zend/Oauth/Client.php';
         $client = new Zend_Oauth_Client($options);
         $this->assertEquals('http://www.example.com', $client->getRealm());
     }
@@ -118,7 +118,7 @@ class Zend_OauthTest extends PHPUnit_Framework_TestCase
      */
     public function testOauthClientPreparationWithRealmConfigurationOption()
     {
-        require_once "Zend/Oauth/Token/Access.php";
+        // require_once "Zend/Oauth/Token/Access.php";
         
         $options = array(
             'requestMethod' => 'GET',
@@ -127,7 +127,7 @@ class Zend_OauthTest extends PHPUnit_Framework_TestCase
         );
         $token = new Zend_Oauth_Token_Access();
 
-        require_once 'Zend/Oauth/Client.php';
+        // require_once 'Zend/Oauth/Client.php';
         $client = new Zend_Oauth_Client($options);
         $this->assertEquals(NULL,$client->getHeader('Authorization'));
         

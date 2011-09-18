@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_ReCaptcha_AllTests::main');
 }
 
-require_once 'Zend/Service/ReCaptcha/ReCaptchaTest.php';
-require_once 'Zend/Service/ReCaptcha/ResponseTest.php';
-require_once 'Zend/Service/ReCaptcha/MailHideTest.php';
+// require_once 'Zend/Service/ReCaptcha/ReCaptchaTest.php';
+// require_once 'Zend/Service/ReCaptcha/ResponseTest.php';
+// require_once 'Zend/Service/ReCaptcha/MailHideTest.php';
 
 /**
  * @category   Zend

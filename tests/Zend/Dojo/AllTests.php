@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Dojo_AllTests::main');
 }
 
-require_once 'Zend/Dojo/BuildLayerTest.php';
-require_once 'Zend/Dojo/DojoTest.php';
-require_once 'Zend/Dojo/DataTest.php';
-require_once 'Zend/Dojo/Form/AllTests.php';
-require_once 'Zend/Dojo/View/AllTests.php';
+// require_once 'Zend/Dojo/BuildLayerTest.php';
+// require_once 'Zend/Dojo/DojoTest.php';
+// require_once 'Zend/Dojo/DataTest.php';
+// require_once 'Zend/Dojo/Form/AllTests.php';
+// require_once 'Zend/Dojo/View/AllTests.php';
 
 /**
  * @category   Zend

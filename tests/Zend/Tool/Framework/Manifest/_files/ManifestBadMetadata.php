@@ -20,8 +20,8 @@
  * @version    $Id: ManifestBadMetadata.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Tool/Framework/Manifest/MetadataManifestable.php';
-require_once 'Zend/Tool/Framework/Metadata/Basic.php';
+// require_once 'Zend/Tool/Framework/Manifest/MetadataManifestable.php';
+// require_once 'Zend/Tool/Framework/Metadata/Basic.php';
 
 /**
  * @category   Zend

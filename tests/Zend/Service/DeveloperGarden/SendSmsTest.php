@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_DeveloperGarden_SendSms
  */
-require_once 'Zend/Service/DeveloperGarden/SendSms.php';
+// require_once 'Zend/Service/DeveloperGarden/SendSms.php';
 
 /**
  * Zend_Service_DeveloperGarden test case

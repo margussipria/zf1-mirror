@@ -20,8 +20,8 @@
  * @version     $Id: TabContainerTest.php 20755 2010-01-29 12:29:45Z beberlei $
  */
 
-require_once "jQueryTestCase.php";
-require_once "ZendX/JQuery/View/Helper/TabContainer.php";
+// require_once "jQueryTestCase.php";
+// require_once "ZendX/JQuery/View/Helper/TabContainer.php";
 
 class ZendX_JQuery_View_TabContainerTest extends ZendX_JQuery_View_jQueryTestCase
 {

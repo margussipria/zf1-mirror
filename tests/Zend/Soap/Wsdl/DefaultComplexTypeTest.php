@@ -20,8 +20,8 @@
  * @version    $Id: DefaultComplexTypeTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once "Zend/Soap/Wsdl/Strategy/DefaultComplexType.php";
-require_once "Zend/Soap/Wsdl.php";
+// require_once "Zend/Soap/Wsdl/Strategy/DefaultComplexType.php";
+// require_once "Zend/Soap/Wsdl.php";
 
 /**
  * @category   Zend

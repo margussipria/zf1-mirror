@@ -23,7 +23,7 @@
 /**
  * @see Zend_Cache_CommonBackendTest
  */
-require_once 'CommonBackendTest.php';
+// require_once 'CommonBackendTest.php';
 
 /**
  * @category   Zend

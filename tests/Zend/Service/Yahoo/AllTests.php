@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Yahoo_AllTests::main');
 }
 
-require_once 'Zend/Service/Yahoo/OfflineTest.php';
-require_once 'Zend/Service/Yahoo/OnlineTest.php';
+// require_once 'Zend/Service/Yahoo/OfflineTest.php';
+// require_once 'Zend/Service/Yahoo/OnlineTest.php';
 
 /**
  * @category   Zend

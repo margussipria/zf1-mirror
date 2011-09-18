@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Rest_AllTests::main');
 }
 
-require_once 'Zend/Rest/ControllerTest.php';
-require_once 'Zend/Rest/RouteTest.php';
-require_once 'Zend/Rest/ServerTest.php';
-require_once 'Zend/Rest/ClientTest.php';
-require_once 'Zend/Rest/ResultTest.php';
+// require_once 'Zend/Rest/ControllerTest.php';
+// require_once 'Zend/Rest/RouteTest.php';
+// require_once 'Zend/Rest/ServerTest.php';
+// require_once 'Zend/Rest/ClientTest.php';
+// require_once 'Zend/Rest/ResultTest.php';
 
 /**
  * @category   Zend

@@ -1,7 +1,7 @@
 <?php
 
-require_once('lib/generator/common/db.php');
-require_once('lib/generator/common/AbstractSerializer.php');
+// require_once('lib/generator/common/db.php');
+// require_once('lib/generator/common/AbstractSerializer.php');
 
 abstract class Serializer extends AbstractSerializer
 {

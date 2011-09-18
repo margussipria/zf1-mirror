@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_DeveloperGarden_ConferenceCall
  */
-require_once 'Zend/Service/DeveloperGarden/ConferenceCall.php';
+// require_once 'Zend/Service/DeveloperGarden/ConferenceCall.php';
 
 /**
  * Zend_Service_DeveloperGarden test case

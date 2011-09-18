@@ -1,6 +1,6 @@
 <?php
 
-	require_once "resources/lib.php";
+	// require_once "resources/lib.php";
 
 	// get a list of faces, they are forced to be something.jpg (not .jpeg):
 	$dh = opendir('./images/');

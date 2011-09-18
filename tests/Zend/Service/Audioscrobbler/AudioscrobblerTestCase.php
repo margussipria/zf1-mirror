@@ -20,11 +20,11 @@
  * @version    $Id: AudioscrobblerTestCase.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once "Zend/Service/Audioscrobbler.php";
+// require_once "Zend/Service/Audioscrobbler.php";
 
-require_once "Zend/Http/Client.php";
+// require_once "Zend/Http/Client.php";
 
-require_once "Zend/Http/Client/Adapter/Test.php";
+// require_once "Zend/Http/Client/Adapter/Test.php";
 
 /**
  * @category   Zend

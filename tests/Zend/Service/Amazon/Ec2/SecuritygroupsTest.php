@@ -20,9 +20,9 @@
  * @version    $Id: SecuritygroupsTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Http/Client.php';
-require_once 'Zend/Http/Client/Adapter/Test.php';
-require_once 'Zend/Service/Amazon/Ec2/Securitygroups.php';
+// require_once 'Zend/Http/Client.php';
+// require_once 'Zend/Http/Client/Adapter/Test.php';
+// require_once 'Zend/Service/Amazon/Ec2/Securitygroups.php';
 
 /**
  * Zend_Service_Amazon_Ec2_Securitygroups test case.

@@ -20,7 +20,7 @@
  * @version    $Id: FooUseHelper.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/View/Helper/Abstract.php';
+// require_once 'Zend/View/Helper/Abstract.php';
 
 /**
  * @category   Zend

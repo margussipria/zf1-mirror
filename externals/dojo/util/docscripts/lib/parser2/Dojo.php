@@ -1,8 +1,8 @@
 <?php
 
-require_once('JavaScriptStatements.php');
-require_once('JavaScriptFunction.php');
-require_once('DojoCommentBlock.php');
+// require_once('JavaScriptStatements.php');
+// require_once('JavaScriptFunction.php');
+// require_once('DojoCommentBlock.php');
 
 class Dojo {
   public static $block_keys = array('summary', 'description', 'returns', 'tags', 'this', 'exceptions');

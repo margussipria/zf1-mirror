@@ -20,7 +20,7 @@
  * @version    $Id: SocketKeepaliveTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once dirname(__FILE__) . '/SocketTest.php';
+// require_once dirname(__FILE__) . '/SocketTest.php';
 
 /**
  * This Testsuite includes all Zend_Http_Client that require a working web

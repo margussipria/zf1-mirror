@@ -5,7 +5,7 @@ if(empty($_REQUEST['debug'])){
 	header("Content-Type: image/png"); 
 }
 
-require_once("src/image-lib.php");
+// require_once("src/image-lib.php");
 
 $defaults = array(
 	"src" => "images/square.png",

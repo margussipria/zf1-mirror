@@ -24,13 +24,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Audioscrobbler_AllTests::main');
 }
 
-require_once 'Zend/Service/Audioscrobbler/AudioscrobblerTest.php';
-require_once 'Zend/Service/Audioscrobbler/ProfileTest.php';
-require_once 'Zend/Service/Audioscrobbler/ArtistTest.php';
-require_once 'Zend/Service/Audioscrobbler/AlbumDataTest.php';
-require_once 'Zend/Service/Audioscrobbler/TrackDataTest.php';
-require_once 'Zend/Service/Audioscrobbler/TagDataTest.php';
-require_once 'Zend/Service/Audioscrobbler/GroupTest.php';
+// require_once 'Zend/Service/Audioscrobbler/AudioscrobblerTest.php';
+// require_once 'Zend/Service/Audioscrobbler/ProfileTest.php';
+// require_once 'Zend/Service/Audioscrobbler/ArtistTest.php';
+// require_once 'Zend/Service/Audioscrobbler/AlbumDataTest.php';
+// require_once 'Zend/Service/Audioscrobbler/TrackDataTest.php';
+// require_once 'Zend/Service/Audioscrobbler/TagDataTest.php';
+// require_once 'Zend/Service/Audioscrobbler/GroupTest.php';
 
 /**
  * @category   Zend

@@ -31,7 +31,7 @@ if (!ini_get('date.timezone')) {
 /**
  * @see Zend_Service_Technorati
  */
-require_once 'Zend/Service/Technorati.php';
+// require_once 'Zend/Service/Technorati.php';
 
 
 /**
