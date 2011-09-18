@@ -26,9 +26,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 
 // define('TESTS_ZEND_LOCALE_BCMATH_ENABLED', false); // uncomment to disable use of bcmath extension by Zend_Date
 
-require_once 'Zend/Locale/DataTest.php';
-require_once 'Zend/Locale/FormatTest.php';
-require_once 'Zend/Locale/MathTest.php';
+// require_once 'Zend/Locale/DataTest.php';
+// require_once 'Zend/Locale/FormatTest.php';
+// require_once 'Zend/Locale/MathTest.php';
 
 // echo "BCMATH is ", Zend_Locale_Math::isBcmathDisabled() ? 'disabled':'not disabled', "\n";
 

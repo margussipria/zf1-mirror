@@ -21,10 +21,10 @@
  */
 
 /** requires */
-require_once 'Zend/Reflection/Parameter.php';
-require_once 'Zend/CodeGenerator/Php/Parameter.php';
+// require_once 'Zend/Reflection/Parameter.php';
+// require_once 'Zend/CodeGenerator/Php/Parameter.php';
 
-require_once '_files/TestSampleSingleClass.php';
+// require_once '_files/TestSampleSingleClass.php';
 
 /**
  * @category   Zend

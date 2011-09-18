@@ -20,8 +20,8 @@
  * @version     $Id: DialogContainerTest.php 20755 2010-01-29 12:29:45Z beberlei $
  */
 
-require_once "jQueryTestCase.php";
-require_once "ZendX/JQuery/View/Helper/DialogContainer.php";
+// require_once "jQueryTestCase.php";
+// require_once "ZendX/JQuery/View/Helper/DialogContainer.php";
 
 class ZendX_JQuery_View_DialogContainerTest extends ZendX_JQuery_View_jQueryTestCase
 {

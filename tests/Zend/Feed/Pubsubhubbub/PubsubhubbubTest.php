@@ -19,7 +19,7 @@
  * @version    $Id: PubsubhubbubTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Feed/Pubsubhubbub.php';
+// require_once 'Zend/Feed/Pubsubhubbub.php';
 
 /**
  * @category   Zend

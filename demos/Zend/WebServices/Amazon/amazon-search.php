@@ -26,7 +26,7 @@
 /**
  * @see Zend_Service_Amazon_Query
  */
-require_once 'Zend/Service/Amazon/Query.php';
+// require_once 'Zend/Service/Amazon/Query.php';
 
 $keywords = '';
 $searchFor = '';

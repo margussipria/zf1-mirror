@@ -20,7 +20,7 @@
  * @version    $Id: MysqlIntegrationTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once "AbstractTestCase.php";
+// require_once "AbstractTestCase.php";
 
 /**
  * @category   Zend

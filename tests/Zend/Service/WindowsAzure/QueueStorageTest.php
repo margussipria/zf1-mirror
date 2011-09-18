@@ -21,7 +21,7 @@
  */
 
 /** Zend_Service_WindowsAzure_Storage_Queue */
-require_once 'Zend/Service/WindowsAzure/Storage/Queue.php';
+// require_once 'Zend/Service/WindowsAzure/Storage/Queue.php';
 
 /**
  * @category   Zend

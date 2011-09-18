@@ -24,13 +24,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Soap_AllTests::main');
 }
 
-require_once 'Zend/Soap/ClientTest.php';
-require_once 'Zend/Soap/ServerTest.php';
-require_once 'Zend/Soap/WsdlTest.php';
-require_once "Zend/Soap/Wsdl/ArrayOfTypeComplexStrategyTest.php";
-require_once "Zend/Soap/Wsdl/ArrayOfTypeSequenceStrategyTest.php";
-require_once 'Zend/Soap/AutoDiscoverTest.php';
-require_once 'Zend/Soap/AutoDiscover/OnlineTest.php';
+// require_once 'Zend/Soap/ClientTest.php';
+// require_once 'Zend/Soap/ServerTest.php';
+// require_once 'Zend/Soap/WsdlTest.php';
+// require_once "Zend/Soap/Wsdl/ArrayOfTypeComplexStrategyTest.php";
+// require_once "Zend/Soap/Wsdl/ArrayOfTypeSequenceStrategyTest.php";
+// require_once 'Zend/Soap/AutoDiscoverTest.php';
+// require_once 'Zend/Soap/AutoDiscover/OnlineTest.php';
 
 /**
  * @category   Zend

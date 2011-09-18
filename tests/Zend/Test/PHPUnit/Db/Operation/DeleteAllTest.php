@@ -20,11 +20,11 @@
  * @version    $Id: DeleteAllTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once "Zend/Test/DbAdapter.php";
+// require_once "Zend/Test/DbAdapter.php";
 
-require_once "Zend/Test/PHPUnit/Db/Operation/DeleteAll.php";
+// require_once "Zend/Test/PHPUnit/Db/Operation/DeleteAll.php";
 
-require_once "PHPUnit/Extensions/Database/DataSet/FlatXmlDataSet.php";
+// require_once "PHPUnit/Extensions/Database/DataSet/FlatXmlDataSet.php";
 
 /**
  * @category   Zend

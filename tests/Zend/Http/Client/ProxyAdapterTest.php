@@ -20,9 +20,9 @@
  * @version    $Id: ProxyAdapterTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once dirname(__FILE__) . '/SocketTest.php';
+// require_once dirname(__FILE__) . '/SocketTest.php';
 
-require_once 'Zend/Http/Client/Adapter/Proxy.php';
+// require_once 'Zend/Http/Client/Adapter/Proxy.php';
 
 /**
  * Zend_Http_Client_Adapter_Proxy test suite.

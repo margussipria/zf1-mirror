@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Pdf_Element_Object_AllTests::main');
 }
 
-require_once 'Zend/Pdf/Element/Object/StreamTest.php';
+// require_once 'Zend/Pdf/Element/Object/StreamTest.php';
 
 /**
  * @category   Zend

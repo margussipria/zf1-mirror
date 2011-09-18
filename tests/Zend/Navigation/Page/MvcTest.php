@@ -20,9 +20,9 @@
  * @version    $Id: MvcTest.php 24235 2011-07-13 18:13:45Z matthew $
  */
 
-require_once 'Zend/Navigation/Page/Mvc.php';
-require_once 'Zend/Controller/Request/Http.php';
-require_once 'Zend/Controller/Router/Route.php';
+// require_once 'Zend/Navigation/Page/Mvc.php';
+// require_once 'Zend/Controller/Request/Http.php';
+// require_once 'Zend/Controller/Router/Route.php';
 
 /**
  * Tests the class Zend_Navigation_Page_Mvc
@@ -382,7 +382,7 @@ class Zend_Navigation_Page_MvcTest extends PHPUnit_Framework_TestCase
     public function testSpecifyingAnotherUrlHelperToGenerateHrefs()
     {
         $path = dirname(dirname(__FILE__)) . '/_files/My/UrlHelper.php';
-        require_once $path;
+        // require_once $path;
 
         $newHelper = new My_UrlHelper();
         Zend_Navigation_Page_Mvc::setUrlHelper($newHelper);

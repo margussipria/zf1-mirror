@@ -20,9 +20,9 @@
  * @version    $Id: server1.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once "Zend/Soap/AutoDiscover.php";
-require_once "Zend/Soap/Server.php";
-require_once "Zend/Soap/Wsdl/Strategy/ArrayOfTypeComplex.php";
+// require_once "Zend/Soap/AutoDiscover.php";
+// require_once "Zend/Soap/Server.php";
+// require_once "Zend/Soap/Wsdl/Strategy/ArrayOfTypeComplex.php";
 
 /**
  * @category   Zend

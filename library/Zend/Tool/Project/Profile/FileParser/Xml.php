@@ -20,10 +20,10 @@
  * @version    $Id: Xml.php 24449 2011-09-05 15:23:32Z matthew $
  */
 
-require_once 'Zend/Tool/Project/Profile/FileParser/Interface.php';
-require_once 'Zend/Tool/Project/Context/Repository.php';
-require_once 'Zend/Tool/Project/Profile.php';
-require_once 'Zend/Tool/Project/Profile/Resource.php';
+// require_once 'Zend/Tool/Project/Profile/FileParser/Interface.php';
+// require_once 'Zend/Tool/Project/Context/Repository.php';
+// require_once 'Zend/Tool/Project/Profile.php';
+// require_once 'Zend/Tool/Project/Profile/Resource.php';
 
 /**
  * @category   Zend

@@ -1,8 +1,8 @@
 <?php
 
-require_once('DojoFunctionDeclare.php');
-require_once('DojoParameters.php');
-require_once('Text.php');
+// require_once('DojoFunctionDeclare.php');
+// require_once('DojoParameters.php');
+// require_once('Text.php');
 
 class DojoExecutedFunction extends DojoFunctionDeclare
 {

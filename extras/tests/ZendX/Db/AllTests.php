@@ -30,32 +30,32 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Test helper
  */
-require_once dirname(__FILE__) . '/../../TestHelper.php';
+// require_once dirname(__FILE__) . '/../../TestHelper.php';
 
 /**
  * PHPUnit_Framework_TestSuite
  */
-require_once 'PHPUnit/Framework/TestSuite.php';
+// require_once 'PHPUnit/Framework/TestSuite.php';
 
 /**
  * PHPUnit_TextUI_TestRunner
  */
-require_once 'PHPUnit/TextUI/TestRunner.php';
+// require_once 'PHPUnit/TextUI/TestRunner.php';
 
 /**
  * @see Zend_Loader
  */
-require_once 'Zend/Loader.php';
+// require_once 'Zend/Loader.php';
 
 /**
  * @see Zend_Db_SkipTests
  */
-require_once 'ZendX/Db/SkipTests.php';
+// require_once 'ZendX/Db/SkipTests.php';
 
 /**
  * @see ZendX_Db_Profiler_AllTests
  */
-require_once 'Zend/Db/Profiler/AllTests.php';
+// require_once 'Zend/Db/Profiler/AllTests.php';
 
 /**
  * @category   ZendX

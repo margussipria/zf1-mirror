@@ -1,9 +1,9 @@
 <?php
 
-require_once('DojoBlock.php');
-require_once('DojoFunctionDeclare.php');
-require_once('DojoFunctionBody.php');
-require_once('Text.php');
+// require_once('DojoBlock.php');
+// require_once('DojoFunctionDeclare.php');
+// require_once('DojoFunctionBody.php');
+// require_once('Text.php');
 
 class DojoObject extends DojoBlock
 {

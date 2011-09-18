@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Tool_AllTests::main');
 }
 
-require_once 'Zend/Tool/Framework/AllTests.php';
-require_once 'Zend/Tool/Project/AllTests.php';
+// require_once 'Zend/Tool/Framework/AllTests.php';
+// require_once 'Zend/Tool/Project/AllTests.php';
 
 /**
  * @category   Zend

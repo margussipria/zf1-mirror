@@ -1,7 +1,7 @@
 <?php
 
-require_once('Parser.php');
-require_once('JavaScriptSymbol.php');
+// require_once('Parser.php');
+// require_once('JavaScriptSymbol.php');
 
 class JavaScriptParser extends Parser {
   protected $symbol_class = JavaScriptSymbol;

@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Mime_AllTests::main');
 }
 
-require_once 'Zend/Mime/PartTest.php';
-require_once 'Zend/Mime/MessageTest.php';
+// require_once 'Zend/Mime/PartTest.php';
+// require_once 'Zend/Mime/MessageTest.php';
 
 /**
  * @category   Zend

@@ -25,8 +25,8 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
     define("PHPUnit_MAIN_METHOD", "Zend_InfoCard_XmlParsingTest::main");
 }
 
-require_once 'Zend/InfoCard/Xml/EncryptedData.php';
-require_once 'Zend/InfoCard/Xml/SecurityTokenReference.php';
+// require_once 'Zend/InfoCard/Xml/EncryptedData.php';
+// require_once 'Zend/InfoCard/Xml/SecurityTokenReference.php';
 
 /**
  * @category   Zend

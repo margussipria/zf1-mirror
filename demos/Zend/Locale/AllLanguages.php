@@ -29,7 +29,7 @@
 /**
  * @see Zend_Locale
  */
-require_once 'Zend/Locale.php';
+// require_once 'Zend/Locale.php';
 
 $list = Zend_Locale::getTranslationList('language');
 

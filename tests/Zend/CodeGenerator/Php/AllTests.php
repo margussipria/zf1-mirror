@@ -24,16 +24,16 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_CodeGenerator_Php_AllTests::main');
 }
 
-require_once 'Zend/CodeGenerator/Php/ClassTest.php';
-require_once 'Zend/CodeGenerator/Php/DocblockTest.php';
-require_once 'Zend/CodeGenerator/Php/Docblock/TagTest.php';
-require_once 'Zend/CodeGenerator/Php/Docblock/Tag/ParamTest.php';
-require_once 'Zend/CodeGenerator/Php/Docblock/Tag/ReturnTest.php';
-require_once 'Zend/CodeGenerator/Php/FileTest.php';
-require_once 'Zend/CodeGenerator/Php/MethodTest.php';
-require_once 'Zend/CodeGenerator/Php/ParameterTest.php';
-require_once 'Zend/CodeGenerator/Php/PropertyTest.php';
-require_once 'Zend/CodeGenerator/Php/Property/DefaultValueTest.php';
+// require_once 'Zend/CodeGenerator/Php/ClassTest.php';
+// require_once 'Zend/CodeGenerator/Php/DocblockTest.php';
+// require_once 'Zend/CodeGenerator/Php/Docblock/TagTest.php';
+// require_once 'Zend/CodeGenerator/Php/Docblock/Tag/ParamTest.php';
+// require_once 'Zend/CodeGenerator/Php/Docblock/Tag/ReturnTest.php';
+// require_once 'Zend/CodeGenerator/Php/FileTest.php';
+// require_once 'Zend/CodeGenerator/Php/MethodTest.php';
+// require_once 'Zend/CodeGenerator/Php/ParameterTest.php';
+// require_once 'Zend/CodeGenerator/Php/PropertyTest.php';
+// require_once 'Zend/CodeGenerator/Php/Property/DefaultValueTest.php';
 
 /**
  * @category   Zend

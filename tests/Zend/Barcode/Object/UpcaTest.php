@@ -20,9 +20,9 @@
  * @version    $Id: UpcaTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once dirname(__FILE__) . '/TestCommon.php';
+// require_once dirname(__FILE__) . '/TestCommon.php';
 
-require_once 'Zend/Barcode/Object/Upca.php';
+// require_once 'Zend/Barcode/Object/Upca.php';
 
 /**
  * @category   Zend

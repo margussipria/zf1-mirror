@@ -2,7 +2,7 @@
 
 	// fake a delay until actual backend processing is going on
 	// sleep(3); 
-	require_once "lib.php";
+	// require_once "lib.php";
 	
 	// PHP4 and low 5 compatibility?:
 	if(!function_exists('json_encode')){

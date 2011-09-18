@@ -22,8 +22,8 @@
 /**
  * Zend_Http_UserAgent
  */
-require_once 'Zend/Http/UserAgent.php';
-require_once 'Zend/Http/UserAgent/Features/Adapter/WurflApi.php';
+// require_once 'Zend/Http/UserAgent.php';
+// require_once 'Zend/Http/UserAgent/Features/Adapter/WurflApi.php';
 
 /** to generate the cache */
 set_time_limit(0);

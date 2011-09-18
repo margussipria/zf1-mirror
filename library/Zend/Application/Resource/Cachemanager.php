@@ -20,7 +20,7 @@
  * @version    $Id: Cachemanager.php 24449 2011-09-05 15:23:32Z matthew $
  */
 
-require_once 'Zend/Application/Resource/ResourceAbstract.php';
+// require_once 'Zend/Application/Resource/ResourceAbstract.php';
 
 /**
  * Cache Manager resource

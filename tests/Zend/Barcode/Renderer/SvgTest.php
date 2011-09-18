@@ -20,10 +20,10 @@
  * @version    $Id: SvgTest.php 20096 2010-01-06 02:05:09Z bkarwin $
  */
 
-require_once dirname(__FILE__) . '/TestCommon.php';
+// require_once dirname(__FILE__) . '/TestCommon.php';
 
-require_once 'Zend/Barcode/Renderer/Svg.php';
-require_once 'Zend/Barcode/Object/Code39.php';
+// require_once 'Zend/Barcode/Renderer/Svg.php';
+// require_once 'Zend/Barcode/Object/Code39.php';
 
 /**
  * @category   Zend

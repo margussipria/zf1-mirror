@@ -27,16 +27,16 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
 /**
  * @see Zend_Cloud_DocumentServiceTestCase
  */
-require_once 'Zend/Cloud/DocumentService/TestCase.php';
+// require_once 'Zend/Cloud/DocumentService/TestCase.php';
 
 /** @see Zend_Cloud_DocumenteService_Factory */
-require_once 'Zend/Cloud/DocumentService/Factory.php';
+// require_once 'Zend/Cloud/DocumentService/Factory.php';
 
 /** @see Zend_Cloud_DocumenteService_Adapter_SimpleDb */
-require_once 'Zend/Cloud/DocumentService/Adapter/SimpleDb.php';
+// require_once 'Zend/Cloud/DocumentService/Adapter/SimpleDb.php';
 
 /** @see Zend_Config */
-require_once 'Zend/Config.php';
+// require_once 'Zend/Config.php';
 
 /**
  * @category   Zend

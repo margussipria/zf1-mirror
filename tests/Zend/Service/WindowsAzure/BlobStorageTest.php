@@ -21,7 +21,7 @@
  */
 
 /** Zend_Service_WindowsAzure_Storage_Blob */
-require_once 'Zend/Service/WindowsAzure/Storage/Blob.php';
+// require_once 'Zend/Service/WindowsAzure/Storage/Blob.php';
 
 /**
  * @category   Zend

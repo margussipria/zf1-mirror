@@ -20,9 +20,9 @@
  * @version    $Id: StaticTest.php 24337 2011-08-01 13:04:41Z ezimuel $
  */
 
-require_once 'Zend/Http/Client.php';
+// require_once 'Zend/Http/Client.php';
 
-require_once 'Zend/Http/Client/Adapter/Test.php';
+// require_once 'Zend/Http/Client/Adapter/Test.php';
 
 /**
  * This Testsuite includes all Zend_Http_Client tests that do not rely
@@ -364,7 +364,7 @@ class Zend_Http_Client_StaticTest extends PHPUnit_Framework_TestCase
      */
     public function testConfigSetAsZendConfig()
     {
-        require_once 'Zend/Config.php';
+        // require_once 'Zend/Config.php';
 
         $config = new Zend_Config(array(
             'timeout'  => 400,

@@ -19,10 +19,10 @@
  */
 
 /** Zend_Controller_Action */
-require_once 'Zend/Controller/Action.php';
+// require_once 'Zend/Controller/Action.php';
 
 /** Zend_Wildfire_Plugin_FirePhp */
-require_once 'Zend/Wildfire/Plugin/FirePhp.php';
+// require_once 'Zend/Wildfire/Plugin/FirePhp.php';
 
 /**
  * Tests for Zend_Log_Writer_Firebug
@@ -76,7 +76,7 @@ class ZendLogWriterFirebugController extends Zend_Controller_Action
 
     public function testerrorcontrollerAction()
     {
-        require_once 'Zend/Exception.php';
+        // require_once 'Zend/Exception.php';
         throw new Zend_Exception('Test Exception');
     }
 

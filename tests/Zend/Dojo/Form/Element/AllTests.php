@@ -24,25 +24,25 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Dojo_Form_Element_AllTests::main');
 }
 
-require_once 'Zend/Dojo/Form/Element/CheckBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/ComboBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/CurrencyTextBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/DateTextBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/DijitTest.php';
-require_once 'Zend/Dojo/Form/Element/EditorTest.php';
-require_once 'Zend/Dojo/Form/Element/FilteringSelectTest.php';
-require_once 'Zend/Dojo/Form/Element/HorizontalSliderTest.php';
-require_once 'Zend/Dojo/Form/Element/NumberSpinnerTest.php';
-require_once 'Zend/Dojo/Form/Element/NumberTextBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/PasswordTextBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/RadioButtonTest.php';
-require_once 'Zend/Dojo/Form/Element/SimpleTextareaTest.php';
-require_once 'Zend/Dojo/Form/Element/SubmitButtonTest.php';
-require_once 'Zend/Dojo/Form/Element/TextBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/TextareaTest.php';
-require_once 'Zend/Dojo/Form/Element/TimeTextBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/ValidationTextBoxTest.php';
-require_once 'Zend/Dojo/Form/Element/VerticalSliderTest.php';
+// require_once 'Zend/Dojo/Form/Element/CheckBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/ComboBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/CurrencyTextBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/DateTextBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/DijitTest.php';
+// require_once 'Zend/Dojo/Form/Element/EditorTest.php';
+// require_once 'Zend/Dojo/Form/Element/FilteringSelectTest.php';
+// require_once 'Zend/Dojo/Form/Element/HorizontalSliderTest.php';
+// require_once 'Zend/Dojo/Form/Element/NumberSpinnerTest.php';
+// require_once 'Zend/Dojo/Form/Element/NumberTextBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/PasswordTextBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/RadioButtonTest.php';
+// require_once 'Zend/Dojo/Form/Element/SimpleTextareaTest.php';
+// require_once 'Zend/Dojo/Form/Element/SubmitButtonTest.php';
+// require_once 'Zend/Dojo/Form/Element/TextBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/TextareaTest.php';
+// require_once 'Zend/Dojo/Form/Element/TimeTextBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/ValidationTextBoxTest.php';
+// require_once 'Zend/Dojo/Form/Element/VerticalSliderTest.php';
 
 /**
  * @category   Zend

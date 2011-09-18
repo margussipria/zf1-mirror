@@ -24,17 +24,17 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Pdf_Element_AllTests::main');
 }
 
-require_once 'Zend/Pdf/Element/ArrayTest.php';
-require_once 'Zend/Pdf/Element/BooleanTest.php';
-require_once 'Zend/Pdf/Element/DictionaryTest.php';
-require_once 'Zend/Pdf/Element/NameTest.php';
-require_once 'Zend/Pdf/Element/NullTest.php';
-require_once 'Zend/Pdf/Element/NumericTest.php';
-require_once 'Zend/Pdf/Element/ObjectTest.php';
-require_once 'Zend/Pdf/Element/Object/AllTests.php';
-require_once 'Zend/Pdf/Element/StreamTest.php';
-require_once 'Zend/Pdf/Element/StringTest.php';
-require_once 'Zend/Pdf/Element/String/AllTests.php';
+// require_once 'Zend/Pdf/Element/ArrayTest.php';
+// require_once 'Zend/Pdf/Element/BooleanTest.php';
+// require_once 'Zend/Pdf/Element/DictionaryTest.php';
+// require_once 'Zend/Pdf/Element/NameTest.php';
+// require_once 'Zend/Pdf/Element/NullTest.php';
+// require_once 'Zend/Pdf/Element/NumericTest.php';
+// require_once 'Zend/Pdf/Element/ObjectTest.php';
+// require_once 'Zend/Pdf/Element/Object/AllTests.php';
+// require_once 'Zend/Pdf/Element/StreamTest.php';
+// require_once 'Zend/Pdf/Element/StringTest.php';
+// require_once 'Zend/Pdf/Element/String/AllTests.php';
 
 /**
  * @category   Zend

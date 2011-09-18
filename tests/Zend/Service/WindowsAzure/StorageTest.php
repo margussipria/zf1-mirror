@@ -21,7 +21,7 @@
  */
 
 /** Zend_Service_WindowsAzure_Storage */
-require_once 'Zend/Service/WindowsAzure/Storage.php';
+// require_once 'Zend/Service/WindowsAzure/Storage.php';
 
 /**
  * @category   Zend

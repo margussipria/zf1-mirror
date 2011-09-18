@@ -19,7 +19,7 @@
  * @version    $Id: Indention.php 24449 2011-09-05 15:23:32Z matthew $
  */
 
-require_once "Zend/Tool/Framework/Client/Response/ContentDecorator/Interface.php";
+// require_once "Zend/Tool/Framework/Client/Response/ContentDecorator/Interface.php";
 
 /**
  * @category   Zend

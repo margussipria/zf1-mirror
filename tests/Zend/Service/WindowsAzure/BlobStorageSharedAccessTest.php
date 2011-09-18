@@ -21,10 +21,10 @@
  */
 
 /** Zend_Service_WindowsAzure_Storage_Blob */
-require_once 'Zend/Service/WindowsAzure/Storage/Blob.php';
+// require_once 'Zend/Service/WindowsAzure/Storage/Blob.php';
 
 /** Zend_Service_WindowsAzure_Credentials_SharedAccessSignature */
-require_once 'Zend/Service/WindowsAzure/Credentials/SharedAccessSignature.php';
+// require_once 'Zend/Service/WindowsAzure/Credentials/SharedAccessSignature.php';
 
 /**
  * @category   Zend

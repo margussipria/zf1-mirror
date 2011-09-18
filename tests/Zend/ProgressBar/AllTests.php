@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_ProgressBar_AllTests::main');
 }
 
-require_once 'Zend/ProgressBar/ProgressBarTest.php';
-require_once 'Zend/ProgressBar/Adapter/AllTests.php';
+// require_once 'Zend/ProgressBar/ProgressBarTest.php';
+// require_once 'Zend/ProgressBar/Adapter/AllTests.php';
 
 /**
  * @category   Zend

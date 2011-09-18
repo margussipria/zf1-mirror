@@ -25,7 +25,7 @@
 /**
  * @see Zend_Db_Profiler_TestCommon
  */
-require_once 'Zend/Db/Profiler/TestCommon.php';
+// require_once 'Zend/Db/Profiler/TestCommon.php';
 
 
 PHPUnit_Util_Filter::addFileToFilter(__FILE__);

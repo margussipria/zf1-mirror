@@ -25,7 +25,7 @@
 /**
  * @see Zend_Db_TestUtil_Common
  */
-require_once 'Zend/Db/TestUtil/Common.php';
+// require_once 'Zend/Db/TestUtil/Common.php';
 
 
 PHPUnit_Util_Filter::addFileToFilter(__FILE__);
@@ -209,7 +209,7 @@ class Zend_Db_TestUtil_Firebird extends Zend_Db_TestUtil_Common
 		} catch (Exception $e) {
 			if (!stripos(' '.$sql, 'drop')){
 				$e = ibase_errmsg();
-				require_once 'Zend/Db/Exception.php';
+				// require_once 'Zend/Db/Exception.php';
 				throw new Zend_Db_Exception("SQL parse error for \"$sql\": ".$e);
 			}
         }

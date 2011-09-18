@@ -1,7 +1,7 @@
 <?php
 
-require_once('DojoParameters.php');
-require_once('DojoBlock.php');
+// require_once('DojoParameters.php');
+// require_once('DojoBlock.php');
 
 class DojoArray extends DojoParameters
 {

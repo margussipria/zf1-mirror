@@ -3,7 +3,7 @@
 	//All file lookups are relative to this path.
 	$rootDir = "../../demos/geography";
 
-	require_once("filestore_funcs.php");
+	// require_once("filestore_funcs.php");
 
 	//Extract the query, if any.
 	$query = false;
