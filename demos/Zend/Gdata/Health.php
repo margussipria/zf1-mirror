@@ -32,7 +32,7 @@ define('HEALTH_PRIVATE_KEY', '/path/to/your/rsa_private_key.pem');
 //////////////////////////////////////////////////////////////////////////////
 
 // Load the Zend Gdata classes.
-require_once 'Zend/Loader.php';
+// require_once 'Zend/Loader.php';
 Zend_Loader::loadClass('Zend_Gdata_AuthSub');
 Zend_Loader::loadClass('Zend_Gdata_Health');
 Zend_Loader::loadClass('Zend_Gdata_Health_Query');

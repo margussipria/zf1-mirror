@@ -20,7 +20,7 @@
  * @version     $Id: jQueryTest.php 20755 2010-01-29 12:29:45Z beberlei $
  */
 
-require_once "jQueryTestCase.php";
+// require_once "jQueryTestCase.php";
 
 class ZendX_JQuery_View_jQueryTest extends ZendX_JQuery_View_jQueryTestCase
 {

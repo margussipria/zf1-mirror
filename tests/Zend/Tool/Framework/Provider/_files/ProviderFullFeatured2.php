@@ -20,7 +20,7 @@
  * @version    $Id: ProviderFullFeatured2.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Tool/Framework/Provider/Abstract.php';
+// require_once 'Zend/Tool/Framework/Provider/Abstract.php';
 
 /**
  * @category   Zend

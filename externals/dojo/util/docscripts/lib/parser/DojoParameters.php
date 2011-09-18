@@ -1,7 +1,7 @@
 <?php
 
-require_once('DojoParameter.php');
-require_once('DojoBlock.php');
+// require_once('DojoParameter.php');
+// require_once('DojoBlock.php');
 
 class DojoParameters extends DojoBlock
 {

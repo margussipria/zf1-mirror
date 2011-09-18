@@ -24,16 +24,16 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Amf_AllTests::main');
 }
 
-require_once 'Zend/Amf/Adobe/IntrospectorTest.php';
-require_once 'Zend/Amf/RequestTest.php';
-require_once 'Zend/Amf/ResponseTest.php';
-require_once 'Zend/Amf/ServerTest.php';
-require_once 'Zend/Amf/TypeLoaderTest.php';
-require_once 'Zend/Amf/Util/BinaryStreamTest.php';
-require_once 'Zend/Amf/Value/MessageBodyTest.php';
-require_once 'Zend/Amf/Value/MessageHeaderTest.php';
-require_once 'Zend/Amf/AuthTest.php';
-require_once 'Zend/Amf/ResourceTest.php';
+// require_once 'Zend/Amf/Adobe/IntrospectorTest.php';
+// require_once 'Zend/Amf/RequestTest.php';
+// require_once 'Zend/Amf/ResponseTest.php';
+// require_once 'Zend/Amf/ServerTest.php';
+// require_once 'Zend/Amf/TypeLoaderTest.php';
+// require_once 'Zend/Amf/Util/BinaryStreamTest.php';
+// require_once 'Zend/Amf/Value/MessageBodyTest.php';
+// require_once 'Zend/Amf/Value/MessageHeaderTest.php';
+// require_once 'Zend/Amf/AuthTest.php';
+// require_once 'Zend/Amf/ResourceTest.php';
 
 /**
  * @category   Zend

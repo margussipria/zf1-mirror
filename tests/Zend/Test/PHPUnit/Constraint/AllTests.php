@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Test_PHPUnit_Constraint_AllTests::main');
 }
 
-require_once 'Zend/Test/PHPUnit/Constraint/DomQueryTest.php';
+// require_once 'Zend/Test/PHPUnit/Constraint/DomQueryTest.php';
 
 /**
  * @category   Zend

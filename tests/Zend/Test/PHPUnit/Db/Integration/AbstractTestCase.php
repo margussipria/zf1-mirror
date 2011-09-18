@@ -20,17 +20,17 @@
  * @version    $Id: AbstractTestCase.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once "Zend/Db/Table/Abstract.php";
+// require_once "Zend/Db/Table/Abstract.php";
 
-require_once "Zend/Db/Table.php";
+// require_once "Zend/Db/Table.php";
 
-require_once "Zend/Test/PHPUnit/Db/DataSet/DbTableDataSet.php";
+// require_once "Zend/Test/PHPUnit/Db/DataSet/DbTableDataSet.php";
 
-require_once "PHPUnit/Extensions/Database/DataSet/FlatXmlDataSet.php";
+// require_once "PHPUnit/Extensions/Database/DataSet/FlatXmlDataSet.php";
 
-require_once "Zend/Test/PHPUnit/Db/SimpleTester.php";
+// require_once "Zend/Test/PHPUnit/Db/SimpleTester.php";
 
-require_once "Zend/Test/PHPUnit/Db/DataSet/DbRowset.php";
+// require_once "Zend/Test/PHPUnit/Db/DataSet/DbRowset.php";
 
 /**
  * @category   Zend

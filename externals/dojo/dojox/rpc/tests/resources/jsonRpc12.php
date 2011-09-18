@@ -1,5 +1,5 @@
 <?php
-	require_once("./JSON.php");
+	// require_once("./JSON.php");
 
 	// FIXME: doesn't look like we really need Pear at all
 	// which decreases the testing burden.
@@ -9,7 +9,7 @@
 	//	%> sudo pear install File
 	// Your server will also need the Pear library directory included in PHP's
 	// include_path configuration directive
-	// require_once('File.php');
+	// // require_once('File.php');
 
 	// ensure that we don't try to send "html" down to the client
 	header("Content-Type: application/json");

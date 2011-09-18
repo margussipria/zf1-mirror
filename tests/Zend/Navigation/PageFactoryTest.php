@@ -20,7 +20,7 @@
  * @version    $Id: PageFactoryTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Navigation/Page.php';
+// require_once 'Zend/Navigation/Page.php';
 
 /**
  * Tests Zend_Navigation_Page::factory()

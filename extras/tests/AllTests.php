@@ -26,7 +26,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see ZendX_AllTests
  */
-require_once 'ZendX/AllTests.php';
+// require_once 'ZendX/AllTests.php';
 
 class AllTests
 {

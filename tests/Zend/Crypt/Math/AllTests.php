@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Crypt_Math_AllTests::main');
 }
 
-require_once 'BigInteger/BcmathTest.php';
-require_once 'BigInteger/GmpTest.php';
+// require_once 'BigInteger/BcmathTest.php';
+// require_once 'BigInteger/GmpTest.php';
 
 /**
  * @category   Zend

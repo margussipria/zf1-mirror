@@ -27,12 +27,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Loader_Autoloader
  */
-require_once 'Zend/Loader/Autoloader.php';
+// require_once 'Zend/Loader/Autoloader.php';
 
 /**
  * @see Zend_Loader_Autoloader_Interface
  */
-require_once 'Zend/Loader/Autoloader/Interface.php';
+// require_once 'Zend/Loader/Autoloader/Interface.php';
 
 /**
  * @category   Zend
@@ -386,7 +386,7 @@ class Zend_Loader_AutoloaderTest extends PHPUnit_Framework_TestCase
             $this->markTestSkipped(__METHOD__ . ' requires PHP version 5.3.0 or greater');
         }
 
-        $closure = require_once dirname(__FILE__) . '/_files/AutoloaderClosure.php';
+        $closure = // require_once dirname(__FILE__) . '/_files/AutoloaderClosure.php';
         $this->autoloader->pushAutoloader($closure);
         $this->assertTrue(Zend_Loader_Autoloader::autoload('AutoloaderTest_AutoloaderClosure'));
     }

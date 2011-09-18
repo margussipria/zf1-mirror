@@ -24,17 +24,17 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Log_Writer_AllTests::main');
 }
 
-require_once 'Zend/Log/Writer/AbstractTest.php';
-require_once 'Zend/Log/Writer/DbTest.php';
+// require_once 'Zend/Log/Writer/AbstractTest.php';
+// require_once 'Zend/Log/Writer/DbTest.php';
 if (PHP_OS != 'AIX') {
-    require_once 'Zend/Log/Writer/FirebugTest.php';
+    // require_once 'Zend/Log/Writer/FirebugTest.php';
 }
-require_once 'Zend/Log/Writer/MailTest.php';
-require_once 'Zend/Log/Writer/MockTest.php';
-require_once 'Zend/Log/Writer/NullTest.php';
-require_once 'Zend/Log/Writer/StreamTest.php';
-require_once 'Zend/Log/Writer/SyslogTest.php';
-require_once 'Zend/Log/Writer/ZendMonitorTest.php';
+// require_once 'Zend/Log/Writer/MailTest.php';
+// require_once 'Zend/Log/Writer/MockTest.php';
+// require_once 'Zend/Log/Writer/NullTest.php';
+// require_once 'Zend/Log/Writer/StreamTest.php';
+// require_once 'Zend/Log/Writer/SyslogTest.php';
+// require_once 'Zend/Log/Writer/ZendMonitorTest.php';
 
 /**
  * @category   Zend

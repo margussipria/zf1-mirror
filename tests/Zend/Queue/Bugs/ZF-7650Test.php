@@ -25,18 +25,18 @@
  */
 
 /** Zend_Queue */
-require_once 'Zend/Queue.php';
+// require_once 'Zend/Queue.php';
 
 /** Zend_Queue */
-require_once 'Zend/Queue/Message.php';
+// require_once 'Zend/Queue/Message.php';
 
 /** Zend_Queue_Adapter_Array */
-require_once 'Zend/Queue/Adapter/Array.php';
+// require_once 'Zend/Queue/Adapter/Array.php';
 
 /**
  * @see Zend_Db_Select
  */
-require_once 'Zend/Db/Select.php';
+// require_once 'Zend/Db/Select.php';
 
 /**
  * @category   Zend
@@ -82,7 +82,7 @@ class Zend_Queue_QueueTest extends PHPUnit_Framework_TestCase
         // Zend_Queue_Adapter_Db
         $driverOptions = array();
         if (defined('TESTS_ZEND_QUEUE_DB')) {
-            require_once 'Zend/Json.php';
+            // require_once 'Zend/Json.php';
             $driverOptions = Zend_Json::decode(TESTS_ZEND_QUEUE_DB);
         }
 

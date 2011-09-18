@@ -27,12 +27,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_DeveloperGarden_SecurityTokenServer
  */
-require_once 'Zend/Service/DeveloperGarden/SecurityTokenServer.php';
+// require_once 'Zend/Service/DeveloperGarden/SecurityTokenServer.php';
 
 /**
  * @see Zend_Service_DeveloperGarden_SecurityTokenServer_Cache
  */
-require_once 'Zend/Service/DeveloperGarden/SecurityTokenServer/Cache.php';
+// require_once 'Zend/Service/DeveloperGarden/SecurityTokenServer/Cache.php';
 
 /**
  * Zend_Service_DeveloperGarden test case
@@ -108,7 +108,7 @@ class Zend_Service_DeveloperGarden_SecurityTokenServerTest extends PHPUnit_Frame
             'getTokens'
         );
 
-        require_once 'Zend/Cache.php';
+        // require_once 'Zend/Cache.php';
         $cache = Zend_Cache::factory(
             'Core',
             'File',

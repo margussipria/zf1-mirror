@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_DeveloperGarden_IpLocation
  */
-require_once 'Zend/Service/DeveloperGarden/IpLocation.php';
+// require_once 'Zend/Service/DeveloperGarden/IpLocation.php';
 
 /**
  * Zend_Service_DeveloperGarden test case

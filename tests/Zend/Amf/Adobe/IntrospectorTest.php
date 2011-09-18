@@ -28,7 +28,7 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
 /**
  * @see Zend_Amf_Adobe_Introspector
  */
-require_once 'Zend/Amf/Adobe/Introspector.php';
+// require_once 'Zend/Amf/Adobe/Introspector.php';
 
 /**
  * @category   Zend
@@ -95,7 +95,7 @@ class Zend_Amf_Adobe_IntrospectorTest extends PHPUnit_Framework_TestCase
 
     public function testPassingDirectoriesOptionShouldResolveServiceClassAndType()
     {
-        require_once dirname(__FILE__) . '/_files/ZendAmfAdobeIntrospectorTestType.php';
+        // require_once dirname(__FILE__) . '/_files/ZendAmfAdobeIntrospectorTestType.php';
         $xml = $this->introspector->introspect('ZendAmfAdobeIntrospectorTest', array(
             'directories' => array(dirname(__FILE__) . '/_files'),
         ));
@@ -135,7 +135,7 @@ class Zend_Amf_Adobe_IntrospectorTest extends PHPUnit_Framework_TestCase
      */
     public function testArgumentsWithArrayTypeHintsReflectedInReturnedXml()
     {
-        require_once dirname(__FILE__) . '/TestAsset/ParameterHints.php';
+        // require_once dirname(__FILE__) . '/TestAsset/ParameterHints.php';
         $xml = $this->introspector->introspect('Zend.Amf.Adobe.TestAsset.ParameterHints');
         $this->assertRegexp('/<argument[^>]*(name="arg1")[^>]*(type="Unknown\[\]")/', $xml, $xml);
         $this->assertRegexp('/<argument[^>]*(name="arg2")[^>]*(type="Unknown\[\]")/', $xml, $xml);

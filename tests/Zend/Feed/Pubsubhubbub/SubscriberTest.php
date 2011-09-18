@@ -19,8 +19,8 @@
  * @version    $Id: SubscriberTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Feed/Pubsubhubbub/Subscriber.php';
-require_once 'Zend/Feed/Pubsubhubbub/Model/Subscription.php';
+// require_once 'Zend/Feed/Pubsubhubbub/Subscriber.php';
+// require_once 'Zend/Feed/Pubsubhubbub/Model/Subscription.php';
 
 /**
  * @category   Zend

@@ -23,11 +23,11 @@
 /**
  * Zend_Ldap_TestCase
  */
-require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'TestCase.php';
+// require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'TestCase.php';
 /**
  * Zend_Ldap_Node
  */
-require_once 'Zend/Ldap/Node.php';
+// require_once 'Zend/Ldap/Node.php';
 
 /**
  * @category   Zend

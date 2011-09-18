@@ -1,6 +1,6 @@
 <?php
 
-require_once('DojoBlock.php');
+// require_once('DojoBlock.php');
 
 class DojoFunctionBody extends DojoBlock
 {

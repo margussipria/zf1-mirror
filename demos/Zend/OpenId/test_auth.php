@@ -25,12 +25,12 @@ set_include_path("$dir/incubator/library" . PATH_SEPARATOR . "$dir/library" . PA
 /**
  * @see Zend_Auth
  */
-require_once "Zend/Auth.php";
+// require_once "Zend/Auth.php";
 
 /**
  * @see Zend_Auth_Adapter_OpenId
  */
-require_once "Zend/Auth/Adapter/OpenId.php";
+// require_once "Zend/Auth/Adapter/OpenId.php";
 
 $status = "";
 $auth = Zend_Auth::getInstance();

@@ -25,13 +25,13 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
     define("PHPUnit_MAIN_METHOD", "Zend_Controller_Action_HelperBrokerTest::main");
 }
 
-require_once 'Zend/Controller/Front.php';
-require_once 'Zend/Controller/Request/Http.php';
-require_once 'Zend/Controller/Response/Cli.php';
+// require_once 'Zend/Controller/Front.php';
+// require_once 'Zend/Controller/Request/Http.php';
+// require_once 'Zend/Controller/Response/Cli.php';
 
-require_once 'Zend/Controller/Action/HelperBroker.php';
-require_once 'Zend/Controller/Action/Helper/ViewRenderer.php';
-require_once 'Zend/Controller/Action/Helper/Redirector.php';
+// require_once 'Zend/Controller/Action/HelperBroker.php';
+// require_once 'Zend/Controller/Action/Helper/ViewRenderer.php';
+// require_once 'Zend/Controller/Action/Helper/Redirector.php';
 
 /**
  * @category   Zend
@@ -172,7 +172,7 @@ class Zend_Controller_Action_HelperBrokerTest extends PHPUnit_Framework_TestCase
 
         $this->front->returnResponse(true);
 
-        require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . '_files/Helpers/TestHelper.php';
+        // require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . '_files/Helpers/TestHelper.php';
         Zend_Controller_Action_HelperBroker::addHelper(new MyApp_TestHelper());
 
         $response = $this->front->dispatch($request);
@@ -198,7 +198,7 @@ class Zend_Controller_Action_HelperBrokerTest extends PHPUnit_Framework_TestCase
 
         $this->front->returnResponse(true);
 
-        require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . '_files/Helpers/TestHelper.php';
+        // require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . '_files/Helpers/TestHelper.php';
         Zend_Controller_Action_HelperBroker::addHelper(new MyApp_TestHelper());
 
         $response = $this->front->dispatch($request);

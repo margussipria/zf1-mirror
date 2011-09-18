@@ -1,6 +1,6 @@
 <?php
 
-require_once('Destructable.php');
+// require_once('Destructable.php');
 
 class Scope extends Destructable {
   protected $_parent;

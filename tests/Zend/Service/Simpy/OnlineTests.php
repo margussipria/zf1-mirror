@@ -21,8 +21,8 @@
  */
 
 
-require_once 'BaseTests.php';
-require_once 'OnlineProxy.php';
+// require_once 'BaseTests.php';
+// require_once 'OnlineProxy.php';
 
 /**
  * @category   Zend

@@ -24,23 +24,23 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Application_Resource_AllTests::main');
 }
 
-require_once 'Zend/Application/Resource/ResourceAbstractTest.php';
-require_once 'Zend/Application/Resource/CacheManagerTest.php';
-require_once 'Zend/Application/Resource/DbTest.php';
-require_once 'Zend/Application/Resource/DojoTest.php';
-require_once 'Zend/Application/Resource/FrontcontrollerTest.php';
-require_once 'Zend/Application/Resource/LayoutTest.php';
-require_once 'Zend/Application/Resource/LocaleTest.php';
-require_once 'Zend/Application/Resource/LogTest.php';
-require_once 'Zend/Application/Resource/MailTest.php';
-require_once 'Zend/Application/Resource/ModulesTest.php';
-require_once 'Zend/Application/Resource/MultidbTest.php';
-require_once 'Zend/Application/Resource/NavigationTest.php';
-require_once 'Zend/Application/Resource/RouterTest.php';
-require_once 'Zend/Application/Resource/SessionTest.php';
-require_once 'Zend/Application/Resource/TranslateTest.php';
-require_once 'Zend/Application/Resource/UseragentTest.php';
-require_once 'Zend/Application/Resource/ViewTest.php';
+// require_once 'Zend/Application/Resource/ResourceAbstractTest.php';
+// require_once 'Zend/Application/Resource/CacheManagerTest.php';
+// require_once 'Zend/Application/Resource/DbTest.php';
+// require_once 'Zend/Application/Resource/DojoTest.php';
+// require_once 'Zend/Application/Resource/FrontcontrollerTest.php';
+// require_once 'Zend/Application/Resource/LayoutTest.php';
+// require_once 'Zend/Application/Resource/LocaleTest.php';
+// require_once 'Zend/Application/Resource/LogTest.php';
+// require_once 'Zend/Application/Resource/MailTest.php';
+// require_once 'Zend/Application/Resource/ModulesTest.php';
+// require_once 'Zend/Application/Resource/MultidbTest.php';
+// require_once 'Zend/Application/Resource/NavigationTest.php';
+// require_once 'Zend/Application/Resource/RouterTest.php';
+// require_once 'Zend/Application/Resource/SessionTest.php';
+// require_once 'Zend/Application/Resource/TranslateTest.php';
+// require_once 'Zend/Application/Resource/UseragentTest.php';
+// require_once 'Zend/Application/Resource/ViewTest.php';
 
 /**
  * @category   Zend

@@ -20,7 +20,7 @@
  */
 
 /* Load the Zend Gdata classes. */
-require_once 'Zend/Loader.php';
+// require_once 'Zend/Loader.php';
 Zend_Loader::loadClass('Zend_Gdata_AuthSub');
 Zend_Loader::loadClass('Zend_Gdata_Gbase');
 

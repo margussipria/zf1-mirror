@@ -25,35 +25,35 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Feed_AllTests::main');
 }
 
-require_once 'Zend/Barcode/FactoryTest.php';
+// require_once 'Zend/Barcode/FactoryTest.php';
 
-require_once 'Zend/Barcode/Object/Code39Test.php';
+// require_once 'Zend/Barcode/Object/Code39Test.php';
 
-require_once 'Zend/Barcode/Object/Code128Test.php';
+// require_once 'Zend/Barcode/Object/Code128Test.php';
 
-require_once 'Zend/Barcode/Object/Code25Test.php';
-require_once 'Zend/Barcode/Object/Code25interleavedTest.php';
-require_once 'Zend/Barcode/Object/Itf14Test.php';
-require_once 'Zend/Barcode/Object/IdentcodeTest.php';
-require_once 'Zend/Barcode/Object/LeitcodeTest.php';
+// require_once 'Zend/Barcode/Object/Code25Test.php';
+// require_once 'Zend/Barcode/Object/Code25interleavedTest.php';
+// require_once 'Zend/Barcode/Object/Itf14Test.php';
+// require_once 'Zend/Barcode/Object/IdentcodeTest.php';
+// require_once 'Zend/Barcode/Object/LeitcodeTest.php';
 
-require_once 'Zend/Barcode/Object/Ean13Test.php';
-require_once 'Zend/Barcode/Object/Ean2Test.php';
-require_once 'Zend/Barcode/Object/Ean5Test.php';
-require_once 'Zend/Barcode/Object/Ean8Test.php';
-require_once 'Zend/Barcode/Object/UpcaTest.php';
-require_once 'Zend/Barcode/Object/UpceTest.php';
+// require_once 'Zend/Barcode/Object/Ean13Test.php';
+// require_once 'Zend/Barcode/Object/Ean2Test.php';
+// require_once 'Zend/Barcode/Object/Ean5Test.php';
+// require_once 'Zend/Barcode/Object/Ean8Test.php';
+// require_once 'Zend/Barcode/Object/UpcaTest.php';
+// require_once 'Zend/Barcode/Object/UpceTest.php';
 
-require_once 'Zend/Barcode/Object/PostnetTest.php';
-require_once 'Zend/Barcode/Object/PlanetTest.php';
+// require_once 'Zend/Barcode/Object/PostnetTest.php';
+// require_once 'Zend/Barcode/Object/PlanetTest.php';
 
-require_once 'Zend/Barcode/Object/RoyalmailTest.php';
+// require_once 'Zend/Barcode/Object/RoyalmailTest.php';
 
-require_once 'Zend/Barcode/Object/ErrorTest.php';
+// require_once 'Zend/Barcode/Object/ErrorTest.php';
 
-require_once 'Zend/Barcode/Renderer/ImageTest.php';
-require_once 'Zend/Barcode/Renderer/PdfTest.php';
-require_once 'Zend/Barcode/Renderer/SvgTest.php';
+// require_once 'Zend/Barcode/Renderer/ImageTest.php';
+// require_once 'Zend/Barcode/Renderer/PdfTest.php';
+// require_once 'Zend/Barcode/Renderer/SvgTest.php';
 
 /**
  * @category   Zend

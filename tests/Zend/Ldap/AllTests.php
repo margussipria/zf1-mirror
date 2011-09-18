@@ -24,23 +24,23 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Ldap_AllTests::main');
 }
 
-require_once 'Zend/Ldap/OfflineTest.php';
-require_once 'Zend/Ldap/AttributeTest.php';
-require_once 'Zend/Ldap/ConverterTest.php';
-require_once 'Zend/Ldap/Dn/AllTests.php';
-require_once 'Zend/Ldap/FilterTest.php';
-require_once 'Zend/Ldap/Node/AllTests.php';
-require_once 'Zend/Ldap/Ldif/AllTests.php';
+// require_once 'Zend/Ldap/OfflineTest.php';
+// require_once 'Zend/Ldap/AttributeTest.php';
+// require_once 'Zend/Ldap/ConverterTest.php';
+// require_once 'Zend/Ldap/Dn/AllTests.php';
+// require_once 'Zend/Ldap/FilterTest.php';
+// require_once 'Zend/Ldap/Node/AllTests.php';
+// require_once 'Zend/Ldap/Ldif/AllTests.php';
 
 if (defined('TESTS_ZEND_LDAP_ONLINE_ENABLED')
     && constant('TESTS_ZEND_LDAP_ONLINE_ENABLED')) {
-    require_once 'Zend/Ldap/ConnectTest.php';
-    require_once 'Zend/Ldap/BindTest.php';
-    require_once 'Zend/Ldap/CanonTest.php';
-    require_once 'Zend/Ldap/SearchTest.php';
-    require_once 'Zend/Ldap/CrudTest.php';
-    require_once 'Zend/Ldap/CopyRenameTest.php';
-    require_once 'Zend/Ldap/ChangePasswordTest.php';
+    // require_once 'Zend/Ldap/ConnectTest.php';
+    // require_once 'Zend/Ldap/BindTest.php';
+    // require_once 'Zend/Ldap/CanonTest.php';
+    // require_once 'Zend/Ldap/SearchTest.php';
+    // require_once 'Zend/Ldap/CrudTest.php';
+    // require_once 'Zend/Ldap/CopyRenameTest.php';
+    // require_once 'Zend/Ldap/ChangePasswordTest.php';
 }
 
 /**

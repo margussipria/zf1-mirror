@@ -23,13 +23,13 @@
 /**
  * Zend_Cache
  */
-require_once 'Zend/Cache.php';
-require_once 'Zend/Cache/Backend/Apc.php';
+// require_once 'Zend/Cache.php';
+// require_once 'Zend/Cache/Backend/Apc.php';
 
 /**
  * Common tests for backends
  */
-require_once 'CommonExtendedBackendTest.php';
+// require_once 'CommonExtendedBackendTest.php';
 
 /**
  * @category   Zend

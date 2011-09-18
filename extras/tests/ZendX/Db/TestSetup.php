@@ -27,27 +27,27 @@
  */
 
 
-require_once dirname(__FILE__) . '/../../TestHelper.php';
+// require_once dirname(__FILE__) . '/../../TestHelper.php';
 
 /**
  * @see Zend_Loader
  */
-require_once 'Zend/Loader.php';
+// require_once 'Zend/Loader.php';
 
 /**
  * @see Zend_Db
  */
-require_once 'Zend/Db.php';
+// require_once 'Zend/Db.php';
 
 /**
  * PHPUnit_Framework_TestCase
  */
-require_once 'PHPUnit/Framework/TestCase.php';
+// require_once 'PHPUnit/Framework/TestCase.php';
 
 /**
  * PHPUnit_Util_Filter
  */
-require_once 'PHPUnit/Util/Filter.php';
+// require_once 'PHPUnit/Util/Filter.php';
 
 
 PHPUnit_Util_Filter::addFileToFilter(__FILE__);

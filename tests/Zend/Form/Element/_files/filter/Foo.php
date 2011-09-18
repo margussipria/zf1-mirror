@@ -20,7 +20,7 @@
  * @version    $Id: Foo.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Filter/File/LowerCase.php';
+// require_once 'Zend/Filter/File/LowerCase.php';
 
 /**
  * custom filter for use with file element tests

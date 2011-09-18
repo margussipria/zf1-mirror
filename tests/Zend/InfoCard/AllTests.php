@@ -24,10 +24,10 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_InfoCard_AllTests::main');
 }
 
-require_once 'Zend/InfoCard/XmlParsingTest.php';
-require_once 'Zend/InfoCard/ProcessTest.php';
-require_once 'Zend/InfoCard/AssertionTest.php';
-require_once 'Zend/InfoCard/CipherTest.php';
+// require_once 'Zend/InfoCard/XmlParsingTest.php';
+// require_once 'Zend/InfoCard/ProcessTest.php';
+// require_once 'Zend/InfoCard/AssertionTest.php';
+// require_once 'Zend/InfoCard/CipherTest.php';
 
 /**
  * @category   Zend
