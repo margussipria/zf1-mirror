@@ -26,13 +26,13 @@
  */
 
 /** Custom_Queue */
-require_once 'Custom/Queue.php';
+// require_once 'Custom/Queue.php';
 
 /** Custom_Message */
-require_once 'Custom/Message.php';
+// require_once 'Custom/Message.php';
 
 /** Custom_Messages */
-require_once 'Custom/Messages.php';
+// require_once 'Custom/Messages.php';
 
 /**
  * @category   Zend

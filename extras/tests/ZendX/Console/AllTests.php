@@ -24,13 +24,13 @@
 /**
  * Test helper
  */
-require_once dirname(__FILE__) . '/../../TestHelper.php';
+// require_once dirname(__FILE__) . '/../../TestHelper.php';
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'ZendX_Console_AllTests::main');
 }
 
-require_once 'ZendX/Console/Process/AllTests.php';
+// require_once 'ZendX/Console/Process/AllTests.php';
 
 /**
  * @category   ZendX

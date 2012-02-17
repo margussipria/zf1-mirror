@@ -1,6 +1,6 @@
 <?php
 
-require_once('lib/generator/common/db.php');
+// require_once('lib/generator/common/db.php');
 
 final class Freezer
 {

@@ -27,12 +27,12 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
 /**
  * @see Zend_Cloud_StorageService_TestCase
  */
-require_once 'Zend/Cloud/StorageService/TestCase.php';
+// require_once 'Zend/Cloud/StorageService/TestCase.php';
 
 /**
  * @see Zend_Cloud_StorageService_Adapter_FileSystem
  */
-require_once 'Zend/Cloud/StorageService/Adapter/FileSystem.php';
+// require_once 'Zend/Cloud/StorageService/Adapter/FileSystem.php';
 
 /**
  * @category   Zend

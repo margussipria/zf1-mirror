@@ -23,7 +23,7 @@
 /**
  * @see Zend_Service_Simpy
  */
-require_once 'Zend/Service/Simpy.php';
+// require_once 'Zend/Service/Simpy.php';
 
 /**
  * @category   Zend

@@ -24,22 +24,22 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Mail_AllTests::main');
 }
 
-require_once 'Zend/Mail/MailTest.php';
-require_once 'Zend/Mail/MboxTest.php';
-require_once 'Zend/Mail/MboxMessageOldTest.php';
-require_once 'Zend/Mail/MboxFolderTest.php';
-require_once 'Zend/Mail/MaildirTest.php';
-require_once 'Zend/Mail/MaildirMessageOldTest.php';
-require_once 'Zend/Mail/MaildirFolderTest.php';
-require_once 'Zend/Mail/MaildirWritableTest.php';
-require_once 'Zend/Mail/Pop3Test.php';
-require_once 'Zend/Mail/ImapTest.php';
-require_once 'Zend/Mail/InterfaceTest.php';
-require_once 'Zend/Mail/MessageTest.php';
-require_once 'Zend/Mail/SmtpOfflineTest.php';
-require_once 'Zend/Mail/SmtpProtocolTest.php';
-require_once 'Zend/Mail/SmtpTest.php';
-require_once 'Zend/Mail/FileTransportTest.php';
+// require_once 'Zend/Mail/MailTest.php';
+// require_once 'Zend/Mail/MboxTest.php';
+// require_once 'Zend/Mail/MboxMessageOldTest.php';
+// require_once 'Zend/Mail/MboxFolderTest.php';
+// require_once 'Zend/Mail/MaildirTest.php';
+// require_once 'Zend/Mail/MaildirMessageOldTest.php';
+// require_once 'Zend/Mail/MaildirFolderTest.php';
+// require_once 'Zend/Mail/MaildirWritableTest.php';
+// require_once 'Zend/Mail/Pop3Test.php';
+// require_once 'Zend/Mail/ImapTest.php';
+// require_once 'Zend/Mail/InterfaceTest.php';
+// require_once 'Zend/Mail/MessageTest.php';
+// require_once 'Zend/Mail/SmtpOfflineTest.php';
+// require_once 'Zend/Mail/SmtpProtocolTest.php';
+// require_once 'Zend/Mail/SmtpTest.php';
+// require_once 'Zend/Mail/FileTransportTest.php';
 
 /**
  * @category   Zend

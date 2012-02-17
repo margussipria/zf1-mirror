@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Auth_Adapter_AllTests::main');
 }
 
-require_once 'Zend/Auth/Adapter/DbTable/AllTests.php';
-require_once 'Zend/Auth/Adapter/DigestTest.php';
-require_once 'Zend/Auth/Adapter/Http/AllTests.php';
-require_once 'Zend/Auth/Adapter/Ldap/AllTests.php';
-require_once 'Zend/Auth/Adapter/OpenId/AllTests.php';
+// require_once 'Zend/Auth/Adapter/DbTable/AllTests.php';
+// require_once 'Zend/Auth/Adapter/DigestTest.php';
+// require_once 'Zend/Auth/Adapter/Http/AllTests.php';
+// require_once 'Zend/Auth/Adapter/Ldap/AllTests.php';
+// require_once 'Zend/Auth/Adapter/OpenId/AllTests.php';
 
 /**
  * @category   Zend

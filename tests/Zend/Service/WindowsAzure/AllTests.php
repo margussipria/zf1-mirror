@@ -20,19 +20,19 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
 
-require_once 'Zend/Service/WindowsAzure/Credentials/AllTests.php';
-require_once 'Zend/Service/WindowsAzure/Diagnostics/AllTests.php';
-require_once 'Zend/Service/WindowsAzure/RetryPolicyTest.php';
-require_once 'Zend/Service/WindowsAzure/StorageTest.php';
-require_once 'Zend/Service/WindowsAzure/BlobStorageTest.php';
-require_once 'Zend/Service/WindowsAzure/BlobStreamTest.php';
-require_once 'Zend/Service/WindowsAzure/BlobStorageSharedAccessTest.php';
-require_once 'Zend/Service/WindowsAzure/TableEntityTest.php';
-require_once 'Zend/Service/WindowsAzure/DynamicTableEntityTest.php';
-require_once 'Zend/Service/WindowsAzure/TableEntityQueryTest.php';
-require_once 'Zend/Service/WindowsAzure/TableStorageTest.php';
-require_once 'Zend/Service/WindowsAzure/QueueStorageTest.php';
-require_once 'Zend/Service/WindowsAzure/SessionHandlerTest.php';
+// require_once 'Zend/Service/WindowsAzure/Credentials/AllTests.php';
+// require_once 'Zend/Service/WindowsAzure/Diagnostics/AllTests.php';
+// require_once 'Zend/Service/WindowsAzure/RetryPolicyTest.php';
+// require_once 'Zend/Service/WindowsAzure/StorageTest.php';
+// require_once 'Zend/Service/WindowsAzure/BlobStorageTest.php';
+// require_once 'Zend/Service/WindowsAzure/BlobStreamTest.php';
+// require_once 'Zend/Service/WindowsAzure/BlobStorageSharedAccessTest.php';
+// require_once 'Zend/Service/WindowsAzure/TableEntityTest.php';
+// require_once 'Zend/Service/WindowsAzure/DynamicTableEntityTest.php';
+// require_once 'Zend/Service/WindowsAzure/TableEntityQueryTest.php';
+// require_once 'Zend/Service/WindowsAzure/TableStorageTest.php';
+// require_once 'Zend/Service/WindowsAzure/QueueStorageTest.php';
+// require_once 'Zend/Service/WindowsAzure/SessionHandlerTest.php';
 
 /**
  * @category   Zend

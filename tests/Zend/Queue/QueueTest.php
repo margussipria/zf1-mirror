@@ -29,13 +29,13 @@
  */
 
 /** Zend_Queue */
-require_once 'Zend/Queue.php';
+// require_once 'Zend/Queue.php';
 
 /** Zend_Queue */
-require_once 'Zend/Queue/Message.php';
+// require_once 'Zend/Queue/Message.php';
 
 /** Zend_Queue_Adapter_Array */
-require_once 'Zend/Queue/Adapter/Array.php';
+// require_once 'Zend/Queue/Adapter/Array.php';
 
 /**
  * @category   Zend
@@ -60,9 +60,9 @@ class Zend_Queue_QueueTest extends PHPUnit_Framework_TestCase
         /**
          * @see Zend_Log
          */
-        require_once 'Zend/Log.php';
-        require_once 'Zend/Log/Writer/Stream.php';
-        require_once 'Zend/Log/Writer/Null.php';
+        // require_once 'Zend/Log.php';
+        // require_once 'Zend/Log/Writer/Stream.php';
+        // require_once 'Zend/Log/Writer/Null.php';
         if (! isset($this->logger)) {
             if (1) { // vebose?
                 $this->_logger = new Zend_Log(new Zend_Log_Writer_Stream('php://output'));
@@ -226,8 +226,8 @@ class Zend_Queue_QueueTest extends PHPUnit_Framework_TestCase
         /**
          * @see Zend_Log
          */
-        require_once 'Zend/Log.php';
-        require_once 'Zend/Log/Writer/Null.php';
+        // require_once 'Zend/Log.php';
+        // require_once 'Zend/Log/Writer/Null.php';
 
         $logger = new Zend_Log(new Zend_Log_Writer_Null);
 

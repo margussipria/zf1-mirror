@@ -20,7 +20,7 @@
  * @version    $Id: HelperController.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Controller/Action.php';
+// require_once 'Zend/Controller/Action.php';
 
 /**
  * @category   Zend

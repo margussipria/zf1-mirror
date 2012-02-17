@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Test_PHPUnit_Db_DataSet_AllTests::main');
 }
 
-require_once "DbRowsetTest.php";
-require_once "QueryDataSetTest.php";
-require_once "QueryTableTest.php";
-require_once "DbTableTest.php";
-require_once "DbTableDataSetTest.php";
+// require_once "DbRowsetTest.php";
+// require_once "QueryDataSetTest.php";
+// require_once "QueryTableTest.php";
+// require_once "DbTableTest.php";
+// require_once "DbTableDataSetTest.php";
 
 /**
  * @category   Zend

@@ -20,9 +20,9 @@
  * @version    $Id: Entry.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once 'Zend/Feed/Reader.php';
+// require_once 'Zend/Feed/Reader.php';
 
-require_once 'Zend/Feed/Reader/Extension/EntryAbstract.php';
+// require_once 'Zend/Feed/Reader/Extension/EntryAbstract.php';
 
 /**
  * @category   Zend

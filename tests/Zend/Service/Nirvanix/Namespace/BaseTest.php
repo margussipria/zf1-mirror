@@ -23,12 +23,12 @@
 /**
  * @see Zend_Service_Nirvanix_Namespace_Base
  */
-require_once 'Zend/Service/Nirvanix/Namespace/Base.php';
+// require_once 'Zend/Service/Nirvanix/Namespace/Base.php';
 
 /**
  * @see Zend_Service_Nirvanix_FunctionalTestCase
  */
-require_once 'Zend/Service/Nirvanix/FunctionalTestCase.php';
+// require_once 'Zend/Service/Nirvanix/FunctionalTestCase.php';
 
 /**
  * @category   Zend

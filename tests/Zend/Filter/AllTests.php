@@ -24,67 +24,67 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Filter_AllTests::main');
 }
 
-require_once 'Zend/Filter/AlnumTest.php';
-require_once 'Zend/Filter/AlphaTest.php';
-require_once 'Zend/Filter/BaseNameTest.php';
-require_once 'Zend/Filter/BooleanTest.php';
-require_once 'Zend/Filter/CallbackTest.php';
-require_once 'Zend/Filter/CompressTest.php';
-require_once 'Zend/Filter/DecompressTest.php';
-require_once 'Zend/Filter/DecryptTest.php';
-require_once 'Zend/Filter/DigitsTest.php';
-require_once 'Zend/Filter/DirTest.php';
-require_once 'Zend/Filter/EncryptTest.php';
-require_once 'Zend/Filter/HtmlEntitiesTest.php';
-require_once 'Zend/Filter/InflectorTest.php';
-require_once 'Zend/Filter/InputTest.php';
-require_once 'Zend/Filter/IntTest.php';
-require_once 'Zend/Filter/LocalizedToNormalizedTest.php';
-require_once 'Zend/Filter/NormalizedToLocalizedTest.php';
-require_once 'Zend/Filter/NullTest.php';
-require_once 'Zend/Filter/PregReplaceTest.php';
-require_once 'Zend/Filter/RealPathTest.php';
-require_once 'Zend/Filter/StringToLowerTest.php';
-require_once 'Zend/Filter/StringToUpperTest.php';
-require_once 'Zend/Filter/StringTrimTest.php';
-require_once 'Zend/Filter/StripNewlinesTest.php';
-require_once 'Zend/Filter/StripTagsTest.php';
+// require_once 'Zend/Filter/AlnumTest.php';
+// require_once 'Zend/Filter/AlphaTest.php';
+// require_once 'Zend/Filter/BaseNameTest.php';
+// require_once 'Zend/Filter/BooleanTest.php';
+// require_once 'Zend/Filter/CallbackTest.php';
+// require_once 'Zend/Filter/CompressTest.php';
+// require_once 'Zend/Filter/DecompressTest.php';
+// require_once 'Zend/Filter/DecryptTest.php';
+// require_once 'Zend/Filter/DigitsTest.php';
+// require_once 'Zend/Filter/DirTest.php';
+// require_once 'Zend/Filter/EncryptTest.php';
+// require_once 'Zend/Filter/HtmlEntitiesTest.php';
+// require_once 'Zend/Filter/InflectorTest.php';
+// require_once 'Zend/Filter/InputTest.php';
+// require_once 'Zend/Filter/IntTest.php';
+// require_once 'Zend/Filter/LocalizedToNormalizedTest.php';
+// require_once 'Zend/Filter/NormalizedToLocalizedTest.php';
+// require_once 'Zend/Filter/NullTest.php';
+// require_once 'Zend/Filter/PregReplaceTest.php';
+// require_once 'Zend/Filter/RealPathTest.php';
+// require_once 'Zend/Filter/StringToLowerTest.php';
+// require_once 'Zend/Filter/StringToUpperTest.php';
+// require_once 'Zend/Filter/StringTrimTest.php';
+// require_once 'Zend/Filter/StripNewlinesTest.php';
+// require_once 'Zend/Filter/StripTagsTest.php';
 
 /*
-require_once 'Zend/Filter/Compress/Bz2Test.php';
-require_once 'Zend/Filter/Compress/GzTest.php';
-require_once 'Zend/Filter/Compress/LzfTest.php';
-require_once 'Zend/Filter/Compress/RarTest.php';
-require_once 'Zend/Filter/Compress/TarTest.php';
-require_once 'Zend/Filter/Compress/ZipTest.php';
+// require_once 'Zend/Filter/Compress/Bz2Test.php';
+// require_once 'Zend/Filter/Compress/GzTest.php';
+// require_once 'Zend/Filter/Compress/LzfTest.php';
+// require_once 'Zend/Filter/Compress/RarTest.php';
+// require_once 'Zend/Filter/Compress/TarTest.php';
+// require_once 'Zend/Filter/Compress/ZipTest.php';
 
-require_once 'Zend/Filter/Encrypt/McryptTest.php';
-require_once 'Zend/Filter/Encrypt/OpensslTest.php';
+// require_once 'Zend/Filter/Encrypt/McryptTest.php';
+// require_once 'Zend/Filter/Encrypt/OpensslTest.php';
 
-require_once 'Zend/Filter/File/DecryptTest.php';
-require_once 'Zend/Filter/File/EncryptTest.php';
-require_once 'Zend/Filter/File/LowerCaseTest.php';
-require_once 'Zend/Filter/File/RenameTest.php';
-require_once 'Zend/Filter/File/UpperCaseTest.php';
+// require_once 'Zend/Filter/File/DecryptTest.php';
+// require_once 'Zend/Filter/File/EncryptTest.php';
+// require_once 'Zend/Filter/File/LowerCaseTest.php';
+// require_once 'Zend/Filter/File/RenameTest.php';
+// require_once 'Zend/Filter/File/UpperCaseTest.php';
 
-require_once 'Zend/Filter/Word/CamelCaseToDashTest.php';
-require_once 'Zend/Filter/Word/CamelCaseToSeparatorTest.php';
-require_once 'Zend/Filter/Word/CamelCaseToUnderscoreTest.php';
-require_once 'Zend/Filter/Word/DashToCamelCaseTest.php';
-require_once 'Zend/Filter/Word/DashToSeparatorTest.php';
-require_once 'Zend/Filter/Word/DashToUnderscoreTest.php';
-require_once 'Zend/Filter/Word/SeparatorToCamelCaseTest.php';
-require_once 'Zend/Filter/Word/SeparatorToDashTest.php';
-require_once 'Zend/Filter/Word/SeparatorToSeparatorTest.php';
-require_once 'Zend/Filter/Word/UnderscoreToCamelCaseTest.php';
-require_once 'Zend/Filter/Word/UnderscoreToDashTest.php';
-require_once 'Zend/Filter/Word/UnderscoreToSeparatorTest.php';
+// require_once 'Zend/Filter/Word/CamelCaseToDashTest.php';
+// require_once 'Zend/Filter/Word/CamelCaseToSeparatorTest.php';
+// require_once 'Zend/Filter/Word/CamelCaseToUnderscoreTest.php';
+// require_once 'Zend/Filter/Word/DashToCamelCaseTest.php';
+// require_once 'Zend/Filter/Word/DashToSeparatorTest.php';
+// require_once 'Zend/Filter/Word/DashToUnderscoreTest.php';
+// require_once 'Zend/Filter/Word/SeparatorToCamelCaseTest.php';
+// require_once 'Zend/Filter/Word/SeparatorToDashTest.php';
+// require_once 'Zend/Filter/Word/SeparatorToSeparatorTest.php';
+// require_once 'Zend/Filter/Word/UnderscoreToCamelCaseTest.php';
+// require_once 'Zend/Filter/Word/UnderscoreToDashTest.php';
+// require_once 'Zend/Filter/Word/UnderscoreToSeparatorTest.php';
 */
 
-require_once 'Zend/Filter/Compress/AllTests.php';
-require_once 'Zend/Filter/Encrypt/AllTests.php';
-require_once 'Zend/Filter/File/AllTests.php';
-require_once 'Zend/Filter/Word/AllTests.php';
+// require_once 'Zend/Filter/Compress/AllTests.php';
+// require_once 'Zend/Filter/Encrypt/AllTests.php';
+// require_once 'Zend/Filter/File/AllTests.php';
+// require_once 'Zend/Filter/Word/AllTests.php';
 
 /**
  * @category   Zend

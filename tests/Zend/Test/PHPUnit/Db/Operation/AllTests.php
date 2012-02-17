@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Test_PHPUnit_Db_Operation_AllTests::main');
 }
 
-require_once "InsertTest.php";
-require_once "TruncateTest.php";
-require_once "DeleteAllTest.php";
+// require_once "InsertTest.php";
+// require_once "TruncateTest.php";
+// require_once "DeleteAllTest.php";
 
 /**
  * @category   Zend

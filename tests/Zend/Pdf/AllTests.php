@@ -24,15 +24,15 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Pdf_AllTests::main');
 }
 
-require_once 'Zend/Pdf/ActionTest.php';
-require_once 'Zend/Pdf/DestinationTest.php';
-require_once 'Zend/Pdf/DrawingTest.php';
-require_once 'Zend/Pdf/FactoryTest.php';
-require_once 'Zend/Pdf/NamedDestinationsTest.php';
-require_once 'Zend/Pdf/ProcessingTest.php';
+// require_once 'Zend/Pdf/ActionTest.php';
+// require_once 'Zend/Pdf/DestinationTest.php';
+// require_once 'Zend/Pdf/DrawingTest.php';
+// require_once 'Zend/Pdf/FactoryTest.php';
+// require_once 'Zend/Pdf/NamedDestinationsTest.php';
+// require_once 'Zend/Pdf/ProcessingTest.php';
 
-require_once 'Zend/Pdf/Element/AllTests.php';
-require_once 'Zend/Pdf/Filter/AllTests.php';
+// require_once 'Zend/Pdf/Element/AllTests.php';
+// require_once 'Zend/Pdf/Filter/AllTests.php';
 
 /**
  * @category   Zend

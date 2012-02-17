@@ -28,10 +28,10 @@
  * handling.
  */
 
-require_once 'Zend/Gdata/Docs.php';
-require_once 'Zend/Gdata/Spreadsheets.php';
+// require_once 'Zend/Gdata/Docs.php';
+// require_once 'Zend/Gdata/Spreadsheets.php';
 
-require_once 'Gdata_OAuth_Helper.php';
+// require_once 'Gdata_OAuth_Helper.php';
 
 session_start();
 

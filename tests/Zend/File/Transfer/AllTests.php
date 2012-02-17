@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_File_Transfer_AllTests::main');
 }
 
-require_once 'Zend/File/Transfer/Adapter/AllTests.php';
+// require_once 'Zend/File/Transfer/Adapter/AllTests.php';
 
 /**
  * @category   Zend

@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Uri_AllTests::main');
 }
 
-require_once 'Zend/Uri/HttpTest.php';
+// require_once 'Zend/Uri/HttpTest.php';
 
 /**
  * @category   Zend

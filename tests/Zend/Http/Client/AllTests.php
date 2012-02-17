@@ -24,14 +24,14 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Http_Client_AllTests::main');
 }
 
-require_once 'Zend/Http/Client/StaticTest.php';
-require_once 'Zend/Http/Client/SocketTest.php';
-require_once 'Zend/Http/Client/SocketKeepaliveTest.php';
-require_once 'Zend/Http/Client/SocketPersistentTest.php';
-require_once 'Zend/Http/Client/TestAdapterTest.php';
-require_once 'Zend/Http/Client/ProxyAdapterTest.php';
-require_once 'Zend/Http/Client/SkipTests.php';
-require_once 'Zend/Http/Client/CurlTest.php';
+// require_once 'Zend/Http/Client/StaticTest.php';
+// require_once 'Zend/Http/Client/SocketTest.php';
+// require_once 'Zend/Http/Client/SocketKeepaliveTest.php';
+// require_once 'Zend/Http/Client/SocketPersistentTest.php';
+// require_once 'Zend/Http/Client/TestAdapterTest.php';
+// require_once 'Zend/Http/Client/ProxyAdapterTest.php';
+// require_once 'Zend/Http/Client/SkipTests.php';
+// require_once 'Zend/Http/Client/CurlTest.php';
 
 /**
  * @category   Zend

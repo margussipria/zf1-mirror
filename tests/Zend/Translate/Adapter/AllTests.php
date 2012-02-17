@@ -24,15 +24,15 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Translate_Adapter_AllTests::main');
 }
 
-require_once 'Zend/Translate/Adapter/ArrayTest.php';
-require_once 'Zend/Translate/Adapter/CsvTest.php';
-require_once 'Zend/Translate/Adapter/GettextTest.php';
-require_once 'Zend/Translate/Adapter/IniTest.php';
-require_once 'Zend/Translate/Adapter/QtTest.php';
-require_once 'Zend/Translate/Adapter/TbxTest.php';
-require_once 'Zend/Translate/Adapter/TmxTest.php';
-require_once 'Zend/Translate/Adapter/XliffTest.php';
-require_once 'Zend/Translate/Adapter/XmlTmTest.php';
+// require_once 'Zend/Translate/Adapter/ArrayTest.php';
+// require_once 'Zend/Translate/Adapter/CsvTest.php';
+// require_once 'Zend/Translate/Adapter/GettextTest.php';
+// require_once 'Zend/Translate/Adapter/IniTest.php';
+// require_once 'Zend/Translate/Adapter/QtTest.php';
+// require_once 'Zend/Translate/Adapter/TbxTest.php';
+// require_once 'Zend/Translate/Adapter/TmxTest.php';
+// require_once 'Zend/Translate/Adapter/XliffTest.php';
+// require_once 'Zend/Translate/Adapter/XmlTmTest.php';
 
 /**
  * @category   Zend

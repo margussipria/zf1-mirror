@@ -1,8 +1,8 @@
 <?php
 
-require_once('Scope.php');
-require_once('Symbol.php');
-require_once('Destructable.php');
+// require_once('Scope.php');
+// require_once('Symbol.php');
+// require_once('Destructable.php');
 
 abstract class Parser extends Destructable {
   private static $symbol_tables = array();

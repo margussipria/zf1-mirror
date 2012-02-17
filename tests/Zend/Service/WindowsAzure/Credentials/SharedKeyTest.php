@@ -21,7 +21,7 @@
  */
 
 /** Zend_Service_WindowsAzure_Credentials_SharedKey */
-require_once 'Zend/Service/WindowsAzure/Credentials/SharedKey.php';
+// require_once 'Zend/Service/WindowsAzure/Credentials/SharedKey.php';
 
 /**
  * @category   Zend

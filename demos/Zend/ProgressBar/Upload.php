@@ -27,9 +27,9 @@ if (isset($_GET['uploadId'])) {
     set_include_path(realpath(dirname(__FILE__) . '/../../../library')
                      . PATH_SEPARATOR . get_include_path());
 
-    require_once 'Zend/ProgressBar.php';
-    require_once 'Zend/ProgressBar/Adapter/JsPull.php';
-    require_once 'Zend/Session/Namespace.php';
+    // require_once 'Zend/ProgressBar.php';
+    // require_once 'Zend/ProgressBar/Adapter/JsPull.php';
+    // require_once 'Zend/Session/Namespace.php';
 
     $data          = uploadprogress_get_info($_GET['uploadId']);
     $bytesTotal    = ($data === null ? 0 : $data['bytes_total']);

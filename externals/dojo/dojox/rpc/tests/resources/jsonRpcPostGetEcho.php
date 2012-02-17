@@ -2,7 +2,7 @@
 	// ensure that we don't try to send "html" down to the client
 	header("Content-Type: application/json");
 
-	require_once("./JSON.php");
+	// require_once("./JSON.php");
 
 	$json = new Services_JSON;
 	$method = $_REQUEST["method"];

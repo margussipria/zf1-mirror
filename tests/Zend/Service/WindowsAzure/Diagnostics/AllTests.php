@@ -20,7 +20,7 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
 
-require_once 'Zend/Service/WindowsAzure/Diagnostics/ManagerTest.php';
+// require_once 'Zend/Service/WindowsAzure/Diagnostics/ManagerTest.php';
 
 /**
  * @category   Zend

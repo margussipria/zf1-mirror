@@ -21,7 +21,7 @@
  */
 
 /** Zend_Service_WindowsAzure_Credentials_SharedKeyLite */
-require_once 'Zend/Service/WindowsAzure/Credentials/SharedKeyLite.php';
+// require_once 'Zend/Service/WindowsAzure/Credentials/SharedKeyLite.php';
 
 /**
  * @category   Zend

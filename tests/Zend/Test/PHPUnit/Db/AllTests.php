@@ -24,14 +24,14 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Test_PHPUnit_Db_AllTests::main');
 }
 
-require_once "DataSet/AllTests.php";
-require_once "Operation/AllTests.php";
-require_once "Metadata/GenericTest.php";
-require_once "TestCaseTest.php";
-require_once "ConnectionTest.php";
-require_once "SimpleTesterTest.php";
-require_once "Integration/SqLiteIntegrationTest.php";
-require_once "Integration/MysqlIntegrationTest.php";
+// require_once "DataSet/AllTests.php";
+// require_once "Operation/AllTests.php";
+// require_once "Metadata/GenericTest.php";
+// require_once "TestCaseTest.php";
+// require_once "ConnectionTest.php";
+// require_once "SimpleTesterTest.php";
+// require_once "Integration/SqLiteIntegrationTest.php";
+// require_once "Integration/MysqlIntegrationTest.php";
 
 /**
  * @category   Zend

@@ -20,11 +20,11 @@
  * @version    $Id: ControllerTest.php 24466 2011-09-25 02:19:39Z jaguarnet7 $
  */
 
-require_once 'Zend/Tool/Project/Profile.php';
-require_once 'Zend/Tool/Project/Provider/Abstract.php';
-require_once 'Zend/Tool/Framework/Provider/Pretendable.php';
-require_once 'Zend/Tool/Project/Provider/Controller.php';
-require_once 'Zend/Tool/Project/Provider/Exception.php';
+// require_once 'Zend/Tool/Project/Profile.php';
+// require_once 'Zend/Tool/Project/Provider/Abstract.php';
+// require_once 'Zend/Tool/Framework/Provider/Pretendable.php';
+// require_once 'Zend/Tool/Project/Provider/Controller.php';
+// require_once 'Zend/Tool/Project/Provider/Exception.php';
         
 /**
  * @category   Zend

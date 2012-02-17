@@ -23,12 +23,12 @@
 /**
  * @see Zend_Db_TestSetup
  */
-require_once 'Zend/Db/TestSetup.php';
+// require_once 'Zend/Db/TestSetup.php';
 
 /**
  * @see Zend_Loader
  */
-require_once 'Zend/Loader.php';
+// require_once 'Zend/Loader.php';
 
 
 

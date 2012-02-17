@@ -23,12 +23,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Feed_Pubsubhubbub_AllTests::main');
 }
 
-require_once 'Zend/Feed/Pubsubhubbub/PubsubhubbubTest.php';
-require_once 'Zend/Feed/Pubsubhubbub/PublisherTest.php';
-require_once 'Zend/Feed/Pubsubhubbub/SubscriberTest.php';
-require_once 'Zend/Feed/Pubsubhubbub/SubscriberHttpTest.php';
-require_once 'Zend/Feed/Pubsubhubbub/Model/AllTests.php';
-require_once 'Zend/Feed/Pubsubhubbub/Subscriber/CallbackTest.php';
+// require_once 'Zend/Feed/Pubsubhubbub/PubsubhubbubTest.php';
+// require_once 'Zend/Feed/Pubsubhubbub/PublisherTest.php';
+// require_once 'Zend/Feed/Pubsubhubbub/SubscriberTest.php';
+// require_once 'Zend/Feed/Pubsubhubbub/SubscriberHttpTest.php';
+// require_once 'Zend/Feed/Pubsubhubbub/Model/AllTests.php';
+// require_once 'Zend/Feed/Pubsubhubbub/Subscriber/CallbackTest.php';
 
 
 /**

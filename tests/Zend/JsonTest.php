@@ -23,22 +23,22 @@
 /**
  * @see Zend_Json
  */
-require_once 'Zend/Json.php';
+// require_once 'Zend/Json.php';
 
 /**
  * @see Zend_Json_Expr
  */
-require_once 'Zend/Json/Expr.php';
+// require_once 'Zend/Json/Expr.php';
 
 /**
  * @see Zend_Json_Encoder
  */
-require_once 'Zend/Json/Encoder.php';
+// require_once 'Zend/Json/Encoder.php';
 
 /**
  * @see Zend_Json_Decoder
  */
-require_once 'Zend/Json/Decoder.php';
+// require_once 'Zend/Json/Decoder.php';
 
 /**
  * @category   Zend
@@ -813,7 +813,7 @@ EOB;
             $this->markTestSkipped('Namespaces not available in PHP < 5.3.0');
         }
         
-        require_once dirname(__FILE__ ) . "/Json/_files/ZF11356-NamespacedClass.php";        
+        // require_once dirname(__FILE__ ) . "/Json/_files/ZF11356-NamespacedClass.php";        
         $inputValue = new \Zend\JsonTest\ZF11356\NamespacedClass(array('foo'));
         
         $encoded = Zend_Json_Encoder::encode($inputValue);

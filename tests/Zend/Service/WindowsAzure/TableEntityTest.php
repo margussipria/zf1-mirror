@@ -21,7 +21,7 @@
  */
 
 /** Zend_Service_WindowsAzure_Storage_TableEntity */
-require_once 'Zend/Service/WindowsAzure/Storage/TableEntity.php';
+// require_once 'Zend/Service/WindowsAzure/Storage/TableEntity.php';
 
 /**
  * @category   Zend

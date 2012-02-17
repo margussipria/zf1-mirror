@@ -24,16 +24,16 @@
 /**
  * Test helper
  */
-require_once dirname(__FILE__) . '/../TestHelper.php';
+// require_once dirname(__FILE__) . '/../TestHelper.php';
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'ZendX_AllTests::main');
 }
 
-require_once 'ZendX/Application/AllTests.php';
-require_once 'ZendX/Console/AllTests.php';
-require_once 'ZendX/JQuery/AllTests.php';
-require_once 'ZendX/Db/AllTests.php';
+// require_once 'ZendX/Application/AllTests.php';
+// require_once 'ZendX/Console/AllTests.php';
+// require_once 'ZendX/JQuery/AllTests.php';
+// require_once 'ZendX/Db/AllTests.php';
 
 /**
  * @category   ZendX

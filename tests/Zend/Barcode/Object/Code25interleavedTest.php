@@ -20,9 +20,9 @@
  * @version    $Id: Code25interleavedTest.php 23775 2011-03-01 17:25:24Z ralph $
  */
 
-require_once dirname(__FILE__) . '/TestCommon.php';
+// require_once dirname(__FILE__) . '/TestCommon.php';
 
-require_once 'Zend/Barcode/Object/Code25interleaved.php';
+// require_once 'Zend/Barcode/Object/Code25interleaved.php';
 
 /**
  * @category   Zend

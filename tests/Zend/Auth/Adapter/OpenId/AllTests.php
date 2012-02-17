@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Auth_Adapter_OpenId_AllTests::main');
 }
 
-require_once 'Zend/Auth/Adapter/OpenId/OpenIdTest.php';
+// require_once 'Zend/Auth/Adapter/OpenId/OpenIdTest.php';
 
 /**
  * @category   Zend

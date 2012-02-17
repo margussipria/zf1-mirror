@@ -26,7 +26,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Date_AllTests::main');
 }
 
-require_once 'Zend/Date/DateObjectTest.php';
+// require_once 'Zend/Date/DateObjectTest.php';
 
 /**
  * @category   Zend

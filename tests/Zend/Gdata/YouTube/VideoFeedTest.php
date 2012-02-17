@@ -20,8 +20,8 @@
  * @version    $Id $
  */
 
-require_once 'Zend/Gdata/YouTube/VideoFeed.php';
-require_once 'Zend/Gdata/YouTube.php';
+// require_once 'Zend/Gdata/YouTube/VideoFeed.php';
+// require_once 'Zend/Gdata/YouTube.php';
 
 /**
  * @category   Zend

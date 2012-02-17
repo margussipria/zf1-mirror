@@ -22,12 +22,12 @@
 /**
  * @see Zend_Db_Adapter_TestCommon
  */
-require_once 'Zend/Db/Adapter/TestCommon.php';
+// require_once 'Zend/Db/Adapter/TestCommon.php';
 
 /**
  * @see Zend_Db_Adapter_Firebird
  */
-require_once 'ZendX/Db/Adapter/Firebird.php';
+// require_once 'ZendX/Db/Adapter/Firebird.php';
 
 PHPUnit_Util_Filter::addFileToFilter(__FILE__);
 

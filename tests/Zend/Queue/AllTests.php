@@ -24,31 +24,31 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Queue_AllTests::main');
 }
 
-require_once 'Zend/Queue/FactoryTest.php';
+// require_once 'Zend/Queue/FactoryTest.php';
 
 // Queue testing
-require_once 'Zend/Queue/Queue1Test.php'; // Zend_Queue_Adapter_Array
-require_once 'Zend/Queue/Queue2Test.php'; // Zend_Queue_Adapter_Null
+// require_once 'Zend/Queue/Queue1Test.php'; // Zend_Queue_Adapter_Array
+// require_once 'Zend/Queue/Queue2Test.php'; // Zend_Queue_Adapter_Null
 
 // Message testing
-require_once 'Zend/Queue/MessageTest.php';
-require_once 'Zend/Queue/Message/IteratorTest.php';
+// require_once 'Zend/Queue/MessageTest.php';
+// require_once 'Zend/Queue/Message/IteratorTest.php';
 
 // Adapter testing
-require_once 'Zend/Queue/Adapter/AdapterTest.php';
-require_once 'Zend/Queue/Adapter/ArrayTest.php';
-require_once 'Zend/Queue/Adapter/MemcacheqTest.php';
-require_once 'Zend/Queue/Adapter/NullTest.php';
-require_once 'Zend/Queue/Adapter/DbTest.php';
-require_once 'Zend/Queue/Adapter/PlatformJobQueueTest.php';
+// require_once 'Zend/Queue/Adapter/AdapterTest.php';
+// require_once 'Zend/Queue/Adapter/ArrayTest.php';
+// require_once 'Zend/Queue/Adapter/MemcacheqTest.php';
+// require_once 'Zend/Queue/Adapter/NullTest.php';
+// require_once 'Zend/Queue/Adapter/DbTest.php';
+// require_once 'Zend/Queue/Adapter/PlatformJobQueueTest.php';
 
 // Stomp protocol testing
-require_once 'Zend/Queue/Stomp/FrameTest.php';
-require_once 'Zend/Queue/Stomp/ClientTest.php';
+// require_once 'Zend/Queue/Stomp/FrameTest.php';
+// require_once 'Zend/Queue/Stomp/ClientTest.php';
 
 // Message Queues dependent on Stomp
-require_once 'Zend/Queue/Adapter/ActivemqTest.php';
-require_once 'Zend/Queue/Adapter/ActivemqOfflineTest.php';
+// require_once 'Zend/Queue/Adapter/ActivemqTest.php';
+// require_once 'Zend/Queue/Adapter/ActivemqOfflineTest.php';
 
 /**
  * @category   Zend
