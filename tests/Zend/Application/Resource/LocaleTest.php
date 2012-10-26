@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Application
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: LocaleTest.php 24112 2011-06-04 01:28:08Z freak $
+ * @version    $Id: LocaleTest.php 24676 2012-03-12 13:24:39Z matthew $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -33,7 +33,7 @@ require_once 'Zend/Loader/Autoloader.php';
  * @category   Zend
  * @package    Zend_Application
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Application
  */
@@ -147,7 +147,7 @@ class Zend_Application_Resource_LocaleTest extends PHPUnit_Framework_TestCase
         $resource = new Zend_Application_Resource_Locale($config);
         $resource->init();
         $backend = Zend_Locale::getCache()->getBackend();
-        $this->assertInstanceOf('Zend_Cache_Backend_BlackHole', $backend);
+        $this->assertType('Zend_Cache_Backend_BlackHole', $backend);
         Zend_Locale::removeCache();
     }
 

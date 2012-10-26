@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Oauth
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: OauthTest.php 24415 2011-08-27 22:09:37Z adamlundrigan $
+ * @version    $Id: OauthTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 require_once 'Zend/Oauth.php';
@@ -28,7 +28,7 @@ class Test_Http_Client_19485876 extends Zend_Http_Client {}
  * @category   Zend
  * @package    Zend_Oauth
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Oauth
  */

@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_View
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: FormTest.php 24478 2011-09-26 19:52:58Z adamlundrigan $
+ * @version    $Id: FormTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 // Call Zend_View_Helper_FormTest::main() if this source file is executed directly.
@@ -34,7 +34,7 @@ require_once 'Zend/View/Helper/Form.php';
  * @category   Zend
  * @package    Zend_View
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_View
  * @group      Zend_View_Helper
@@ -166,18 +166,6 @@ class Zend_View_Helper_FormTest extends PHPUnit_Framework_TestCase
         $this->view->doctype('XHTML11');
         $form = $this->helper->form('FormName', array('action' => '/foo', 'method' => 'get'));
         $this->assertNotRegexp('/<form[^>]*(name="FormName")/', $form);
-    }    
-
-    /**
-     * @group ZF-11747
-     */
-    public function testClosingTagIsPrintedWhenContentIsOmitted()
-    {
-        $form = $this->helper->form('FormName');
-        // Check that opening tag was printed
-        $this->assertContains('<form', $form);
-        // Check that closing tag was printed
-        $this->assertContains('</form>', $form);
     }    
 }
 

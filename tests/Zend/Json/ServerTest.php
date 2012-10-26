@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Json_Server
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ServerTest.php 24461 2011-09-11 19:25:08Z padraic $
+ * @version    $Id: ServerTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 // Call Zend_Json_ServerTest::main() if this source file is executed directly.
@@ -36,7 +36,7 @@ require_once 'Zend/Json.php';
  * @category   Zend
  * @package    Zend_Json_Server
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Json
  * @group      Zend_Json_Server

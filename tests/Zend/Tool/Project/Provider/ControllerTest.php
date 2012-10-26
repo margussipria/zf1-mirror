@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Tool
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ControllerTest.php 24466 2011-09-25 02:19:39Z jaguarnet7 $
+ * @version    $Id: ControllerTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 require_once 'Zend/Tool/Project/Profile.php';
@@ -30,7 +30,7 @@ require_once 'Zend/Tool/Project/Provider/Exception.php';
  * @category   Zend
  * @package    Zend_Tool
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  *
  * @group Zend_Tool

@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Controller
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ViewRendererTest.php 24282 2011-07-28 18:59:26Z matthew $
+ * @version    $Id: ViewRendererTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 // Call Zend_Controller_Action_Helper_ViewRendererTest::main() if this source file is executed directly.
@@ -41,7 +41,7 @@ require_once dirname(__FILE__) . '/../../_files/modules/bar/controllers/IndexCon
  * @category   Zend
  * @package    Zend_Controller
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Controller
  * @group      Zend_Controller_Action

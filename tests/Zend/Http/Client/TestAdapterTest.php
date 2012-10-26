@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Http_Client
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: TestAdapterTest.php 24309 2011-07-30 02:52:32Z ramon $
+ * @version    $Id: TestAdapterTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 require_once 'Zend/Http/Client.php';
@@ -29,7 +29,7 @@ require_once 'Zend/Http/Client/Adapter/Test.php';
  * @category   Zend
  * @package    Zend_Http_Client
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Http
  * @group      Zend_Http_Client

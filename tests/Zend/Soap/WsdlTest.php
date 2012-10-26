@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Soap
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: WsdlTest.php 23775 2011-03-01 17:25:24Z ralph $
+ * @version    $Id: WsdlTest.php 24601 2012-01-10 21:16:28Z ralph $
  */
 
 /** Zend_Soap_Wsdl */
@@ -35,7 +35,7 @@ require_once 'Zend/Soap/Wsdl/Strategy/ArrayOfTypeSequence.php';
  * @category   Zend
  * @package    Zend_Soap
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Soap
  * @group      Zend_Soap_Wsdl
@@ -634,6 +634,15 @@ class Zend_Soap_WsdlTest extends PHPUnit_Framework_TestCase
         $this->assertEquals("xsd:int", $wsdl->getType("INTEGER"));
         $this->assertEquals("xsd:float", $wsdl->getType("FLOAT"));
         $this->assertEquals("xsd:float", $wsdl->getType("douBLE"));
+    }
+
+    /**
+     * @group ZF-11937
+     */
+    public function testWsdlGetTypeWillAllowLongType()
+    {
+        $wsdl = new Zend_Soap_Wsdl('MyService', 'http://localhost/MyService.php');
+        $this->assertEquals("xsd:long", $wsdl->getType("long"));
     }
 
     /**

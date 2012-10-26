@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Navigation
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ContainerTest.php 24459 2011-09-11 18:36:38Z padraic $
+ * @version    $Id: ContainerTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 require_once 'Zend/Navigation.php';
@@ -29,7 +29,7 @@ require_once 'Zend/Config.php';
  * @category   Zend
  * @package    Zend_Navigation
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Navigation
  */

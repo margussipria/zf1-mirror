@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Validate
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: EmailAddressTest.php 24304 2011-07-30 01:12:35Z adamlundrigan $
+ * @version    $Id: EmailAddressTest.php 24661 2012-02-26 07:32:09Z adamlundrigan $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -33,7 +33,7 @@ require_once 'Zend/Validate/EmailAddress.php';
  * @category   Zend
  * @package    Zend_Validate
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Validate
  */
@@ -560,6 +560,15 @@ class Zend_Validate_EmailAddressTest extends PHPUnit_Framework_TestCase
         if (strstr($errstr, 'deprecated')) {
             $this->multipleOptionsDetected = true;
         }
+    }
+    
+    /**
+     * @group ZF-11239
+     */
+    public function testNotSetHostnameValidator()
+    {
+        $hostname = $this->_validator->getHostnameValidator();
+        $this->assertTrue($hostname instanceof Zend_Validate_Hostname);
     }
 }
 

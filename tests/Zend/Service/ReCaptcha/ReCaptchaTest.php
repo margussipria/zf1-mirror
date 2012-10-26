@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Service_ReCaptcha
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ReCaptchaTest.php 24224 2011-07-12 17:45:49Z matthew $
+ * @version    $Id: ReCaptchaTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 /** @see Zend_Service_ReCaptcha */
@@ -33,7 +33,7 @@ require_once 'Zend/Config.php';
  * @category   Zend
  * @package    Zend_Service_ReCaptcha
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Service
  * @group      Zend_Service_ReCaptcha

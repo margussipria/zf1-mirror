@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Controller
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: BrokerTest.php 24317 2011-07-30 13:40:07Z mikaelkael $
+ * @version    $Id: BrokerTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 // Call Zend_Controller_Plugin_BrokerTest::main() if this source file is executed directly.
@@ -44,7 +44,7 @@ require_once 'Zend/Controller/Response/Cli.php';
  * @category   Zend
  * @package    Zend_Controller
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Controller
  * @group      Zend_Controller_Plugin

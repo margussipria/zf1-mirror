@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Filter
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: InputTest.php 24472 2011-09-26 17:11:35Z matthew $
+ * @version    $Id: InputTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 /**
@@ -35,7 +35,7 @@ require_once 'Zend/Loader.php';
  * @category   Zend
  * @package    Zend_Filter
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Filter
  */
@@ -2282,6 +2282,23 @@ class Zend_Filter_InputTest extends PHPUnit_Framework_TestCase
         $input = new Zend_Filter_Input( null, $validators, $data, $options );
         $this->assertFalse($input->isValid(), 'If the NotEmpty validator is an array, the NotEmpty validator is ignored !');
     }
+    
+    /**
+     * This test doesn't include any assertions as it's purpose is to 
+     * ensure that passing an empty array value into a $validators rule 
+     * doesn't cause a notice to be emitted
+     *  
+     * @group ZF-11819
+     */
+    public function testValidatorRuleCanHaveEmptyArrayAsMetacommandValue()
+    {
+        $validators = array(
+            'perms' => array('Int', 'default' => array()),
+        );
+
+        $validate = new Zend_Filter_Input(NULL, $validators);
+        $validate->isValid();
+    }    
 }
 
 class MyZend_Filter_Date implements Zend_Filter_Interface

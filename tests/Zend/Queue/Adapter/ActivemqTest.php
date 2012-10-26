@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Queue
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ActivemqTest.php 24329 2011-07-31 04:13:18Z adamlundrigan $
+ * @version    $Id: ActivemqTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 /*
@@ -34,7 +34,7 @@ require_once 'Zend/Queue/Adapter/AdapterTest.php';
  * @category   Zend
  * @package    Zend_Queue
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Queue
  */

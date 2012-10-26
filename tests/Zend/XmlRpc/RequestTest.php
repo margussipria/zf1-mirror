@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_XmlRpc
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version $Id: RequestTest.php 23775 2011-03-01 17:25:24Z ralph $
+ * @version $Id: RequestTest.php 24971 2012-06-18 16:25:28Z matthew $
  */
 
 require_once 'Zend/XmlRpc/Request.php';
@@ -31,7 +31,7 @@ require_once 'Zend/XmlRpc/Value/String.php';
  * @category   Zend
  * @package    Zend_XmlRpc
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_XmlRpc
  */
@@ -348,5 +348,20 @@ class Zend_XmlRpc_RequestTest extends PHPUnit_Framework_TestCase
         $this->assertSame($this->_request, $this->_request->setEncoding('ISO-8859-1'));
         $this->assertEquals('ISO-8859-1', $this->_request->getEncoding());
         $this->assertEquals('ISO-8859-1', Zend_XmlRpc_Value::getGenerator()->getEncoding());
+    }
+
+    /**
+     * @group ZF-12293
+     */
+    public function testDoesNotAllowExternalEntities()
+    {
+        $payload = file_get_contents(dirname(__FILE__) . '/_files/ZF12293-request.xml');
+        $payload = sprintf($payload, 'file://' . realpath(dirname(__FILE__) . '/_files/ZF12293-payload.txt'));
+        $this->_request->loadXml($payload);
+        $method = $this->_request->getMethod();
+        $this->assertTrue(empty($method));
+        if (is_string($method)) {
+            $this->assertNotContains('Local file inclusion', $method);
+        }
     }
 }

@@ -16,7 +16,7 @@
  * @package    Zend_Service_WindowsAzure
  * @subpackage UnitTests
  * @version    $Id$
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
 
@@ -39,7 +39,7 @@ require_once 'Zend/Service/WindowsAzure/SessionHandlerTest.php';
  * @package    Zend_Service_WindowsAzure
  * @subpackage UnitTests
  * @version    $Id$
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Service_WindowsAzure_AllTests
@@ -47,7 +47,7 @@ class Zend_Service_WindowsAzure_AllTests
 
     public static function suite()
     {
-        $suite = new PHPUnit_Framework_TestSuite();
+        $suite = new PHPUnit_Framework_TestSuite('Zend Framework - Zend_Service_WindowsAzure');
 
         $suite->addTest(Zend_Service_WindowsAzure_Credentials_AllTests::suite());
         $suite->addTest(Zend_Service_WindowsAzure_Diagnostics_AllTests::suite());

@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Validate
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: HostnameTest.php 24307 2011-07-30 02:13:14Z adamlundrigan $
+ * @version    $Id: HostnameTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 /**
@@ -30,7 +30,7 @@ require_once 'Zend/Validate/Hostname.php';
  * @category   Zend
  * @package    Zend_Validate
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Validate
  */
@@ -439,6 +439,20 @@ class Zend_Validate_HostnameTest extends PHPUnit_Framework_TestCase
         $this->assertTrue($validator->isValid('::192.9.5.5'));
         $this->assertTrue($validator->isValid('::FFFF:129.144.52.38'));
         $this->assertTrue($validator->isValid('2010:836B:4179::836B:4179'));
+    }
+    
+    /**
+     * @group ZF-11796
+     */
+    public function testIDNSI()
+    {
+        $validator = new Zend_Validate_Hostname(Zend_Validate_Hostname::ALLOW_ALL);
+        
+        $this->assertTrue($validator->isValid('Test123.si'));
+        $this->assertTrue($validator->isValid('țest123.si'));
+        $this->assertTrue($validator->isValid('tĕst123.si'));
+        $this->assertTrue($validator->isValid('tàrø.si'));
+        $this->assertFalse($validator->isValid('رات.si'));
     }
 
 }

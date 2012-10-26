@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Service_Amazon_S3
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: OnlineTest.php 24083 2011-05-30 10:52:55Z ezimuel $
+ * @version    $Id: OnlineTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 /**
@@ -35,7 +35,7 @@ require_once 'Zend/Http/Client/Adapter/Socket.php';
  * @category   Zend
  * @package    Zend_Service_Amazon_S3
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Service
  * @group      Zend_Service_Amazon
@@ -510,7 +510,7 @@ class Zend_Service_Amazon_S3_OnlineTest extends PHPUnit_Framework_TestCase
  * @category   Zend
  * @package    Zend_Service_Amazon
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Service
  * @group      Zend_Service_Amazon

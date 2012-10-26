@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Soap
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ServerTest.php 24066 2011-05-28 19:42:53Z ralph $
+ * @version    $Id: ServerTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 /** Zend_Soap_Server */
@@ -34,7 +34,7 @@ require_once "Zend/Config.php";
  * @package    Zend_Soap
  * @subpackage UnitTests
  * @uses       Zend_Server_Interface
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Soap
  * @group      Zend_Soap_Server

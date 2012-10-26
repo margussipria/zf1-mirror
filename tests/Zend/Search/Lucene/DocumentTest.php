@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Search_Lucene
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: DocumentTest.php 24207 2011-07-06 16:44:17Z matthew $
+ * @version    $Id: DocumentTest.php 24594 2012-01-05 21:27:01Z matthew $
  */
 
 /**
@@ -54,7 +54,7 @@ require_once 'Zend/Search/Lucene/Document/Html.php';
  * @category   Zend
  * @package    Zend_Search_Lucene
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Search_Lucene
  */

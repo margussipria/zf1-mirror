@@ -15,9 +15,9 @@
  * @category   Zend
  * @package    Zend_Form
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: CaptchaTest.php 24294 2011-07-28 21:34:50Z matthew $
+ * @version    $Id: CaptchaTest.php 24774 2012-05-07 22:13:37Z adamlundrigan $
  */
 
 // Call Zend_Form_Element_CaptchaTest::main() if this source file is executed directly.
@@ -38,7 +38,7 @@ require_once 'Zend/Captcha/ReCaptcha.php';
  * @category   Zend
  * @package    Zend_Form
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Form
  */
@@ -102,6 +102,28 @@ class Zend_Form_Element_CaptchaTest extends PHPUnit_Framework_TestCase
         $loader = $this->element->getPluginLoader('captcha');
         $paths  = $loader->getPaths('My_Captcha');
         $this->assertTrue(is_array($paths));
+    }
+
+    /**
+     * @group ZF-12161
+     */
+    public function testSettingCustomCaptchaAdapterPerConstructor()
+    {
+        $element = new Zend_Form_Element_Captcha(
+            'foo',
+            array(
+                'prefixPath' => array(
+                    'prefix' => 'Zend_Form_Element_CaptchaTest',
+                    'path'   => dirname(__FILE__) . '/_files',
+                ),
+                'captcha' => 'Foo',
+            )
+        );
+
+        $this->assertType(
+            'Zend_Form_Element_CaptchaTest_Captcha_Foo',
+            $element->getCaptcha()
+        );
     }
 
     /**
@@ -394,7 +416,7 @@ class Zend_Form_Element_CaptchaTest extends PHPUnit_Framework_TestCase
  * @category   Zend
  * @package    Zend_Form
  * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @group      Zend_Form
  */
