@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Reviewed: no -->
-<!-- EN-Revision: 23820 -->
+<!-- EN-Revision: 24249 -->
 <appendix id="coding-standard">
     <title>Zend Framework PHP 標準コーディング規約</title>
     <sect1 id="coding-standard.overview">
@@ -189,6 +189,7 @@
                     将来のバージョンでは規約に従うよう名前が変わる予定です。
                 </para>
 
+                <!-- TODO : to be translated -->
                 <para>
                     The rationale for the change is due to namespace usage. As we look towards Zend
                     Framework 2.0 and usage of <acronym>PHP</acronym> 5.3, we will be using

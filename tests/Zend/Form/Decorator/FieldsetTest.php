@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: FieldsetTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: FieldsetTest.php 24961 2012-06-15 14:15:47Z adamlundrigan $
  */
 
 // Call Zend_Form_Decorator_FieldsetTest::main() if this source file is executed directly.
@@ -228,6 +228,34 @@ class Zend_Form_Decorator_FieldsetTest extends PHPUnit_Framework_TestCase
                                 ->setOption('id', 'fieldset-id')
                                 ->render('content');
         $this->assertContains('<fieldset id="fieldset-id"', $html);
+    }
+
+    /**
+     * @group ZF-8822
+     */
+    public function testStripAcceptCharsetAttribute()
+    {
+        $form = new Zend_Form();
+        $form->setAttrib('accept-charset', 'ISO-8859-15');
+        $form->setView($this->getView());
+
+        $html = $this->decorator->setElement($form)->render('');
+
+        $this->assertEquals('<fieldset></fieldset>', $html);
+    }
+    
+    /**
+     * @group ZF-10803
+     */
+    public function testFormIdOverridesFieldsetId()
+    {
+        $form = new Zend_Form();
+        $form->setAttrib('id', 'form-id')
+             ->setView($this->getView());
+        
+        $html = $this->decorator->setElement($form)->render('content');
+        
+        $this->assertContains('<fieldset id="fieldset-form-id"', $html);
     }
 }
 

@@ -18,7 +18,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: AllTests.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: AllTests.php 24764 2012-05-06 00:18:27Z adamlundrigan $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -46,6 +46,7 @@ require_once 'Zend/Crypt/AllTests.php';
 require_once 'Zend/DateTest.php';
 require_once 'Zend/Date/AllTests.php';
 require_once 'Zend/DebugTest.php';
+require_once 'Zend/EventManager/AllTests.php';
 require_once 'Zend/ExceptionTest.php';
 require_once 'Zend/Feed/AllTests.php';
 require_once 'Zend/File/AllTests.php';
@@ -188,6 +189,7 @@ class Zend_AllTests
         $suite->addTest(Zend_Db_AllTests::suite());
         $suite->addTestSuite('Zend_DebugTest');
         $suite->addTest(Zend_Dom_AllTests::suite());
+        $suite->addTest(Zend_EventManager_AllTests::suite());
         $suite->addTestSuite('Zend_ExceptionTest');
         $suite->addTest(Zend_Feed_AllTests::suite());
         $suite->addTest(Zend_File_AllTests::suite());

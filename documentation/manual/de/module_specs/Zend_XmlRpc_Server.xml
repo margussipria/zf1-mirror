@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 22760 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.xmlrpc.server">
     <title>Zend_XmlRpc_Server</title>
@@ -80,7 +80,7 @@ echo $server->handle();
             </para>
 
             <para>
-                Services ändern sich mit der Zeit, und wärend sich Webservices generell weniger
+                Services ändern sich mit der Zeit, und während sich Webservices generell weniger
                 intensiv ändern wie Code-native <acronym>APIs</acronym>, wird empfohlen den eigenen
                 Service zu versionieren. Das legt den Grundstein für die Kompatibilität zu Clients
                 welche eine ältere Version des eigenen Services verwenden und managt den
@@ -460,7 +460,7 @@ $server->setClass('Services_PricingService',
 ]]></programlisting>
 
             <para>
-                Die Argumente welche an <methodname>setClass()</methodname> wärend der
+                Die Argumente welche an <methodname>setClass()</methodname> während der
                 Erstellungszeit des Servers übergeben werden, werden dem Methodenaufruf
                 <command>pricing.calculate()</command> injiziert, wenn er aufgerufen wird. Im obigen
                 Beispiel wird vom Client nur das Argument <varname>$purchaseId</varname> erwartet.

@@ -493,6 +493,17 @@
                     <xi:include href="../en/module_specs/Zend_Cloud_StorageService.xml" />
                 </xi:fallback>
             </xi:include>
+            <xi:include href="module_specs/Zend_Cloud_Infrastructure.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Cloud_Infrastructure.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Cloud_Infrastructure_Adapter.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Cloud_Infrastructure_Adapter.xml" />
+                </xi:fallback>
+            </xi:include>
+
         </chapter>
 
         <chapter id="zend.codegenerator">
@@ -839,6 +850,15 @@
             </xi:include>
         </chapter>
 
+        <chapter id="zend.event-manager">
+            <title>Zend_EventManager</title>
+            <xi:include href="module_specs/Zend_EventManager-EventManager.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_EventManager-EventManager.xml" />
+                </xi:fallback>
+            </xi:include>
+        </chapter>
+
         <chapter id="zend.exception">
             <title>Zend_Exception</title>
             <xi:include href="module_specs/Zend_Exception.xml">
@@ -1026,6 +1046,11 @@
                     <xi:include href="../en/module_specs/Zend_Gdata-Introduction.xml" />
                 </xi:fallback>
             </xi:include>
+            <xi:include href="module_specs/Zend_Gdata_Analytics.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Gdata_Analytics.xml" />
+                </xi:fallback>
+            </xi:include>
             <xi:include href="module_specs/Zend_Gdata_AuthSub.xml">
                 <xi:fallback>
                     <xi:include href="../en/module_specs/Zend_Gdata_AuthSub.xml" />
@@ -1051,11 +1076,6 @@
                     <xi:include href="../en/module_specs/Zend_Gdata_Docs.xml" />
                 </xi:fallback>
             </xi:include>
-            <xi:include href="module_specs/Zend_Gdata_Health.xml">
-                <xi:fallback>
-                    <xi:include href="../en/module_specs/Zend_Gdata_Health.xml" />
-                </xi:fallback>
-            </xi:include>
             <xi:include href="module_specs/Zend_Gdata_Spreadsheets.xml">
                 <xi:fallback>
                     <xi:include href="../en/module_specs/Zend_Gdata_Spreadsheets.xml" />
@@ -1064,11 +1084,6 @@
             <xi:include href="module_specs/Zend_Gdata_Gapps.xml">
                 <xi:fallback>
                     <xi:include href="../en/module_specs/Zend_Gdata_Gapps.xml" />
-                </xi:fallback>
-            </xi:include>
-            <xi:include href="module_specs/Zend_Gdata_Gbase.xml">
-                <xi:fallback>
-                    <xi:include href="../en/module_specs/Zend_Gdata_Gbase.xml" />
                 </xi:fallback>
             </xi:include>
             <xi:include href="module_specs/Zend_Gdata_Photos.xml">
@@ -1130,9 +1145,9 @@
                     <xi:include href="../en/module_specs/Zend_Http_UserAgent-Features.xml" />
                 </xi:fallback>
             </xi:include>
-            <xi:include href="module_specs/Zend_Http_UserAgent-Features_Wurfl.xml">
+            <xi:include href="module_specs/Zend_Http_UserAgent-Features_Browscap.xml">
                 <xi:fallback>
-                    <xi:include href="../en/module_specs/Zend_Http_UserAgent-Features_Wurfl.xml" />
+                    <xi:include href="../en/module_specs/Zend_Http_UserAgent-Features_Browscap.xml" />
                 </xi:fallback>
             </xi:include>
             <xi:include href="module_specs/Zend_Http_UserAgent-Features_DeviceAtlas.xml">
@@ -1278,6 +1293,31 @@
             <xi:include href="module_specs/Zend_Loader-PluginLoader.xml">
                 <xi:fallback>
                     <xi:include href="../en/module_specs/Zend_Loader-PluginLoader.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Loader-SplAutoloader.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Loader-SplAutoloader.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Loader-AutoloaderFactory.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Loader-AutoloaderFactory.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Loader-StandardAutoloader.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Loader-StandardAutoloader.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Loader-ClassMapAutoloader.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Loader-ClassMapAutoloader.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Loader-Classmap_Generator.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Loader-Classmap_Generator.xml" />
                 </xi:fallback>
             </xi:include>
         </chapter>
@@ -1501,6 +1541,30 @@
             <xi:include href="module_specs/Zend_Mime_Part.xml">
                 <xi:fallback>
                     <xi:include href="../en/module_specs/Zend_Mime_Part.xml" />
+                </xi:fallback>
+            </xi:include>
+        </chapter>
+
+        <chapter id="zend.mobile.push">
+            <title>Zend_Mobile_Push</title>
+            <xi:include href="module_specs/Zend_Mobile_Push-Introduction.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Mobile_Push-Introduction.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Mobile_Push-Apns.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Mobile_Push-Apns.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Mobile_Push-Gcm.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Mobile_Push-Gcm.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Mobile_Push-Mpns.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Mobile_Push-Mpns.xml" />
                 </xi:fallback>
             </xi:include>
         </chapter>
@@ -1917,6 +1981,21 @@
                     <xi:include href="../en/module_specs/Zend_Service_Nirvanix.xml" />
                 </xi:fallback>
             </xi:include>
+            <xi:include href="module_specs/Zend_Service_Rackspace.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Service_Rackspace.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Service_Rackspace_Files.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Service_Rackspace_Files.xml" />
+                </xi:fallback>
+            </xi:include>
+            <xi:include href="module_specs/Zend_Service_Rackspace_Servers.xml">
+                <xi:fallback>
+                    <xi:include href="../en/module_specs/Zend_Service_Rackspace_Servers.xml" />
+                </xi:fallback>
+            </xi:include>
             <xi:include href="module_specs/Zend_Service-ReCaptcha.xml">
                 <xi:fallback>
                     <xi:include href="../en/module_specs/Zend_Service-ReCaptcha.xml" />
@@ -1925,11 +2004,6 @@
             <xi:include href="module_specs/Zend_Service_ShortUrl.xml">
                 <xi:fallback>
                     <xi:include href="../en/module_specs/Zend_Service_ShortUrl.xml" />
-                </xi:fallback>
-            </xi:include>
-            <xi:include href="module_specs/Zend_Service_Simpy.xml">
-                <xi:fallback>
-                    <xi:include href="../en/module_specs/Zend_Service_Simpy.xml" />
                 </xi:fallback>
             </xi:include>
             <xi:include href="module_specs/Zend_Service_SlideShare.xml">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 17171 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect3 id="zend.controller.actionhelpers.redirector">
     <title>Redirector</title>
@@ -26,7 +26,7 @@
             <listitem>
                 <para>
                     <methodname>setCode()</methodname> kann verwendet werden um den
-                    <acronym>HTTP</acronym> Antwort Code zu setzen der wärend des Umleitens
+                    <acronym>HTTP</acronym> Antwort Code zu setzen der während des Umleitens
                     verwendet werden soll.
                 </para>
             </listitem>

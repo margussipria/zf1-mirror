@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: FileTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: FileTest.php 24876 2012-06-04 14:01:44Z adamlundrigan $
  */
 
 // Call Zend_Form_Element_FileTest::main() if this source file is executed directly.
@@ -490,6 +490,21 @@ class Zend_Form_Element_FileTest extends PHPUnit_Framework_TestCase
     public function testFluentInterfaceOnLoadDefaultDecorators()
     {
         $this->assertSame($this->element, $this->element->loadDefaultDecorators());
+    }
+    
+    /**
+     * @group ZF-12173
+     */
+    public function testElementShouldAllowAdapterWithBackslahes()
+    {
+        if (version_compare(PHP_VERSION, '5.3.0', '<')) {
+            $this->markTestSkipped(__CLASS__ . '::' . __METHOD__ . ' requires PHP 5.3.0 or greater');
+            return;
+        }
+        $this->element->addPrefixPath('Zend\Form\Element\FileTest\Adapter', dirname(__FILE__) . '/_files/TransferAdapter', 'transfer_adapter');
+        $this->element->setTransferAdapter('Bar');
+        $test = $this->element->getTransferAdapter();
+        $this->assertType('\Zend\Form\Element\FileTest\Adapter\Bar', $test);
     }
 }
 

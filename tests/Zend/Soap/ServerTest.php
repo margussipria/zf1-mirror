@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ServerTest.php 25032 2012-08-17 19:45:06Z matthew $
+ * @version    $Id: ServerTest.php 25033 2012-08-17 19:50:08Z matthew $
  */
 
 /** Zend_Soap_Server */
@@ -85,6 +85,24 @@ class Zend_Soap_ServerTest extends PHPUnit_Framework_TestCase
         $this->assertTrue($server->getOptions() == $options);
     }
 
+    public function testSetWsiCompliantViaConstructor()
+    {
+        $options = array(
+            'wsi_compliant' => true
+        );
+        $server = new Zend_Soap_Server(null, $options);
+        $this->assertTrue($server->getWsiCompliant());
+    }
+    
+    public function testSetWsiCompliant()
+    {
+        $server = new Zend_Soap_Server();
+        $server->setWsiCompliant(true);
+        $this->assertTrue($server->getWsiCompliant());
+        $server->setWsiCompliant(false);
+        $this->assertFalse($server->getWsiCompliant());
+    }
+    
     /**
      * @group ZF-9816
      */

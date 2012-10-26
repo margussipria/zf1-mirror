@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 22084 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect2 id="zend.test.phpunit.db.quickstart">
     <title>Quickstart</title>
@@ -88,7 +88,7 @@ class BugsTest extends Zend_Test_PHPUnit_DatabaseTestCase
 
             <listitem>
                 <para>
-                    Datenbank Tests schneiden standardmäßig die Daten wärend
+                    Datenbank Tests schneiden standardmäßig die Daten während
                     <methodname>setUp()</methodname> ab und fügen anschließend die Seed Daten ein,
                     welche von der Methode <methodname>getDataSet()</methodname> zurückgegeben
                     werden.

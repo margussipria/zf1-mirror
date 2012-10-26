@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: VerticalSliderTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: VerticalSliderTest.php 24719 2012-04-28 06:19:07Z rob $
  */
 
 // Call Zend_Dojo_View_Helper_VerticalSliderTest::main() if this source file is executed directly.
@@ -188,7 +188,8 @@ class Zend_Dojo_View_Helper_VerticalSliderTest extends PHPUnit_Framework_TestCas
     public function testShouldCreateOnChangeAttributeByDefault()
     {
         $html = $this->getElement();
-        $this->assertContains('onChange="dojo.byId(\'elementId\').value = arguments[0];"', $html, $html);
+        // Note that ' is converted to &#39; in Zend_View_Helper_HtmlElement::_htmlAttribs() (line 116)
+        $this->assertContains('onChange="dojo.byId(&#39;elementId&#39;).value = arguments[0];"', $html, $html);
     }
 
     public function testShouldCreateHiddenElementWithValue()

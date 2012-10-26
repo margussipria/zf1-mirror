@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 22247 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect2 id="zend.filter.set.alpha">
     <title>Alpha</title>
@@ -74,7 +74,7 @@ print $filter->filter('Das ist (mein) Inhalt: 123');
 
         <para>
             Das oben stehende Beispiel gibt 'Das ist mein Inhalt ' zurück. Es ist zu beachten das
-            alle Klammern, Doppelpunkte und Zahlen entfernt werden wärend die Leerzeichen bleiben.
+            alle Klammern, Doppelpunkte und Zahlen entfernt werden während die Leerzeichen bleiben.
         </para>
 
         <para>

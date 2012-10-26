@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 21815 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.file.transfer.validators">
     <title>Prüfungen für Zend_File_Transfer</title>
@@ -866,7 +866,7 @@ $upload->addValidator('FilesSize',
         <para>
             Die Methoden <methodname>setImageMin()</methodname> und
             <methodname>setImageMax()</methodname> setzen auch beide Minimal- und Maximalwerte im
-            Nachhinein, wärend die <methodname>getMin()</methodname> und
+            Nachhinein, während die <methodname>getMin()</methodname> und
             <methodname>getMax()</methodname> Methoden die aktuell gesetzten Werte zurückgeben.
         </para>
 

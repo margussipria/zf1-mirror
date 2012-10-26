@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: LabelTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: LabelTest.php 24834 2012-05-30 13:49:51Z adamlundrigan $
  */
 
  
@@ -322,6 +322,81 @@ class Zend_Form_Decorator_LabelTest extends PHPUnit_Framework_TestCase
         $this->decorator->setTagClass('');
         $tagClass = $this->decorator->getTagClass();
         $this->assertTrue( NULL === $tagClass, $tagClass );
+    }
+
+    /**
+     * @group ZF-6667
+     */
+    public function testRenderImplicitsOnRequest()
+    {
+        $element = new Zend_Form_Element('foo');
+        $element->setView($this->getView())
+                ->setLabel('My Label');
+
+        $this->decorator->setElement($element)
+                        ->setOptions(
+                            array(
+                                'placement' => 'IMPLICIT',
+                                'separator' => ' ',
+                            )
+                        );
+
+        $content = 'test content';
+        $actual  = $this->decorator->render($content);
+
+        $expected = '<label class="optional">My Label test content</label>';
+
+        $this->assertEquals($expected, $actual);
+    }
+
+    /**
+     * @group ZF-6667
+     */
+    public function testRenderImplicitPrependsOnRequest()
+    {
+        $element = new Zend_Form_Element('foo');
+        $element->setView($this->getView())
+                ->setLabel('My Label');
+
+        $this->decorator->setElement($element)
+                        ->setOptions(
+                            array(
+                                'placement' => 'IMPLICIT_PREPEND',
+                                'separator' => ' ',
+                            )
+                        );
+
+        $content = 'test content';
+        $actual  = $this->decorator->render($content);
+
+        $expected = '<label class="optional">My Label test content</label>';
+
+        $this->assertEquals($expected, $actual);
+    }
+
+    /**
+     * @group ZF-6667
+     */
+    public function testRenderImplicitAppendsOnRequest()
+    {
+        $element = new Zend_Form_Element('foo');
+        $element->setView($this->getView())
+                ->setLabel('My Label');
+
+        $this->decorator->setElement($element)
+                        ->setOptions(
+                            array(
+                                'placement' => 'IMPLICIT_APPEND',
+                                'separator' => ' ',
+                            )
+                        );
+
+        $content = 'test content';
+        $actual  = $this->decorator->render($content);
+
+        $expected = '<label class="optional">test content My Label</label>';
+
+        $this->assertEquals($expected, $actual);
     }
 }
 

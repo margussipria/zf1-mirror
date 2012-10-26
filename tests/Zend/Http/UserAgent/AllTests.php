@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: AllTests.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: AllTests.php 24694 2012-03-21 22:09:32Z matthew $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -26,7 +26,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 
 require_once 'Zend/Http/UserAgentTest.php';
 require_once 'Zend/Http/UserAgent/AbstractDeviceTest.php';
-require_once 'Zend/Http/UserAgent/Features/Adapter/WurflApiTest.php';
+require_once 'Zend/Http/UserAgent/Features/Adapter/BrowscapTest.php';
+require_once 'Zend/Http/UserAgent/Features/Adapter/DeviceAtlasTest.php';
+require_once 'Zend/Http/UserAgent/Features/Adapter/TeraWurflTest.php';
 
 /**
  * @category   Zend
@@ -49,7 +51,9 @@ class Zend_Http_UserAgent_AllTests
 
         $suite->addTestSuite('Zend_Http_UserAgentTest');
         $suite->addTestSuite('Zend_Http_UserAgent_AbstractDeviceTest');
-        $suite->addTestSuite('Zend_Http_UserAgent_Features_Adapter_WurflApiTest');
+        $suite->addTestSuite('Zend_Http_UserAgent_Features_Adapter_BrowscapTest');
+        $suite->addTestSuite('Zend_Http_UserAgent_Features_Adapter_DeviceAtlasTest');
+        $suite->addTestSuite('Zend_Http_UserAgent_Features_Adapter_TeraWurflTest');
 
         return $suite;
     }

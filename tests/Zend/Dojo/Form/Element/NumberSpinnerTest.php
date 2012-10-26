@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: NumberSpinnerTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: NumberSpinnerTest.php 24719 2012-04-28 06:19:07Z rob $
  */
 
 // Call Zend_Dojo_Form_Element_NumberSpinnerTest::main() if this source file is executed directly.
@@ -195,6 +195,8 @@ class Zend_Dojo_Form_Element_NumberSpinnerTest extends PHPUnit_Framework_TestCas
         $this->element->setMin(5)
                       ->setMax(10);
         $html = $this->element->render();
+        // Note that ' is converted to &#39; in Zend_View_Helper_HtmlElement::_htmlAttribs() (line 116)
+        $html = str_replace('&#39;', "'", $html);
         $this->assertRegexp('/\'min\':\s*5/', $html, $html);
         $this->assertRegexp('/\'max\':\s*10/', $html, $html);
     }

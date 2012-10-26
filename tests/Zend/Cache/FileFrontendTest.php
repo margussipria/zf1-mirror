@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: FileFrontendTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: FileFrontendTest.php 24989 2012-06-21 07:24:13Z mabe $
  */
 
 /**
@@ -231,5 +231,4 @@ class Zend_Cache_FileFrontendTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(2, count($this->_instance3->getOption('master_files')));
         $this->assertNotNull($this->_instance3->getOption('master_file'));
     }
-
 }

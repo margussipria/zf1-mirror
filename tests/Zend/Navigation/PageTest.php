@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: PageTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: PageTest.php 24879 2012-06-06 13:09:21Z adamlundrigan $
  */
 
 require_once 'Zend/Navigation/Page.php';
@@ -1156,6 +1156,100 @@ class Zend_Navigation_PageTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($expected, $page->getCustomProperties());
     }
 
+    /**
+     * @group ZF-11876
+     */
+    public function testSetCustomHtmlAttrib()
+    {
+        $page = Zend_Navigation_Page::factory(
+            array(
+                 'type' => 'uri',
+            )
+        );
+
+        $page->setCustomHtmlAttrib('rel', 'nofollow');
+
+        $this->assertEquals('nofollow', $page->getCustomHtmlAttrib('rel'));
+    }
+
+    /**
+     * @group ZF-11876
+     */
+    public function testSetCustomHtmlAttribWithNull()
+    {
+        $page = Zend_Navigation_Page::factory(
+            array(
+                 'type' => 'uri',
+            )
+        );
+
+        $page->setCustomHtmlAttrib('rel', 'nofollow');
+        $page->setCustomHtmlAttrib('rel', null);
+
+        $this->assertNull($page->getCustomHtmlAttrib('rel'));
+    }
+
+    /**
+     * @group ZF-11876
+     */
+    public function testSetCustomHtmlAttribs()
+    {
+        $page = Zend_Navigation_Page::factory(
+            array(
+                 'type' => 'uri',
+            )
+        );
+
+        $attribs = array(
+             'rel'   => 'nofollow',
+             'style' => 'font-weight: bold;',
+        );
+
+        $page->setCustomHtmlAttribs($attribs);
+
+        $this->assertEquals($attribs, $page->getCustomHtmlAttribs());
+    }
+
+    /**
+     * @group ZF-11876
+     */
+    public function testRemoveCustomHtmlAttrib()
+    {
+        $page = Zend_Navigation_Page::factory(
+            array(
+                 'type' => 'uri',
+            )
+        );
+
+        $page->setCustomHtmlAttrib('rel', 'nofollow');
+        $page->removeCustomHtmlAttrib('rel');
+
+        $this->assertEquals(array(), $page->getCustomHtmlAttribs());
+    }
+
+    /**
+     * @group ZF-11876
+     */
+    public function testClearCustomHtmlAttribs()
+    {
+        $page = Zend_Navigation_Page::factory(
+            array(
+                 'type' => 'uri',
+            )
+        );
+
+        $page->setCustomHtmlAttribs(
+            array(
+                 'rel'   => 'nofollow',
+                 'style' => 'font-weight: bold;',
+            )
+        );
+
+        $page->clearCustomHtmlAttribs();
+
+        $this->assertEquals(array(), $page->getCustomHtmlAttribs());
+    }
+
     public function testToArrayMethod()
     {
         $options = array(
@@ -1188,7 +1282,12 @@ class Zend_Navigation_PageTest extends PHPUnit_Framework_TestCase
                     'label' => 'foo.baz',
                     'uri'   => 'http://www.example.com/foo.html'
                 )
-            )
+            ),
+
+            'customHtmlAttribs' => array(
+                'rel'   => 'nofollow',
+                'style' => 'font-weight: bold;',
+            ),
         );
 
         $page = Zend_Navigation_Page::factory($options);
@@ -1231,5 +1330,38 @@ class Zend_Navigation_PageTest extends PHPUnit_Framework_TestCase
         // assert that there is no diff from what we expect
         $subPageTwoDiff = array_diff_assoc($toArray['pages'][1], $options);
         $this->assertEquals(array(), $subPageTwoDiff);
+    }
+    
+    /**
+     * @group ZF-11805
+     */
+    public function testFactoryExceptionWhenNoPageTypeDetected()
+    {
+        // Without label
+        try {
+            $page = Zend_Navigation_Page::factory(array());
+            $this->fail('An invalid value was set, but a ' .
+                        'Zend_Navigation_Exception was not thrown');
+        } catch (Zend_Navigation_Exception $e) {
+            $this->assertSame(
+                'Invalid argument: Unable to determine class to instantiate', 
+                $e->getMessage()
+            );
+}
+        
+        // With label
+        try {
+            $page = Zend_Navigation_Page::factory(array(
+                'label' => 'Foo',
+            ));
+            $this->fail('An invalid value was set, but a ' .
+                        'Zend_Navigation_Exception was not thrown');
+        } catch (Zend_Navigation_Exception $e) {
+            $this->assertSame(
+                'Invalid argument: Unable to determine class to instantiate'
+                . ' (Page label: Foo)', 
+                $e->getMessage()
+            );
+        }
     }
 }

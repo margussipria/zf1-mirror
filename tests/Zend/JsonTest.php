@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: JsonTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: JsonTest.php 24799 2012-05-12 19:27:07Z adamlundrigan $
  */
 
 /**
@@ -814,7 +814,8 @@ EOB;
         }
         
         require_once dirname(__FILE__ ) . "/Json/_files/ZF11356-NamespacedClass.php";        
-        $inputValue = new \Zend\JsonTest\ZF11356\NamespacedClass(array('foo'));
+        $className = '\Zend\JsonTest\ZF11356\NamespacedClass';
+        $inputValue = new $className(array('foo'));
         
         $encoded = Zend_Json_Encoder::encode($inputValue);
         $this->assertEquals(
@@ -852,7 +853,54 @@ EOB;
         $this->assertEquals($targetHtmlOutput, Zend_Json::prettyPrint($jsonstr, array('format' => 'html')));
     }
 
+    /**
+     * @group ZF-11167
+     */
+    public function testEncodeWillUseToArrayMethodWhenAvailable()
+    {
+        $o = new ZF11167_ToArrayClass();
+        $objJson = Zend_Json::encode($o);
+        $arrJson = Zend_Json::encode($o->toArray());
+        $this->assertSame($arrJson, $objJson);
+    }
 
+    /**
+     * @group ZF-11167
+     */
+    public function testEncodeWillUseToJsonWhenBothToJsonAndToArrayMethodsAreAvailable()
+    {
+        $o = new ZF11167_ToArrayToJsonClass();
+        $objJson = Zend_Json::encode($o);
+        $this->assertEquals('"bogus"', $objJson);
+        $arrJson = Zend_Json::encode($o->toArray());
+        $this->assertNotSame($objJson, $arrJson);
+    }
+
+    /**
+     * @group ZF-9521
+     */
+    public function testWillEncodeArrayOfObjectsEachWithToJsonMethod()
+    {
+        $array = array('one'=>new ToJsonClass());
+        $expected = '{"one":{"__className":"ToJsonClass","firstName":"John","lastName":"Doe","email":"john@doe.com"}}';
+
+        Zend_Json::$useBuiltinEncoderDecoder = true;
+        $json = Zend_Json::encode($array);
+        $this->assertEquals($expected, $json);
+    }
+    
+    /**
+     * @group ZF-7586
+     */
+    public function testWillDecodeStructureWithEmptyKeyToObjectProperly()
+    {
+        Zend_Json::$useBuiltinEncoderDecoder = true;
+        
+        $json = '{"":"test"}';
+        $object = Zend_Json::decode($json, Zend_Json::TYPE_OBJECT);
+        $this->assertTrue(isset($object->_empty_));
+        $this->assertEquals('test', $object->_empty_);
+    }
 
 }
 
@@ -905,6 +953,41 @@ class ToJsonClass
         );
 
         return Zend_Json::encode($data);
+    }
+}
+
+/**
+ * Serializable class exposing a toArray() method
+ * @see ZF-11167
+ */
+class ZF11167_ToArrayClass
+{
+    private $_firstName = 'John';
+
+    private $_lastName = 'Doe';
+
+    private $_email = 'john@doe.com';
+
+    public function toArray()
+    {
+        $data = array(
+            'firstName' => $this->_firstName,
+            'lastName'  => $this->_lastName,
+            'email'     => $this->_email
+        );
+        return $data;
+    }
+}
+
+/**
+ * Serializable class exposing both toArray() and toJson() methods
+ * @see ZF-11167
+ */
+class ZF11167_ToArrayToJsonClass extends ZF11167_ToArrayClass
+{    
+    public function toJson()
+    {
+        return Zend_Json::encode('bogus');
     }
 }
 

@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: EmailAddressTest.php 24661 2012-02-26 07:32:09Z adamlundrigan $
+ * @version    $Id: EmailAddressTest.php 24828 2012-05-30 12:24:06Z adamlundrigan $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -151,7 +151,7 @@ class Zend_Validate_EmailAddressTest extends PHPUnit_Framework_TestCase
         $this->assertContains('quoted-string', current($messages));
 
         $this->assertContains('Some User', next($messages));
-        $this->assertContains('no valid local part', current($messages));
+        $this->assertContains('not a valid local part', current($messages));
     }
 
     /**
@@ -179,7 +179,7 @@ class Zend_Validate_EmailAddressTest extends PHPUnit_Framework_TestCase
         $this->assertFalse($this->_validator->isValid('username@ example . com'));
         $messages = $this->_validator->getMessages();
         $this->assertThat(count($messages), $this->greaterThanOrEqual(1));
-        $this->assertContains('no valid hostname', current($messages));
+        $this->assertContains('not a valid hostname', current($messages));
     }
 
     /**
@@ -214,7 +214,7 @@ class Zend_Validate_EmailAddressTest extends PHPUnit_Framework_TestCase
         $this->assertFalse($this->_validator->isValid('User Name <username@example.com>'));
         $messages = $this->_validator->getMessages();
         $this->assertThat(count($messages), $this->greaterThanOrEqual(3));
-        $this->assertContains('no valid hostname', current($messages));
+        $this->assertContains('not a valid hostname', current($messages));
         $this->assertContains('cannot match TLD', next($messages));
         $this->assertContains('does not appear to be a valid local network name', next($messages));
     }
@@ -517,6 +517,22 @@ class Zend_Validate_EmailAddressTest extends PHPUnit_Framework_TestCase
         $this->_validator->setMessage('TestMessage');
         $messages = $this->_validator->getMessageTemplates();
         $this->assertEquals('TestMessage', $messages[Zend_Validate_EmailAddress::INVALID]);
+    }
+    
+    /**
+     * Testing setMessage for all messages
+     *
+     * @group ZF-10690
+     */
+    public function testSetMultipleMessages()
+    {
+        $messages = $this->_validator->getMessageTemplates();
+        $this->assertNotEquals('TestMessage', $messages[Zend_Validate_EmailAddress::INVALID]);
+        $this->_validator->setMessage('TestMessage');
+        $messages = $this->_validator->getMessageTemplates();
+        $this->assertEquals('TestMessage', $messages[Zend_Validate_EmailAddress::INVALID]);
+        $this->assertEquals('TestMessage', $messages[Zend_Validate_EmailAddress::INVALID_FORMAT]);
+        $this->assertEquals('TestMessage', $messages[Zend_Validate_EmailAddress::DOT_ATOM]);
     }
 
     /**

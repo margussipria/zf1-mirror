@@ -17,7 +17,7 @@
  * @subpackage  View
  * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
  * @license     http://framework.zend.com/license/new-bsd     New BSD License
- * @version     $Id: AjaxLinkTest.php 24401 2011-08-26 09:00:52Z padraic $
+ * @version     $Id: AjaxLinkTest.php 24400 2011-08-26 08:55:28Z padraic $
  */
 
 require_once "jQueryTestCase.php";

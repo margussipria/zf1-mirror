@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: TestAbstract.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: TestAbstract.php 25019 2012-07-06 10:42:51Z rob $
  */
 
 require_once 'Zend/Acl.php';
@@ -146,7 +146,11 @@ abstract class Zend_View_Helper_Navigation_TestAbstract
      */
     protected function _getExpected($file)
     {
-        return file_get_contents($this->_files . '/expected/' . $file);
+        return str_replace(
+            "\n",
+            PHP_EOL,
+            file_get_contents($this->_files . '/expected/' . $file)
+        );        
     }
 
     /**

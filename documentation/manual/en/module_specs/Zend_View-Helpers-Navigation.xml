@@ -1249,9 +1249,24 @@ Output:
 
             <listitem>
                 <para>
+                    <code>{get|set}ActiveClass()</code> gets/sets the <acronym>CSS</acronym> class
+                    for the active elements when rendering.
+                </para>
+            </listitem>
+
+            <listitem>
+                <para>
                     <code>{get|set}OnlyActiveBranch()</code> gets/sets a flag
                     specifying whether only the active branch of a container
                     should be rendered.
+                </para>
+            </listitem>
+            
+            <listitem>
+                <para>
+                    <code>{get|set}ExpandSiblingNodesOfActiveBranch()</code> 
+                    gets/sets a flag specifying whether the sibling nodes of all
+                    nodes in the active branch should also be expanded and rendered.
                 </para>
             </listitem>
 
@@ -1349,8 +1364,25 @@ Output:
 
                     <listitem>
                         <para>
+                            <code>activeClass</code>; <acronym>CSS</acronym> class for
+                            for the active elements when rendering. Expects a
+                            <type>String</type>.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
                             <code>onlyActiveBranch</code>; whether only
                             active branch should be rendered. Expects
+                            a <type>Boolean</type> value.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            <code>expandSiblingNodesOfActiveBranch</code>; 
+                            whether the sibling nodes of nodes in the active 
+                            branch should be expanded and rendered. Expects
                             a <type>Boolean</type> value.
                         </para>
                     </listitem>
@@ -1791,7 +1823,7 @@ Output:
 </ul>
 ]]></programlisting>
         </example>
-
+        
         <example id="zend.view.helpers.initial.navigation.menu.example10">
             <title>Rendering a custom menu using a partial view script</title>
 
@@ -1830,6 +1862,56 @@ foreach ($this->container as $page) {
 <a href="/community">Community</a>
 ]]></programlisting>
         </example>
+        
+        <example id="zend.view.helpers.initial.navigation.menu.example11">
+            <title>
+                Rendering only the active branch and all siblings of the active branch 
+            </title>
+
+            <programlisting language="php"><![CDATA[
+echo $this->navigation()
+          ->menu()
+          ->setExpandSiblingNodesOfActiveBranch(true);
+]]></programlisting>
+
+            <para>Output:</para>
+
+            <programlisting language="php"><![CDATA[
+<ul class="navigation">
+    <li>
+        <a title="Go Home" href="/">Home</a>
+    </li>
+    <li class="active">
+        <a href="/products">Products</a>
+        <ul>
+            <li class="active">
+                <a href="/products/server">Foo Server</a>
+                <ul>
+                    <li class="active">
+                        <a href="/products/server/faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="/products/server/editions">Editions</a>
+                    </li>
+                    <li>
+                        <a href="/products/server/requirements">System Requirements</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="/products/studio">Foo Studio</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a title="About us" href="/company/about">Company</a>
+    </li>
+    <li>
+        <a href="/community">Community</a>
+    </li>
+</ul>
+]]></programlisting>
+        </example>        
     </sect4>
 
     <sect4 id="zend.view.helpers.initial.navigation.sitemap">
@@ -2239,7 +2321,7 @@ echo $this->navigation()
                 By default, Zend Framework uses <acronym>UTF-8</acronym> as its default encoding,
                 and, specific to this case, <classname>Zend_View</classname> does as well. Character
                 encoding can be set differently on the view object itself using the
-                <methodname>setEncoding()</methodname> method (or the the
+                <methodname>setEncoding()</methodname> method (or the
                 <varname>encoding</varname> instantiation parameter). However, since
                 <classname>Zend_View_Interface</classname> does not define accessors for encoding,
                 it's possible that if you are using a custom view implementation with the Dojo view

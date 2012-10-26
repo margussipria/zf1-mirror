@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: DumbTest.php 24749 2012-05-05 00:39:12Z adamlundrigan $
+ * @version    $Id: DumbTest.php 24748 2012-05-05 00:27:40Z adamlundrigan $
  */
 
 // Call Zend_Captcha_DumbTest::main() if this source file is executed directly.

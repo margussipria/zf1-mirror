@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: MultiCheckboxTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: MultiCheckboxTest.php 25030 2012-07-31 16:24:33Z adamlundrigan $
  */
 
 // Call Zend_Form_Element_MultiCheckboxTest::main() if this source file is executed directly.
@@ -316,6 +316,34 @@ class Zend_Form_Element_MultiCheckboxTest extends PHPUnit_Framework_TestCase
         $messages = $this->element->getMessages();
         $this->assertTrue(is_array($messages), 'Expected error message');
         $this->assertArrayHasKey('isEmpty', $messages, 'Expected \'isEmpty\' error message');
+    }
+
+    /**
+     * @group ZF-12059
+     */
+    public function testDisabledForAttribute()
+    {
+        $this->element->setLabel('Foo');
+
+        $expected = '<dt id="foo-label"><label class="optional">Foo</label></dt>'
+                  . PHP_EOL
+                  . '<dd id="foo-element">'
+                  . PHP_EOL
+                  . '</dd>';
+        $this->assertSame($expected, $this->element->render($this->getView()));
+    }
+
+    /**
+     * @group ZF-12059
+     */
+    public function testDisabledForAttributeWithoutLabelDecorator()
+    {
+        $this->element->setLabel('Foo')->removeDecorator('label');
+
+        $expected = '<dd id="foo-element">'
+                  . PHP_EOL
+                  . '</dd>';
+        $this->assertSame($expected, $this->element->render($this->getView()));
     }
 }
 

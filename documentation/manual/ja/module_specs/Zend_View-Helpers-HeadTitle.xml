@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Reviewed: no -->
-<!-- EN-Revision: 22090 -->
+<!-- EN-Revision: 24249 -->
 <sect3 id="zend.view.helpers.initial.headtitle">
     <title>HeadTitle ヘルパー</title>
 
@@ -27,6 +27,7 @@
         や 'SET' (スタック全体を上書きする) にすることもできます。
     </para>
 
+    <!-- TODO : to be translated -->
     <para>
         Since setting the aggregating (attach) order on each call to <methodname>
         headTitle</methodname> can be cumbersome, you can set a default attach order

@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: DijitFormTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: DijitFormTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
 // Call Zend_Dojo_Form_Decorator_DijitFormTest::main() if this source file is executed directly.
@@ -75,7 +75,7 @@ class Zend_Dojo_Form_Decorator_DijitFormTest extends PHPUnit_Framework_TestCase
         Zend_Registry::_unsetInstance();
         Zend_Dojo_View_Helper_Dojo::setUseDeclarative();
 
-        $this->view   = $this->getView();
+        $this->view      = $this->getView();
         $this->decorator = new Zend_Dojo_Form_Decorator_DijitForm();
         $this->element   = $this->getElement();
         $this->element->setView($this->view);
@@ -125,6 +125,25 @@ class Zend_Dojo_Form_Decorator_DijitFormTest extends PHPUnit_Framework_TestCase
     {
         $html = $this->decorator->render('');
         $this->assertContains('dojoType="dijit.form.Form"', $html);
+    }
+
+    public function testRenderingShouldEnforceFormName()
+    {
+        $element = new Zend_Dojo_Form();
+        $element->setAttribs(array(
+            'style'  => 'width: 300px; height: 500px;',
+            'class'  => 'someclass',
+            'dijitParams' => array(
+                'labelAttr' => 'foobar',
+                'typeAttr'  => 'barbaz',
+            ),
+        ));
+        $element->setView($this->view);
+        $decorator = new Zend_Dojo_Form_Decorator_DijitForm();
+        $decorator->setElement($element);
+
+        $html = $decorator->render('');
+        $this->assertRegexp('/id=".{1,}"/', $html, $html);
     }
 }
 

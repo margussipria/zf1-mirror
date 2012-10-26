@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: TestCommon.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: TestCommon.php 24957 2012-06-15 13:40:23Z adamlundrigan $
  */
 
 
@@ -1613,6 +1613,72 @@ abstract class Zend_Db_Table_TestCommon extends Zend_Db_Table_TestSetup
         $this->assertEquals(0, count($rows));
     }
 
+    /**
+     * @group ZF-1103
+     */
+    public function testTableCascadeRecurseDelete()
+    {
+        $tblRecursive = $this->_getTable('My_ZendDbTable_TableCascadeRecursive');
+
+        // Enforce initial table structure
+        $parentRow = $tblRecursive->find(1)->current();
+        $this->assertType('Zend_Db_Table_Row', $parentRow);
+        $childRows = $parentRow->findDependentRowset('My_ZendDbTable_TableCascadeRecursive', 'Children');
+        $this->assertType('Zend_Db_Table_Rowset', $childRows);
+        $this->assertEquals(2, count($childRows));
+        foreach ( $childRows as $childRow ) {
+            $this->assertType('Zend_Db_Table_Row', $childRow);
+            $subChildRows = $childRow->findDependentRowset('My_ZendDbTable_TableCascadeRecursive', 'Children');
+            $this->assertType('Zend_Db_Table_Rowset', $subChildRows);
+            $this->assertEquals( $childRow['item_id'] == 3 ? 2 : 0 , count($subChildRows));
+        }
+
+        // Perform the delete
+        $parentRow->delete();
+
+        // Assert that all children of #1 (2,3,4,5) are removed recursively
+        $this->assertNull($tblRecursive->find(1)->current());
+        $this->assertNull($tblRecursive->find(2)->current());
+        $this->assertNull($tblRecursive->find(3)->current());
+        $this->assertNull($tblRecursive->find(4)->current());
+        $this->assertNull($tblRecursive->find(5)->current());
+        //... but #6 remains
+        $this->assertType('Zend_Db_Table_Row', $tblRecursive->find(6)->current());
+    }
+
+    /**
+     * @group ZF-11810
+     */
+    public function testTableCascadeRecurseDeleteUsingTableDeleteMethod()
+    {
+        $tblRecursive = $this->_getTable('My_ZendDbTable_TableCascadeRecursive');
+
+        // Enforce initial table structure
+        $parentRow = $tblRecursive->find(1)->current();
+        $this->assertType('Zend_Db_Table_Row', $parentRow);
+        $childRows = $parentRow->findDependentRowset('My_ZendDbTable_TableCascadeRecursive', 'Children');
+        $this->assertType('Zend_Db_Table_Rowset', $childRows);
+        $this->assertEquals(2, count($childRows));
+        foreach ( $childRows as $childRow ) {
+            $this->assertType('Zend_Db_Table_Row', $childRow);
+            $subChildRows = $childRow->findDependentRowset('My_ZendDbTable_TableCascadeRecursive', 'Children');
+            $this->assertType('Zend_Db_Table_Rowset', $subChildRows);
+            $this->assertEquals( $childRow['item_id'] == 3 ? 2 : 0 , count($subChildRows));
+        }
+
+        // Perform the delete
+        $tblRecursive->delete($tblRecursive->getAdapter()->quoteInto('item_id = ?', 1));
+
+        // Assert that all children of #1 (2,3,4,5) are removed recursively
+        $this->assertNull($tblRecursive->find(1)->current());
+        $this->assertNull($tblRecursive->find(2)->current());
+        $this->assertNull($tblRecursive->find(3)->current());
+        $this->assertNull($tblRecursive->find(4)->current());
+        $this->assertNull($tblRecursive->find(5)->current());
+        //... but #6 remains
+        $this->assertType('Zend_Db_Table_Row', $tblRecursive->find(6)->current());
+    }
+
     public function testSerialiseTable()
     {
         $table = $this->_table['products'];
@@ -1793,3 +1859,4 @@ abstract class Zend_Db_Table_TestCommon extends Zend_Db_Table_TestSetup
         Zend_Db_Table_Abstract::setDefaultMetadataCache(null);
     }
 }
+

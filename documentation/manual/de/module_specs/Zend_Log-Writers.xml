@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 22756 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.log.writers" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Writer</title>
@@ -118,7 +118,7 @@ $logger->info('Informative Nachricht');
 
         <para>
             <classname>Zend_Log_Writer_Null</classname> ist ein Stumpf der keine Log Daten
-            irgendwohin schreibt. Er ist nützlich um die Protokollierung auszuschalten oder wärend
+            irgendwohin schreibt. Er ist nützlich um die Protokollierung auszuschalten oder während
             Tests abzustumpfen:
         </para>
 

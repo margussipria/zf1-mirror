@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ElementTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: ElementTest.php 24848 2012-05-31 19:28:48Z rob $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -458,10 +458,23 @@ class Zend_Form_ElementTest extends PHPUnit_Framework_TestCase
         );
         $this->element->setAttribs($attribs);
 
-        $attribs['helper'] = 'formText';
-
         $received = $this->element->getAttribs();
         $this->assertEquals($attribs, $received);
+    }
+
+    /**
+     * @group ZF-6061
+     */
+    public function testHelperDoesNotShowUpInAttribs()
+    {
+        $attribs = array(
+            'foo' => 'bar',
+            'bar' => 'baz',
+            'baz' => 'bat'
+        );
+        $this->element->setAttribs($attribs);
+
+        $this->assertFalse(array_key_exists('helper', $this->element->getAttribs()));
     }
 
     public function testPassingNullValuesToSetAttribsUnsetsAttribs()
@@ -2188,6 +2201,36 @@ class Zend_Form_ElementTest extends PHPUnit_Framework_TestCase
         $this->assertTrue($validator->zfBreakChainOnFailure);
         $validator = $username->getValidator('regex');
         $this->assertTrue($validator->zfBreakChainOnFailure);
+    }
+    
+    /**
+     * @group ZF-12173
+     */
+    public function testCanAddPluginLoaderPrefixPathsWithBackslashes()
+    {
+        if (version_compare(PHP_VERSION, '5.3.0', '<')) {
+            $this->markTestSkipped(__CLASS__ . '::' . __METHOD__ . ' requires PHP 5.3.0 or greater');
+            return;
+        }
+        $validatorLoader = new Zend_Loader_PluginLoader();
+        $filterLoader    = new Zend_Loader_PluginLoader();
+        $decoratorLoader = new Zend_Loader_PluginLoader();
+        $this->element->setPluginLoader($validatorLoader, 'validate')
+                      ->setPluginLoader($filterLoader, 'filter')
+                      ->setPluginLoader($decoratorLoader, 'decorator')
+                      ->addPrefixPath('Zf\Foo', 'Zf/Foo');
+
+        $paths = $filterLoader->getPaths('Zf\Foo\Filter');
+        $this->assertTrue(is_array($paths));
+        $this->assertContains('Filter', $paths[0]);
+
+        $paths = $validatorLoader->getPaths('Zf\Foo\Validate');
+        $this->assertTrue(is_array($paths));
+        $this->assertContains('Validate', $paths[0]);
+
+        $paths = $decoratorLoader->getPaths('Zf\Foo\Decorator');
+        $this->assertTrue(is_array($paths), var_export($paths, 1));
+        $this->assertContains('Decorator', $paths[0]);
     }
 }
 

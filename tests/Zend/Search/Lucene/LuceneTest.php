@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: LuceneTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: LuceneTest.php 24811 2012-05-17 21:28:49Z rob $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -59,6 +59,11 @@ class Zend_Search_Lucene_LuceneTest extends PHPUnit_Framework_TestCase
             }
         }
         closedir($dir);
+    }
+
+    public function setUp()
+    {
+        $this->_clearDirectory(dirname(__FILE__) . '/_index/_files');
     }
 
     public function testCreate()

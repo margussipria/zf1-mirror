@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Reviewed: no -->
-<!-- EN-Revision: 24682 -->
+<!-- EN-Revision: 24777 -->
 <sect1 id="zend.gdata.introduction">
     <title>導入</title>
     <!-- Skip-EN-Revisions: 22744 -->
@@ -55,13 +55,6 @@
                     は、Google Apps がホストするドメイン上の
                     ユーザアカウントやニックネーム、グループ、そしてメーリングリストの
                     作成、取得、更新、削除を行うものです。
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <link linkend="zend.gdata.gbase">Google Base</link>
-                    は、Google Base のアイテムを取得したり
-                    アイテムを投稿、更新、あるいは削除したりできます。
                 </para>
             </listitem>
             <listitem>

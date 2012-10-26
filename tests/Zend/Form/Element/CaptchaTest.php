@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: CaptchaTest.php 24774 2012-05-07 22:13:37Z adamlundrigan $
+ * @version    $Id: CaptchaTest.php 24848 2012-05-31 19:28:48Z rob $
  */
 
 // Call Zend_Form_Element_CaptchaTest::main() if this source file is executed directly.
@@ -409,6 +409,36 @@ class Zend_Form_Element_CaptchaTest extends PHPUnit_Framework_TestCase
             $decorators,
             var_export($decorators, true)
         );
+    }
+    
+    /**
+     * @group ZF-12173
+     */
+    public function testShouldAllowAddingCaptchaPrefixPathWithBackslash()
+    {
+        if (version_compare(PHP_VERSION, '5.3.0', '<')) {
+            $this->markTestSkipped(__CLASS__ . '::' . __METHOD__ . ' requires PHP 5.3.0 or greater');
+            return;
+        }
+        $this->element->addPrefixPath('My\Captcha', 'My/Captcha/', 'captcha');
+        $loader = $this->element->getPluginLoader('captcha');
+        $paths  = $loader->getPaths('My\Captcha');
+        $this->assertTrue(is_array($paths));
+    }
+    
+    /**
+     * @group ZF-12173
+     */
+    public function testAddingCaptchaPrefixPathWithBackslash()
+    {
+        if (version_compare(PHP_VERSION, '5.3.0', '<')) {
+            $this->markTestSkipped(__CLASS__ . '::' . __METHOD__ . ' requires PHP 5.3.0 or greater');
+            return;
+        }
+        $this->element->addPrefixPath('My\\', 'My/');
+        $loader = $this->element->getPluginLoader('captcha');
+        $paths  = $loader->getPaths('My\Captcha');
+        $this->assertTrue(is_array($paths));
     }
 }
 

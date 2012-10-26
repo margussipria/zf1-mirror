@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 20819 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.mail.multiple-emails">
     <title>Versand von mehreren E-Mails über eine SMTP Verbindung</title>
 
     <para>
         Standardmäßig erstellt ein einzelner SMTP Transport eine einzelne Verbindung und verwendet
-        Sie wieder wärend der Laufzeit der Skriptausführung. Es können mehrere E-Mails über diese
+        sie wieder während der Laufzeit der Skriptausführung. Es können mehrere E-Mails über diese
         SMTP Verbindung gesendet werden. Ein RSET Kommando wird vor jeder Ausführung angewendet um
         sicherzustellen das der korrekte SMTP Handschlag folgt.
     </para>

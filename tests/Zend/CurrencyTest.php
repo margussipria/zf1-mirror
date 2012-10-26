@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: CurrencyTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: CurrencyTest.php 24855 2012-06-01 00:12:25Z adamlundrigan $
  */
 
 /**
@@ -825,5 +825,29 @@ class Zend_CurrencyTest extends PHPUnit_Framework_TestCase
         $currency = new Zend_Currency();
         $currency->setService('Zend_Currency_Service');
         $this->assertTrue($currency->getService() instanceof Zend_Currency_Service);
+    }
+
+    /**
+     * @group ZF-11798
+     * @dataProvider providerConstructorAllowsOverridingCurrencyDisplayFormat
+     */
+    public function testConstructorAllowsOverridingCurrencyDisplayFormat($display, $expected)
+    {
+        $currency = new Zend_Currency(array('value' => 100, 'display' => $display), 'en_US');
+        $this->assertEquals($expected, $currency->toString());
+    }
+
+    /**
+     * Data Provider for testConstructorAllowsOverridingCurrencyDisplayFormat
+     * @see ZF-11798
+     */
+    public function providerConstructorAllowsOverridingCurrencyDisplayFormat()
+    {
+        return array(
+            array(Zend_Currency::NO_SYMBOL, '100.00'),
+            array(Zend_Currency::USE_SYMBOL, '$100.00'),
+            array(Zend_Currency::USE_SHORTNAME, 'USD100.00'),
+            array(Zend_Currency::USE_NAME, 'US Dollar100.00')
+        );
     }
 }

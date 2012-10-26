@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 21829 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.tool.framework.clitool">
     <title>Verwenden des CLI Tools</title>
@@ -63,7 +63,7 @@
 
         <note>
             <para>
-                Beachte: wärend das oben stehende die idealsten Voraussetzungen
+                Beachte: während das oben stehende die idealsten Voraussetzungen
                 sind, kann man einfach Zend Framework herunterladen und erwarten das es mit
                 <filename>./path/to/zf.php</filename> funktioniert.
             </para>

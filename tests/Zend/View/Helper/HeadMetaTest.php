@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: HeadMetaTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: HeadMetaTest.php 24776 2012-05-08 18:36:40Z adamlundrigan $
  */
 
 // Call Zend_View_Helper_HeadMetaTest::main() if this source file is executed directly.
@@ -532,7 +532,17 @@ class Zend_View_Helper_HeadMetaTest extends PHPUnit_Framework_TestCase
         $this->assertRegExp("|^<!--\[if lt IE 7\]>|", $html);
         $this->assertRegExp("|<!\[endif\]-->$|", $html);
     }
-    
+
+    /**
+     * @group ZF-11910
+     */
+    public function testStandaloneInstantiationWithoutViewDoesNotCauseFatalError()
+    {
+        $expected = '<meta name="foo" content="bar" />';
+        $helper = new Zend_View_Helper_HeadMeta();
+        $result = (string)$helper->headMeta()->appendName('foo','bar');
+        $this->assertEquals($expected, $result);
+    }
 }
 
 // Call Zend_View_Helper_HeadMetaTest::main() if this source file is executed directly.

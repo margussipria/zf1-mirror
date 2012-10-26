@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 21829 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.pdf.interactive-features">
     <title>Interaktive Features</title>
@@ -1110,7 +1110,7 @@ $pdf->save($path, true);
         <note>
             <para>
                 Alle Outline Elemente mit unlösbaren Zielen (oder Zielen auf GoTo Aktionen) werden
-                aktualisiert wärend das dokument gespeichert wird, indem dessen Ziele auf
+                aktualisiert während das dokument gespeichert wird, indem dessen Ziele auf
                 <constant>NULL</constant> gesetzt werden. Damit wird das Dokument nicht durch
                 Entfernen von Seiten korrupiert auf die durch Outlines referenziert wird.
             </para>

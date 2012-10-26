@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: TestCommon.php 24756 2012-05-05 02:49:48Z adamlundrigan $
+ * @version    $Id: TestCommon.php 24833 2012-05-30 13:29:41Z adamlundrigan $
  */
 
 
@@ -1709,6 +1709,24 @@ abstract class Zend_Db_Select_TestCommon extends Zend_Db_TestSetup
         
         $s = $this->_db->select()->from('A')->joinUsing('B', $colname);
         $this->assertContains("JOIN {$table_B} ON {$table_B}.{$colname} = {$table_A}.{$colname}", $s->assemble());
+    }
+
+    /**
+     * @group ZF-5953
+     */
+    public function testJoinUsingAllowsSpecifyingMultipleColumnsViaAnArray()
+    {
+        $table_A = $this->_db->quoteTableAs('A');
+        $table_B = $this->_db->quoteTableAs('B');
+        $colOne  = $this->_db->quoteIdentifier('colOne');
+        $colTwo  = $this->_db->quoteIdentifier('colTwo');
+        
+        $s = $this->_db->select()->from('A')->joinUsing('B', array($colOne,$colTwo));
+        $this->assertContains(
+            "JOIN {$table_B} ON {$table_B}.{$colOne} = {$table_A}.{$colOne}"
+            . " AND {$table_B}.{$colTwo} = {$table_A}.{$colTwo}",
+            $s->assemble()
+        );
     }
 
     /**

@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: OfflineBaseUserServiceTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: OfflineBaseUserServiceTest.php 24791 2012-05-11 06:18:17Z bate $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -37,7 +37,7 @@ require_once 'Zend/Service/DeveloperGarden/BaseUserService.php';
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: OfflineBaseUserServiceTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: OfflineBaseUserServiceTest.php 24791 2012-05-11 06:18:17Z bate $
  */
 class Zend_Service_DeveloperGarden_OfflineBaseUserServiceTest extends PHPUnit_Framework_TestCase
 {
@@ -156,6 +156,10 @@ class Zend_Service_DeveloperGarden_OfflineBaseUserServiceTest extends PHPUnit_Fr
 
     public function testGetCredentialOnSoapObject()
     {
+        if (!extension_loaded('soap')) {
+            $this->markTestSkipped('SOAP extension is not loaded');
+        }
+
         $this->assertType(
             'Zend_Service_DeveloperGarden_Credential',
             $this->service->getSoapClient()->getCredential()
@@ -164,6 +168,10 @@ class Zend_Service_DeveloperGarden_OfflineBaseUserServiceTest extends PHPUnit_Fr
 
     public function testGetTokenServiceOnSoapObject()
     {
+        if (!extension_loaded('soap')) {
+            $this->markTestSkipped('SOAP extension is not loaded');
+        }
+
         $this->assertType(
             'Zend_Service_DeveloperGarden_SecurityTokenServer',
             $this->service->getSoapClient()->getTokenService()

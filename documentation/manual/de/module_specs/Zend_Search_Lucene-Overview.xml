@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 21829 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.search.lucene.overview">
     <title>Überblick</title>
@@ -144,7 +144,7 @@ $doc->addField(Zend_Search_Lucene_Field::UnStored('contents',
 
         <para>
             Wenn der encoding Parameter nicht angegeben wurde, wird das aktuelle Gebietsschema
-            wärend der Verarbeitungzeit verwendet. Zum Beispiel:
+            während der Verarbeitungzeit verwendet. Zum Beispiel:
         </para>
 
         <programlisting language="php"><![CDATA[

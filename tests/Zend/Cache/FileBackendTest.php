@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: FileBackendTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: FileBackendTest.php 24677 2012-03-12 21:27:13Z mabe $
  */
 
 /**
@@ -76,6 +76,40 @@ class Zend_Cache_FileBackendTest extends Zend_Cache_CommonExtendedBackendTest {
         unset($this->_instance);
     }
 
+    public function testSetDeprecatedHashedDirectoryUmask()
+    {
+        try {
+            $cache = new Zend_Cache_Backend_File(array(
+                'cache_dir'              => $this->_cache_dir,
+                'hashed_directory_umask' => 0700,
+            ));
+            $this->fail("Missing expected E_USER_NOTICE error");
+        } catch (PHPUnit_Framework_Error $e) {
+            if ($e->getCode() != E_USER_NOTICE) {
+                throw $e;
+            }
+
+            $this->assertContains('hashed_directory_umask', $e->getMessage());
+        }
+    }
+
+    public function testSetDeprecatedCacheFileUmask()
+    {
+        try {
+            $cache = new Zend_Cache_Backend_File(array(
+                    'cache_dir'        => $this->_cache_dir,
+                    'cache_file_umask' => 0700,
+            ));
+            $this->fail("Missing expected E_USER_NOTICE error");
+        } catch (PHPUnit_Framework_Error $e) {
+            if ($e->getCode() != E_USER_NOTICE) {
+                throw $e;
+            }
+
+            $this->assertContains('cache_file_umask', $e->getMessage());
+        }
+    }
+
     public function testConstructorCorrectCall()
     {
         $test = new Zend_Cache_Backend_File(array());
@@ -122,5 +156,3 @@ class Zend_Cache_FileBackendTest extends Zend_Cache_CommonExtendedBackendTest {
     }
 
 }
-
-

@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ClientTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: ClientTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
 /** Zend_Rest_Client */
@@ -50,6 +50,27 @@ class Zend_Rest_ClientTest extends PHPUnit_Framework_TestCase
         Zend_Rest_Client::setHttpClient($client);
 
         $this->rest = new Zend_Rest_Client('http://framework.zend.com/');
+    }
+    
+    /**
+     * @group ZF-10664
+     * 
+     * Test that you can post a file using a preset 
+     * Zend_Http_Client that has a file to post,
+     * by calling $restClient->setNoReset() prior to issuing the
+     * restPost() call.    
+     */
+    public function testCanPostFileInPresetHttpClient()
+    {
+        $client = new Zend_Rest_Client('http://framework.zend.com');
+        $httpClient = new Zend_Http_Client();
+        $text = 'this is some plain text';
+        $httpClient->setFileUpload('some_text.txt', 'upload', $text, 'text/plain');
+        $client->setHttpClient($httpClient);
+        $client->setNoReset();
+        $client->restPost('/file');
+        $request = $httpClient->getLastRequest();
+        $this->assertTrue(strpos($request, $text) !== false, 'The file is not in the request');
     }
 
     public function testUri()

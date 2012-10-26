@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 22743 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.soap.autodiscovery">
     <title>AutoDiscovery</title>
@@ -170,7 +170,7 @@ $autodiscover->handle();
 ]]></programlisting>
 
         <para>
-            Die folgenden Regeln werden wärend der WSDL Erzeugung verwendet:
+            Die folgenden Regeln werden während der WSDL Erzeugung verwendet:
 
             <itemizedlist>
                 <listitem>
@@ -265,7 +265,7 @@ $autodiscover->handle();
 ]]></programlisting>
 
         <para>
-            Die folgenden Regeln werden wärend der WSDL Erzeugung verwendet:
+            Die folgenden Regeln werden während der WSDL Erzeugung verwendet:
 
             <itemizedlist>
                 <listitem>

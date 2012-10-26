@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ApplicationTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: ApplicationTest.php 24805 2012-05-14 17:50:59Z adamlundrigan $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -164,15 +164,15 @@ class Zend_Application_ApplicationTest extends PHPUnit_Framework_TestCase
 
     public function testPassingPhpSettingsSetsIniValues()
     {
-        $this->iniOptions[] = 'y2k_compliance';
-        $orig     = ini_get('y2k_compliance');
+        $this->iniOptions[] = 'html_errors';
+        $orig     = ini_get('html_errors');
         $expected = $orig ? 0 : 1;
         $this->application->setOptions(array(
             'phpSettings' => array(
-                'y2k_compliance' => $expected,
+                'html_errors' => $expected,
             ),
         ));
-        $this->assertEquals($expected, ini_get('y2k_compliance'));
+        $this->assertEquals($expected, ini_get('html_errors'));
     }
 
     public function testPassingPhpSettingsAsArrayShouldConstructDotValuesAndSetRelatedIniValues()

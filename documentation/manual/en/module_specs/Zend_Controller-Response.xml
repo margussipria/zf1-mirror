@@ -236,6 +236,105 @@ $front->dispatch();
             <methodname>setHttpResponseCode()</methodname> and
             <methodname>getHttpResponseCode()</methodname>.
         </para>
+
+        <sect3 id="zend.controller.response.headers.setcookie">
+            <title>Setting Cookie Headers</title>
+
+            <para>
+                You can inject <acronym>HTTP</acronym> Set-Cookie headers into the response object
+                of an action controller by using the provided header class 
+                <classname>Zend_Http_Header_SetCookie</classname>
+            </para>
+
+            <sect3 id="zend.controller.response.headers.setcookie.constructor">
+                <title>Constructor Arguments</title>
+
+                <para>
+                    The following table lists all constructor arguments of 
+                    <classname>Zend_Http_Header_SetCookie</classname>
+                    in the order they are accepted.  All arguments are optional,
+                    but name and value must be supplied via their setters if not
+                    passed in via the constructor or the resulting Set-Cookie header
+                    be invalid.
+                </para>
+
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            <varname>$name</varname>: The name of the cookie
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <varname>$value</varname>: The value of the cookie
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <varname>$expires</varname>: The time the cookie expires
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <varname>$path</varname>: The path on the server in which 
+                            the cookie will be available
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <varname>$domain</varname>: The domain to restrict cookie to
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <varname>$secure</varname>: boolean indicating whether cookie
+                            should be sent over an unencrypted connection (false) or via 
+                            <acronym>HTTPS</acronym> only (true)
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <varname>$httpOnly</varname>: boolean indicating whether cookie
+                            should be transmitted only via the <acronym>HTTP</acronym> protocol
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <varname>$maxAge</varname>: The maximum age of the cookie in seconds
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <varname>$version</varname>: The cookie specification version
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </sect3>
+ 
+            <example>
+                <title>Populate Zend_Http_Header_SetCookie via constructor and add to response</title>
+                <programlisting language="php"><![CDATA[
+$this->getResponse()->setRawHeader(new Zend_Http_Header_SetCookie(
+    'foo', 'bar', NULL, '/', 'example.com', false, true
+));
+]]></programlisting>
+            </example>
+
+            <example>
+                <title>Populate Zend_Http_Header_SetCookie via setters and add to response</title>
+                <programlisting language="php"><![CDATA[
+$cookie = new Zend_Http_Header_SetCookie();
+$cookie->setName('foo')
+       ->setValue('bar')
+       ->setDomain('example.com')
+       ->setPath('/')
+       ->setHttponly(true);
+$this->getResponse()->setRawHeader($cookie);
+]]></programlisting>
+            </example>
+
+        </sect3>
+
     </sect2>
 
     <sect2 id="zend.controller.response.namedsegments">
@@ -316,16 +415,28 @@ array(
         <itemizedlist>
             <listitem>
                 <para>
-                    <methodname>setBody()</methodname> and <methodname>appendBody()</methodname>
-                    both allow you to pass a second value, <varname>$name</varname>,
-                    indicating a named segment. In each case, if you provide
-                    this, it will overwrite that specific named segment or
-                    create it if it does not exist (appending to the array by
+                    <methodname>setBody()</methodname>
+                    allows you to pass a second value, <varname>$name</varname>,
+                    indicating a named segment. If you provide a segment name
+                    it will overwrite that specific named segment or
+                    create it if it does not exist (appending to the body array by
                     default). If no named segment is passed to
                     <methodname>setBody()</methodname>, it resets the entire body content
-                    array. If no named segment is passed to <methodname>appendBody()</methodname>,
-                    the content is appended to the value in the 'default' name
-                    segment.
+                    array.
+                </para>
+            </listitem>
+
+            <listitem>
+                <para>
+                    <methodname>appendBody()</methodname> also allows you to pass 
+                    a second value, <varname>$name</varname>, indicating a named segment.
+                    If you provide a segment name it will append the supplied content
+                    to the existing content in the named segment, or create the segment
+                    if it does not exist (appending to the body array by
+                    default). If no named segment is passed to
+                    <methodname>appendBody()</methodname>, it will append the supplied
+                    content to the named segment 'default', creating it if it does not
+                    already exist. 
                 </para>
             </listitem>
 

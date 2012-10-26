@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: OfflineSecurityTokenServerTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: OfflineSecurityTokenServerTest.php 24791 2012-05-11 06:18:17Z bate $
  */
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
@@ -42,7 +42,7 @@ require_once 'Zend/Service/DeveloperGarden/SecurityTokenServer/Cache.php';
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: OfflineSecurityTokenServerTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: OfflineSecurityTokenServerTest.php 24791 2012-05-11 06:18:17Z bate $
  */
 class Zend_Service_DeveloperGarden_OfflineSecurityTokenServerTest extends PHPUnit_Framework_TestCase
 {
@@ -84,6 +84,10 @@ class Zend_Service_DeveloperGarden_OfflineSecurityTokenServerTest extends PHPUni
 
     public function testWsdlCache()
     {
+        if (!extension_loaded('soap')) {
+            $this->markTestSkipped('SOAP extension is not loaded');
+        }
+
         $this->assertNull(
             Zend_Service_DeveloperGarden_SecurityTokenServer_Cache::getWsdlCache()
         );
@@ -126,6 +130,10 @@ class Zend_Service_DeveloperGarden_OfflineSecurityTokenServerTest extends PHPUni
 
     public function testDisableWsdlCache()
     {
+        if (!extension_loaded('soap')) {
+            $this->markTestSkipped('SOAP extension is not loaded');
+        }
+
         Zend_Service_DeveloperGarden_SecurityTokenServer_Cache::setWsdlCache(WSDL_CACHE_BOTH);
         $this->assertEquals(
             WSDL_CACHE_BOTH,

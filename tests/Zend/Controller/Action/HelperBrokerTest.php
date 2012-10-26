@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: HelperBrokerTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: HelperBrokerTest.php 24686 2012-03-20 14:04:39Z spabby $
  */
 
 // Call Zend_Controller_Action_HelperBrokerTest::main() if this source file is executed directly.
@@ -324,6 +324,9 @@ class Zend_Controller_Action_HelperBrokerTest extends PHPUnit_Framework_TestCase
 
     public function testCanLoadNamespacedHelper()
     {
+        if (version_compare(PHP_VERSION, '5.3.0') === -1) {
+            $this->markTestSkipped('Namespaces not available in PHP < 5.3.0');
+        }
         $this->front->setControllerDirectory(dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . '_files')
             ->setResponse(new Zend_Controller_Response_Cli())
             ->returnResponse(true);

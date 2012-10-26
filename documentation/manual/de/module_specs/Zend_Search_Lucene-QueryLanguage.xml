@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 22757 -->
+<!-- EN-Revision: 24249 -->
 <!-- Reviewed: no -->
 <sect1 id="zend.search.lucene.query-language">
     <title>Abfragesprache</title>
@@ -179,7 +179,7 @@ Test*
                     Es ist zu beachten das es nicht zu einer
                     <classname>Zend_Search_Lucene_Search_QueryParserException</classname> kommt,
                     sondern zu einer <classname>Zend_Search_Lucene_Exception</classname>. Sie wird
-                    wärend dem Umschreiben der Abfrage geworfen.
+                    während dem Umschreiben der Abfrage geworfen.
                 </para>
             </footnote>.
         </para>

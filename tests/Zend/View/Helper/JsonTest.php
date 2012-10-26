@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: JsonTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: JsonTest.php 24829 2012-05-30 12:31:39Z adamlundrigan $
  */
 
 // Call Zend_View_Helper_JsonTest::main() if this source file is executed directly.
@@ -142,6 +142,24 @@ class Zend_View_Helper_JsonTest extends PHPUnit_Framework_TestCase
         $this->assertTrue($layout->isEnabled());
         $data = $this->helper->json(array('foobar'), true);
         $this->assertTrue($layout->isEnabled());
+    }
+    
+    /**
+     * @group ZF-10977
+     */
+    public function testJsonHelperWillAcceptPreencodedJson()
+    {
+        $data = $this->helper->json(Zend_Json::encode(array('f')), false, false);
+        $this->assertEquals('["f"]', $data);
+    }
+    
+    /**
+     * @group ZF-10977
+     */
+    public function testJsonHelperWillSendHeadersWhenProvidedWithPreencodedJson()
+    {
+        $data = $this->helper->json(Zend_Json::encode(array('f')), false, false);
+        $this->verifyJsonHeader();
     }
 }
 

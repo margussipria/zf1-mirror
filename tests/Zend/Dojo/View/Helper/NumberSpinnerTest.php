@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: NumberSpinnerTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: NumberSpinnerTest.php 24719 2012-04-28 06:19:07Z rob $
  */
 
 // Call Zend_Dojo_View_Helper_NumberSpinnerTest::main() if this source file is executed directly.
@@ -138,6 +138,10 @@ class Zend_Dojo_View_Helper_NumberSpinnerTest extends PHPUnit_Framework_TestCase
             $this->fail('Did not serialize constraints');
         }
         $constraints = str_replace("'", '"', $m[1]);
+        if (Zend_Dojo_View_Helper_Dojo::useDeclarative()) {
+            // Convert &#39; to "'" for json_decode. See Zend_Dojo_View_Helper_Dijit::_prepareDijit() (line 254)
+            $constraints = str_replace('&#39;', '"', $constraints);
+        }
         $constraints = Zend_Json::decode($constraints);
         $this->assertTrue(is_array($constraints), var_export($m[1], 1));
         $this->assertTrue(array_key_exists('min', $constraints));

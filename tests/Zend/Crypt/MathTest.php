@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: MathTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: MathTest.php 24686 2012-03-20 14:04:39Z spabby $
  */
 
 require_once 'Zend/Crypt/Math.php';
@@ -36,6 +36,11 @@ class Zend_Crypt_MathTest extends PHPUnit_Framework_TestCase
 
     public function testRand()
     {
+        if (!extension_loaded('bcmath'))
+        {
+            $this->markTestSkipped('Extension bcmath not loaded');
+        }
+
         try {
             $math = new Zend_Crypt_Math_BigInteger();
         } catch (Zend_Crypt_Math_BigInteger_Exception $e) {

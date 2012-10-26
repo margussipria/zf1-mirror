@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: DbSelectTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: DbSelectTest.php 24754 2012-05-05 02:30:56Z adamlundrigan $
  */
 
 /**
@@ -99,6 +99,21 @@ class Zend_Paginator_Adapter_DbSelectTest extends PHPUnit_Framework_TestCase
         parent::tearDown();
     }
 
+    /**
+     * @group ZF-6989
+     */
+    public function testCacheIdentifierIsHashOfAssembledSelect()
+    {
+        $dbAdapter = $this->getMockForAbstractClass('Zend_Db_Adapter_Abstract', array(''), '', false);
+        $select    = new Zend_Db_Select($dbAdapter);
+        $select->from('ZF_6989');
+
+        $paginatorAdapter = new Zend_Paginator_Adapter_DbSelect($select);
+
+        $this->assertSame(md5($select->assemble()), $paginatorAdapter->getCacheIdentifier(),
+                          'Cache identifier incorrect!');
+    }
+    
     public function testGetsItemsAtOffsetZero()
     {
         $actual = $this->_adapter->getItems(0, 10);

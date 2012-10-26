@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ViewScriptTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: ViewScriptTest.php 24979 2012-06-19 19:15:52Z rob $
  */
 
 // Call Zend_Form_Decorator_ViewScriptTest::main() if this source file is executed directly.
@@ -221,6 +221,21 @@ class Zend_Form_Decorator_ViewScriptTest extends PHPUnit_Framework_TestCase
 
         $this->assertContains('This text prefixes the content', $test);
         $this->assertContains('This text appends the content', $test);
+    }
+
+    /**
+     * @group ZF-6061
+     */
+    public function testRenderingWithoutHelperInAttribs()
+    {
+        $this->decorator->setViewScript('withouthelperinattribs.phtml')
+            ->setElement($this->getElement());
+
+        $expected = 'Foo:'
+                  . PHP_EOL
+                  . '<input type="text" name="foo" id="foo" value="">';
+
+        $this->assertSame($expected, $this->decorator->render('Foo:'));
     }
 }
 
