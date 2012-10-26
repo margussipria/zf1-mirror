@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: ReaderTest.php 24594 2012-01-05 21:27:01Z matthew $
+ * @version    $Id: ReaderTest.php 25032 2012-08-17 19:45:06Z matthew $
  */
 
 require_once 'Zend/Feed/Reader.php';
@@ -336,6 +336,14 @@ class Zend_Feed_ReaderTest extends PHPUnit_Framework_TestCase
         $result = Zend_Feed_Reader::import('http://www.example.com');
     }
 
+     public function testXxePreventionOnFeedParsing()
+     {
+         $string = file_get_contents($this->_feedSamplePath.'/Reader/xxe-atom10.xml');
+         $string = str_replace('XXE_URI', $this->_feedSamplePath.'/Reader/xxe-info.txt', $string);
+         $this->setExpectedException('Zend_Feed_Exception');
+         $feed = Zend_Feed_Reader::importString($string);
+     }
+ 
     protected function _getTempDirectory()
     {
         $tmpdir = array();

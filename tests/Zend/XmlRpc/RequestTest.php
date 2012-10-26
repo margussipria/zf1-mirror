@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version $Id: RequestTest.php 24971 2012-06-18 16:25:28Z matthew $
+ * @version $Id: RequestTest.php 25032 2012-08-17 19:45:06Z matthew $
  */
 
 require_once 'Zend/XmlRpc/Request.php';
@@ -352,6 +352,9 @@ class Zend_XmlRpc_RequestTest extends PHPUnit_Framework_TestCase
 
     /**
      * @group ZF-12293
++     *
++     * Test should remain, but is defunct since DOCTYPE presence should return FALSE
++     * from loadXml()
      */
     public function testDoesNotAllowExternalEntities()
     {
@@ -364,4 +367,11 @@ class Zend_XmlRpc_RequestTest extends PHPUnit_Framework_TestCase
             $this->assertNotContains('Local file inclusion', $method);
         }
     }
+
+     public function testShouldDisallowsDoctypeInRequestXmlAndReturnFalseOnLoading()
+     {
+         $payload = file_get_contents(dirname(__FILE__) . '/_files/ZF12293-request.xml');
+         $payload = sprintf($payload, 'file://' . realpath(dirname(__FILE__) . '/_files/ZF12293-payload.txt'));
+         $this->assertFalse($this->_request->loadXml($payload));
+     }
 }

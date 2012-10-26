@@ -17,7 +17,7 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version $Id: ResponseTest.php 24976 2012-06-19 16:03:28Z matthew $
+ * @version $Id: ResponseTest.php 25032 2012-08-17 19:45:06Z matthew $
  */
 
 require_once 'Zend/XmlRpc/Response.php';
@@ -267,4 +267,11 @@ EOD;
             $this->assertNotContains('Local file inclusion', $value);
         }
     }
+
+     public function testShouldDisallowsDoctypeInRequestXmlAndReturnFalseOnLoading()
+     {
+         $payload = file_get_contents(dirname(__FILE__) . '/_files/ZF12293-response.xml');
+         $payload = sprintf($payload, 'file://' . realpath(dirname(__FILE__) . '/_files/ZF12293-payload.txt'));
+         $this->assertFalse($this->_response->loadXml($payload));
+     }
 }
