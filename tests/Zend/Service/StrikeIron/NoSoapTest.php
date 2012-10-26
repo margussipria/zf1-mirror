@@ -24,7 +24,7 @@
 /**
  * @see Zend_Service_StrikeIron_BaseTest
  */
-require_once 'Zend/Service/StrikeIron/BaseTest.php';
+// require_once 'Zend/Service/StrikeIron/BaseTest.php';
 
 
 /**

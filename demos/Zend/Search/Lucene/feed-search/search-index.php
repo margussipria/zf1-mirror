@@ -22,7 +22,7 @@
 /**
  * @see Zend_Search_Lucene
  */
-require_once 'Zend/Search/Lucene.php';
+// require_once 'Zend/Search/Lucene.php';
 
 $index = new Zend_Search_Lucene('/tmp/feeds_index');
 echo "Index contains {$index->count()} documents.\n";

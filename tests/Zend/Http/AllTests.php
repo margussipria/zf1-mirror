@@ -24,12 +24,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Http_AllTests::main');
 }
 
-require_once 'Zend/Http/ResponseTest.php';
-require_once 'Zend/Http/CookieTest.php';
-require_once 'Zend/Http/CookieJarTest.php';
-require_once 'Zend/Http/Client/AllTests.php';
-require_once 'Zend/Http/Header/AllTests.php';
-require_once 'Zend/Http/UserAgent/AllTests.php';
+// require_once 'Zend/Http/ResponseTest.php';
+// require_once 'Zend/Http/CookieTest.php';
+// require_once 'Zend/Http/CookieJarTest.php';
+// require_once 'Zend/Http/Client/AllTests.php';
+// require_once 'Zend/Http/Header/AllTests.php';
+// require_once 'Zend/Http/UserAgent/AllTests.php';
 
 /**
  * @category   Zend

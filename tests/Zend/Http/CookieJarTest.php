@@ -20,7 +20,7 @@
  * @version    $Id: CookieJarTest.php 24856 2012-06-01 01:10:47Z adamlundrigan $
  */
 
-require_once 'Zend/Http/CookieJar.php';
+// require_once 'Zend/Http/CookieJar.php';
 
 /**
  * Zend_Http_CookieJar unit tests

@@ -20,9 +20,9 @@
  * @version    $Id $
  */
 
-require_once 'Zend/Gdata/YouTube.php';
-require_once 'Zend/Gdata/YouTube/VideoQuery.php';
-require_once 'Zend/Gdata/ClientLogin.php';
+// require_once 'Zend/Gdata/YouTube.php';
+// require_once 'Zend/Gdata/YouTube/VideoQuery.php';
+// require_once 'Zend/Gdata/ClientLogin.php';
 
 /**
  * @category   Zend

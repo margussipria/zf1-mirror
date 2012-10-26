@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Amazon_S3_AllTests::main');
 }
 
-require_once 'Zend/Service/Amazon/S3/OfflineTest.php';
-require_once 'Zend/Service/Amazon/S3/OnlineTest.php';
-require_once 'Zend/Service/Amazon/S3/StreamTest.php';
+// require_once 'Zend/Service/Amazon/S3/OfflineTest.php';
+// require_once 'Zend/Service/Amazon/S3/OnlineTest.php';
+// require_once 'Zend/Service/Amazon/S3/StreamTest.php';
 
 /**
  * @category   Zend

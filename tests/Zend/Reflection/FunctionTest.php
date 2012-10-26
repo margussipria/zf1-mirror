@@ -23,7 +23,7 @@
 /**
  * @see Zend_Reflection_Function
  */
-require_once 'Zend/Reflection/Function.php';
+// require_once 'Zend/Reflection/Function.php';
 
 /**
  * @category   Zend
@@ -43,7 +43,7 @@ class Zend_Reflection_FunctionTest extends PHPUnit_Framework_TestCase
     {
         if (self::$_sampleClassFileRequired === false) {
             $fileToRequire = dirname(__FILE__) . '/_files/TestSampleClass.php';
-            require_once $fileToRequire;
+            // require_once $fileToRequire;
             self::$_sampleClassFileRequired = true;
         }
     }

@@ -20,12 +20,12 @@
  * @version    $Id: TestCommon.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once dirname(__FILE__) . '/_files/BarcodeTest.php';
+// require_once dirname(__FILE__) . '/_files/BarcodeTest.php';
 
 /**
  * @see Zend_Config
  */
-require_once 'Zend/Config.php';
+// require_once 'Zend/Config.php';
 
 /**
  * @category   Zend

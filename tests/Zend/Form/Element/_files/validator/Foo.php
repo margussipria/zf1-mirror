@@ -20,7 +20,7 @@
  * @version    $Id: Foo.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Validate/File/Count.php';
+// require_once 'Zend/Validate/File/Count.php';
 
 /**
  * custom validator for use with file element tests

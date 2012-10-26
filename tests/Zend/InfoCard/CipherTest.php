@@ -25,8 +25,8 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
     define("PHPUnit_MAIN_METHOD", "Zend_InfoCard_CipherTest::main");
 }
 
-require_once 'Zend/InfoCard.php';
-require_once 'Zend/InfoCard/Cipher/Pki/Adapter/Rsa.php';
+// require_once 'Zend/InfoCard.php';
+// require_once 'Zend/InfoCard/Cipher/Pki/Adapter/Rsa.php';
 
 /**
  * @category   Zend

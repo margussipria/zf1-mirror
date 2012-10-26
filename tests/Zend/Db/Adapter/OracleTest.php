@@ -23,12 +23,12 @@
 /**
  * @see Zend_Db_Adapter_TestCommon
  */
-require_once 'Zend/Db/Adapter/TestCommon.php';
+// require_once 'Zend/Db/Adapter/TestCommon.php';
 
 /**
  * @see Zend_Db_Adapter_Oracle
  */
-require_once 'Zend/Db/Adapter/Oracle.php';
+// require_once 'Zend/Db/Adapter/Oracle.php';
 
 
 /**

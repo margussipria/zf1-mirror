@@ -20,7 +20,7 @@
  * @version $Id: NodeTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Server/Reflection/Node.php';
+// require_once 'Zend/Server/Reflection/Node.php';
 
 /**
  * Test case for Zend_Server_Reflection_Node

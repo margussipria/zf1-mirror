@@ -24,25 +24,25 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Technorati_AllTests::main');
 }
 
-require_once 'Zend/Service/Technorati/TechnoratiTest.php';
-require_once 'Zend/Service/Technorati/ResultSetTest.php';
-require_once 'Zend/Service/Technorati/ResultTest.php';
-require_once 'Zend/Service/Technorati/AuthorTest.php';
-require_once 'Zend/Service/Technorati/WeblogTest.php';
-require_once 'Zend/Service/Technorati/BlogInfoResultTest.php';
-require_once 'Zend/Service/Technorati/GetInfoResultTest.php';
-require_once 'Zend/Service/Technorati/KeyInfoResultTest.php';
-require_once 'Zend/Service/Technorati/CosmosResultTest.php';
-require_once 'Zend/Service/Technorati/CosmosResultSetTest.php';
-require_once 'Zend/Service/Technorati/DailyCountsResultTest.php';
-require_once 'Zend/Service/Technorati/DailyCountsResultSetTest.php';
-require_once 'Zend/Service/Technorati/SearchResultTest.php';
-require_once 'Zend/Service/Technorati/SearchResultSetTest.php';
-require_once 'Zend/Service/Technorati/TagResultTest.php';
-require_once 'Zend/Service/Technorati/TagResultSetTest.php';
-require_once 'Zend/Service/Technorati/TagsResultTest.php';
-require_once 'Zend/Service/Technorati/TagsResultSetTest.php';
-require_once 'Zend/Service/Technorati/UtilsTest.php';
+// require_once 'Zend/Service/Technorati/TechnoratiTest.php';
+// require_once 'Zend/Service/Technorati/ResultSetTest.php';
+// require_once 'Zend/Service/Technorati/ResultTest.php';
+// require_once 'Zend/Service/Technorati/AuthorTest.php';
+// require_once 'Zend/Service/Technorati/WeblogTest.php';
+// require_once 'Zend/Service/Technorati/BlogInfoResultTest.php';
+// require_once 'Zend/Service/Technorati/GetInfoResultTest.php';
+// require_once 'Zend/Service/Technorati/KeyInfoResultTest.php';
+// require_once 'Zend/Service/Technorati/CosmosResultTest.php';
+// require_once 'Zend/Service/Technorati/CosmosResultSetTest.php';
+// require_once 'Zend/Service/Technorati/DailyCountsResultTest.php';
+// require_once 'Zend/Service/Technorati/DailyCountsResultSetTest.php';
+// require_once 'Zend/Service/Technorati/SearchResultTest.php';
+// require_once 'Zend/Service/Technorati/SearchResultSetTest.php';
+// require_once 'Zend/Service/Technorati/TagResultTest.php';
+// require_once 'Zend/Service/Technorati/TagResultSetTest.php';
+// require_once 'Zend/Service/Technorati/TagsResultTest.php';
+// require_once 'Zend/Service/Technorati/TagsResultSetTest.php';
+// require_once 'Zend/Service/Technorati/UtilsTest.php';
 
 
 /**

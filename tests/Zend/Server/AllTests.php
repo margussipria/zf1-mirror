@@ -24,20 +24,20 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Server_AllTests::main');
 }
 
-require_once 'Zend/Server/DefinitionTest.php';
-require_once 'Zend/Server/Method/DefinitionTest.php';
-require_once 'Zend/Server/Method/CallbackTest.php';
-require_once 'Zend/Server/Method/ParameterTest.php';
-require_once 'Zend/Server/Method/PrototypeTest.php';
+// require_once 'Zend/Server/DefinitionTest.php';
+// require_once 'Zend/Server/Method/DefinitionTest.php';
+// require_once 'Zend/Server/Method/CallbackTest.php';
+// require_once 'Zend/Server/Method/ParameterTest.php';
+// require_once 'Zend/Server/Method/PrototypeTest.php';
 
-require_once 'Zend/Server/ReflectionTest.php';
-require_once 'Zend/Server/Reflection/ClassTest.php';
-require_once 'Zend/Server/Reflection/FunctionTest.php';
-require_once 'Zend/Server/Reflection/MethodTest.php';
-require_once 'Zend/Server/Reflection/NodeTest.php';
-require_once 'Zend/Server/Reflection/ParameterTest.php';
-require_once 'Zend/Server/Reflection/PrototypeTest.php';
-require_once 'Zend/Server/Reflection/ReturnValueTest.php';
+// require_once 'Zend/Server/ReflectionTest.php';
+// require_once 'Zend/Server/Reflection/ClassTest.php';
+// require_once 'Zend/Server/Reflection/FunctionTest.php';
+// require_once 'Zend/Server/Reflection/MethodTest.php';
+// require_once 'Zend/Server/Reflection/NodeTest.php';
+// require_once 'Zend/Server/Reflection/ParameterTest.php';
+// require_once 'Zend/Server/Reflection/PrototypeTest.php';
+// require_once 'Zend/Server/Reflection/ReturnValueTest.php';
 
 /**
  * @category   Zend

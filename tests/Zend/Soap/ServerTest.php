@@ -21,13 +21,13 @@
  */
 
 /** Zend_Soap_Server */
-require_once 'Zend/Soap/Server.php';
+// require_once 'Zend/Soap/Server.php';
 
-require_once 'Zend/Soap/Server/Exception.php';
+// require_once 'Zend/Soap/Server/Exception.php';
 
-require_once "Zend/Config.php";
+// require_once "Zend/Config.php";
 
-require_once dirname(__FILE__) . '/TestAsset/commontypes.php';
+// require_once dirname(__FILE__) . '/TestAsset/commontypes.php';
 
 /**
  * Zend_Soap_Server

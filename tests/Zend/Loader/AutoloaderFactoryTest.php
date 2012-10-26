@@ -27,13 +27,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
  * Preload a number of classes to ensure they're available once we've disabled
  * other autoloaders.
  */
-require_once 'PHPUnit/Framework/Constraint/IsEqual.php';
-require_once 'PHPUnit/Framework/Constraint/IsInstanceOf.php';
-require_once 'PHPUnit/Framework/Constraint/IsNull.php';
-require_once 'PHPUnit/Framework/Constraint/IsTrue.php';
-require_once 'Zend/Loader/AutoloaderFactory.php';
-require_once 'Zend/Loader/ClassMapAutoloader.php';
-require_once 'Zend/Loader/StandardAutoloader.php';
+// require_once 'PHPUnit/Framework/Constraint/IsEqual.php';
+// require_once 'PHPUnit/Framework/Constraint/IsInstanceOf.php';
+// require_once 'PHPUnit/Framework/Constraint/IsNull.php';
+// require_once 'PHPUnit/Framework/Constraint/IsTrue.php';
+// require_once 'Zend/Loader/AutoloaderFactory.php';
+// require_once 'Zend/Loader/ClassMapAutoloader.php';
+// require_once 'Zend/Loader/StandardAutoloader.php';
 
 /**
  * @package    Zend_Loader

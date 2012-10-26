@@ -24,13 +24,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_DeveloperGarden_AllTests::main');
 }
 
-require_once 'Zend/Service/DeveloperGarden/OfflineClientTest.php';
-require_once 'Zend/Service/DeveloperGarden/OfflineCredentialTest.php';
-require_once 'Zend/Service/DeveloperGarden/OfflineSecurityTokenServerTest.php';
-require_once 'Zend/Service/DeveloperGarden/OfflineBaseUserServiceTest.php';
-require_once 'Zend/Service/DeveloperGarden/OfflineIpLocationTest.php';
-require_once 'Zend/Service/DeveloperGarden/OfflineLocalSearchParametersTest.php';
-require_once 'Zend/Service/DeveloperGarden/OfflineConferenceCallTest.php';
+// require_once 'Zend/Service/DeveloperGarden/OfflineClientTest.php';
+// require_once 'Zend/Service/DeveloperGarden/OfflineCredentialTest.php';
+// require_once 'Zend/Service/DeveloperGarden/OfflineSecurityTokenServerTest.php';
+// require_once 'Zend/Service/DeveloperGarden/OfflineBaseUserServiceTest.php';
+// require_once 'Zend/Service/DeveloperGarden/OfflineIpLocationTest.php';
+// require_once 'Zend/Service/DeveloperGarden/OfflineLocalSearchParametersTest.php';
+// require_once 'Zend/Service/DeveloperGarden/OfflineConferenceCallTest.php';
 
 /**
  * Zend_Service_DeveloperGarden test suite

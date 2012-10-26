@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Zend_Loader_Autoloader
  */
-require_once 'Zend/Loader/Autoloader.php';
+// require_once 'Zend/Loader/Autoloader.php';
 
 /**
  * @category   Zend
@@ -81,7 +81,7 @@ class Zend_Application_Module_BootstrapTest extends PHPUnit_Framework_TestCase
 
     public function testConstructorShouldInitializeModuleResourceLoaderWithModulePrefix()
     {
-        require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
         $bootstrap = new ZfModule_Bootstrap($this->application);
         $module = $bootstrap->getModuleName();
         $loader = $bootstrap->getResourceLoader();
@@ -97,14 +97,14 @@ class Zend_Application_Module_BootstrapTest extends PHPUnit_Framework_TestCase
         ));
         $this->application->setOptions(array('resourceLoader' => $loader));
 
-        require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
         $bootstrap = new ZfModule_Bootstrap($this->application);
         $this->assertSame($loader, $bootstrap->getResourceLoader(), var_export($bootstrap->getOptions(), 1));
     }
 
     public function testModuleNameShouldBeFirstSegmentOfClassName()
     {
-        require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
         $bootstrap = new ZfModule_Bootstrap($this->application);
         $this->assertEquals('ZfModule', $bootstrap->getModuleName());
     }
@@ -118,7 +118,7 @@ class Zend_Application_Module_BootstrapTest extends PHPUnit_Framework_TestCase
             )
         );
         $this->application->setOptions($options);
-        require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
         $bootstrap = new ZfModule_Bootstrap($this->application);
         $this->assertEquals('baz', $bootstrap->foo);
     }
@@ -128,7 +128,7 @@ class Zend_Application_Module_BootstrapTest extends PHPUnit_Framework_TestCase
      */
     public function testFrontControllerPluginResourceShouldBeRegistered()
     {
-        require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
         $bootstrap = new ZfModule_Bootstrap($this->application);
         $this->assertTrue($bootstrap->hasPluginResource('FrontController'));
     }
@@ -138,7 +138,7 @@ class Zend_Application_Module_BootstrapTest extends PHPUnit_Framework_TestCase
      */
     public function testFrontControllerStateRemainsSameIfNoOptionsPassedToModuleBootstrap()
     {
-        require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
         $this->application->setOptions(array(
             'resources' => array(
                 'frontController' => array(
@@ -172,7 +172,7 @@ class Zend_Application_Module_BootstrapTest extends PHPUnit_Framework_TestCase
      */
     public function testModuleBootstrapsShouldNotAcceptModuleResourceInOrderToPreventRecursion()
     {
-        require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
         $this->application->setOptions(array(
             'resources' => array(
                 'modules' => array(),
@@ -204,7 +204,7 @@ class Zend_Application_Module_BootstrapTest extends PHPUnit_Framework_TestCase
      */
     public function testModuleBootstrapShouldInheritApplicationBootstrapPluginPaths()
     {
-        require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfModuleBootstrap.php';
         $this->application->setOptions(array(
             'resources' => array(
                 'modules' => array(),

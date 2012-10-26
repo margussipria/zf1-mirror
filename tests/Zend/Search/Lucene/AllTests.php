@@ -24,30 +24,30 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Search_Lucene_AllTests::main');
 }
 
-require_once 'Zend/Search/Lucene/LuceneTest.php';
+// require_once 'Zend/Search/Lucene/LuceneTest.php';
 
-require_once 'Zend/Search/Lucene/DocumentTest.php';
-require_once 'Zend/Search/Lucene/FSMTest.php';
-require_once 'Zend/Search/Lucene/FieldTest.php';
-require_once 'Zend/Search/Lucene/PriorityQueueTest.php';
+// require_once 'Zend/Search/Lucene/DocumentTest.php';
+// require_once 'Zend/Search/Lucene/FSMTest.php';
+// require_once 'Zend/Search/Lucene/FieldTest.php';
+// require_once 'Zend/Search/Lucene/PriorityQueueTest.php';
 
-require_once 'Zend/Search/Lucene/AnalysisTest.php';
+// require_once 'Zend/Search/Lucene/AnalysisTest.php';
 
-require_once 'Zend/Search/Lucene/Index/DictionaryLoaderTest.php';
-require_once 'Zend/Search/Lucene/Index/FieldInfoTest.php';
-require_once 'Zend/Search/Lucene/Index/TermsPriorityQueueTest.php';
-require_once 'Zend/Search/Lucene/Index/SegmentInfoTest.php';
-require_once 'Zend/Search/Lucene/Index/SegmentMergerTest.php';
-require_once 'Zend/Search/Lucene/Index/TermInfoTest.php';
-require_once 'Zend/Search/Lucene/Index/TermTest.php';
+// require_once 'Zend/Search/Lucene/Index/DictionaryLoaderTest.php';
+// require_once 'Zend/Search/Lucene/Index/FieldInfoTest.php';
+// require_once 'Zend/Search/Lucene/Index/TermsPriorityQueueTest.php';
+// require_once 'Zend/Search/Lucene/Index/SegmentInfoTest.php';
+// require_once 'Zend/Search/Lucene/Index/SegmentMergerTest.php';
+// require_once 'Zend/Search/Lucene/Index/TermInfoTest.php';
+// require_once 'Zend/Search/Lucene/Index/TermTest.php';
 
-require_once 'Zend/Search/Lucene/Storage/DirectoryTest.php';
-require_once 'Zend/Search/Lucene/Storage/FileTest.php';
+// require_once 'Zend/Search/Lucene/Storage/DirectoryTest.php';
+// require_once 'Zend/Search/Lucene/Storage/FileTest.php';
 
-require_once 'Zend/Search/Lucene/SearchHighlightTest.php';
+// require_once 'Zend/Search/Lucene/SearchHighlightTest.php';
 
-require_once 'Zend/Search/Lucene/SearchTest.php';
-require_once 'Zend/Search/Lucene/Search23Test.php';
+// require_once 'Zend/Search/Lucene/SearchTest.php';
+// require_once 'Zend/Search/Lucene/Search23Test.php';
 
 
 /**

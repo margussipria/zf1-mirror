@@ -20,7 +20,7 @@
  * @version    $Id: PriorityTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Validate/Sitemap/Priority.php';
+// require_once 'Zend/Validate/Sitemap/Priority.php';
 
 /**
  * Tests Zend_Validate_Sitemap_Priority

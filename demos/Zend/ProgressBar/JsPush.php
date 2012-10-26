@@ -27,8 +27,8 @@ if (isset($_GET['progress'])) {
     set_include_path(realpath(dirname(__FILE__) . '/../../../library')
                      . PATH_SEPARATOR . get_include_path());
 
-    require_once 'Zend/ProgressBar.php';
-    require_once 'Zend/ProgressBar/Adapter/JsPush.php';
+    // require_once 'Zend/ProgressBar.php';
+    // require_once 'Zend/ProgressBar/Adapter/JsPush.php';
 
     $adapter     = new Zend_ProgressBar_Adapter_JsPush(array('updateMethodName' => 'Zend_ProgressBar_Update',
                                                              'finishMethodName' => 'Zend_ProgressBar_Finish'));

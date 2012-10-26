@@ -20,7 +20,7 @@
  * @version $Id: ParameterTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Server/Reflection/Parameter.php';
+// require_once 'Zend/Server/Reflection/Parameter.php';
 
 /**
  * Test case for Zend_Server_Reflection_Parameter

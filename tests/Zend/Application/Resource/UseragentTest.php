@@ -26,9 +26,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Zend_Loader_Autoloader
  */
-require_once 'Zend/Loader/Autoloader.php';
-require_once 'Zend/Application/Resource/ResourceAbstract.php';
-require_once 'Zend/Application/Resource/Useragent.php';
+// require_once 'Zend/Loader/Autoloader.php';
+// require_once 'Zend/Application/Resource/ResourceAbstract.php';
+// require_once 'Zend/Application/Resource/Useragent.php';
 
 /**
  * @category   Zend
@@ -61,7 +61,7 @@ class Zend_Application_Resource_UseragentTest extends PHPUnit_Framework_TestCase
 
         $this->application = new Zend_Application('testing');
 
-        require_once dirname(__FILE__) . '/../_files/ZfAppBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfAppBootstrap.php';
         $this->bootstrap = new ZfAppBootstrap($this->application);
 
         Zend_Controller_Action_HelperBroker::resetHelpers();

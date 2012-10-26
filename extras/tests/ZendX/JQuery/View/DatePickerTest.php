@@ -20,10 +20,10 @@
  * @version     $Id: DatePickerTest.php 20755 2010-01-29 12:29:45Z beberlei $
  */
 
-require_once "jQueryTestCase.php";
+// require_once "jQueryTestCase.php";
 
-require_once "Zend/Locale.php";
-require_once "ZendX/JQuery/View/Helper/DatePicker.php";
+// require_once "Zend/Locale.php";
+// require_once "ZendX/JQuery/View/Helper/DatePicker.php";
 
 class ZendX_JQuery_View_DatePickerTest extends ZendX_JQuery_View_jQueryTestCase
 {

@@ -20,7 +20,7 @@
  * @version    $Id: CookieTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Http/Cookie.php';
+// require_once 'Zend/Http/Cookie.php';
 
 /**
  * Zend_Http_Cookie unit tests

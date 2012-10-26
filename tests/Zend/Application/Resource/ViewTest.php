@@ -27,9 +27,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Zend_Loader_Autoloader
  */
-require_once 'Zend/Loader/Autoloader.php';
+// require_once 'Zend/Loader/Autoloader.php';
 
-require_once 'Zend/Application/Resource/View.php';
+// require_once 'Zend/Application/Resource/View.php';
 
 /**
  * @category   Zend
@@ -62,7 +62,7 @@ class Zend_Application_Resource_ViewTest extends PHPUnit_Framework_TestCase
 
         $this->application = new Zend_Application('testing');
 
-        require_once dirname(__FILE__) . '/../_files/ZfAppBootstrap.php';
+        // require_once dirname(__FILE__) . '/../_files/ZfAppBootstrap.php';
         $this->bootstrap = new ZfAppBootstrap($this->application);
 
         Zend_Controller_Action_HelperBroker::resetHelpers();
@@ -105,7 +105,7 @@ class Zend_Application_Resource_ViewTest extends PHPUnit_Framework_TestCase
         $options = array(
             'scriptPath' => dirname(__FILE__),
         );
-        require_once 'Zend/Application/Resource/View.php';
+        // require_once 'Zend/Application/Resource/View.php';
         $resource = new Zend_Application_Resource_View($options);
         $resource->init();
         $view  = $resource->getView();
@@ -232,7 +232,7 @@ class Zend_Application_Resource_ViewTest extends PHPUnit_Framework_TestCase
      */
     public function testViewResourceDoesNotReinjectViewRenderer()
     {
-        require_once dirname(__FILE__) . '/TestAsset/ViewRenderer.php';
+        // require_once dirname(__FILE__) . '/TestAsset/ViewRenderer.php';
         $viewRenderer = new Zend_Application_Resource_TestAsset_ViewRenderer();
         Zend_Controller_Action_HelperBroker::addHelper($viewRenderer);
 

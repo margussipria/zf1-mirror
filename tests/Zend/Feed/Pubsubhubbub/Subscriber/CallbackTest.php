@@ -19,10 +19,10 @@
  * @version    $Id: CallbackTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Feed/Pubsubhubbub/Subscriber/Callback.php';
-require_once 'Zend/Feed/Pubsubhubbub/Model/Subscription.php';
-require_once 'Zend/Db/Table/Rowset/Abstract.php';
-require_once 'Zend/Db/Table/Row.php';
+// require_once 'Zend/Feed/Pubsubhubbub/Subscriber/Callback.php';
+// require_once 'Zend/Feed/Pubsubhubbub/Model/Subscription.php';
+// require_once 'Zend/Db/Table/Rowset/Abstract.php';
+// require_once 'Zend/Db/Table/Row.php';
 
 /**
  * @category   Zend

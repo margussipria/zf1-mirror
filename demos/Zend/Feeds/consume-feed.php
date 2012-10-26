@@ -27,7 +27,7 @@
 /**
  * @see Zend_Feed
  */
-require_once 'Zend/Feed.php';
+// require_once 'Zend/Feed.php';
 
 $feed = Zend_Feed::import('http://news.google.com/?output=rss');
 

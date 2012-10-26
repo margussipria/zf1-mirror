@@ -23,27 +23,27 @@
 /**
  * Test helpers
  */
-require_once dirname(__FILE__) . '/../../../TestHelper.php';
+// require_once dirname(__FILE__) . '/../../../TestHelper.php';
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_WindowsAzure_AllTests::main');
 }
 
-require_once 'Zend/Service/WindowsAzure/Credentials/AllTests.php';
-require_once 'Zend/Service/WindowsAzure/Diagnostics/AllTests.php';
-require_once 'Zend/Service/WindowsAzure/Management/AllTests.php';
-require_once 'Zend/Service/WindowsAzure/RetryPolicyTest.php';
-require_once 'Zend/Service/WindowsAzure/StorageTest.php';
-require_once 'Zend/Service/WindowsAzure/BlobStorageTest.php';
-require_once 'Zend/Service/WindowsAzure/BlobStreamTest.php';
-require_once 'Zend/Service/WindowsAzure/BlobStorageSharedAccessTest.php';
-require_once 'Zend/Service/WindowsAzure/TableEntityTest.php';
-require_once 'Zend/Service/WindowsAzure/DynamicTableEntityTest.php';
-require_once 'Zend/Service/WindowsAzure/TableEntityQueryTest.php';
-require_once 'Zend/Service/WindowsAzure/TableStorageTest.php';
-require_once 'Zend/Service/WindowsAzure/QueueStorageTest.php';
-require_once 'Zend/Service/WindowsAzure/TableSessionHandlerTest.php';
-require_once 'Zend/Service/WindowsAzure/BlobSessionHandlerTest.php';
+// require_once 'Zend/Service/WindowsAzure/Credentials/AllTests.php';
+// require_once 'Zend/Service/WindowsAzure/Diagnostics/AllTests.php';
+// require_once 'Zend/Service/WindowsAzure/Management/AllTests.php';
+// require_once 'Zend/Service/WindowsAzure/RetryPolicyTest.php';
+// require_once 'Zend/Service/WindowsAzure/StorageTest.php';
+// require_once 'Zend/Service/WindowsAzure/BlobStorageTest.php';
+// require_once 'Zend/Service/WindowsAzure/BlobStreamTest.php';
+// require_once 'Zend/Service/WindowsAzure/BlobStorageSharedAccessTest.php';
+// require_once 'Zend/Service/WindowsAzure/TableEntityTest.php';
+// require_once 'Zend/Service/WindowsAzure/DynamicTableEntityTest.php';
+// require_once 'Zend/Service/WindowsAzure/TableEntityQueryTest.php';
+// require_once 'Zend/Service/WindowsAzure/TableStorageTest.php';
+// require_once 'Zend/Service/WindowsAzure/QueueStorageTest.php';
+// require_once 'Zend/Service/WindowsAzure/TableSessionHandlerTest.php';
+// require_once 'Zend/Service/WindowsAzure/BlobSessionHandlerTest.php';
 
 /**
  * @category   Zend

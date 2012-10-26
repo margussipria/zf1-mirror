@@ -20,7 +20,7 @@
  * @version    $Id $
  */
 
-require_once 'Zend/Db/Select/TestCommon.php';
+// require_once 'Zend/Db/Select/TestCommon.php';
 
 
 

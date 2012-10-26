@@ -20,10 +20,10 @@
  * @version    $Id: OnlineTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once dirname(__FILE__)."/../_files/commontypes.php";
+// require_once dirname(__FILE__)."/../_files/commontypes.php";
 
 /** Zend_Soap_Server */
-require_once 'Zend/Soap/Client.php';
+// require_once 'Zend/Soap/Client.php';
 
 /**
  * @category   Zend

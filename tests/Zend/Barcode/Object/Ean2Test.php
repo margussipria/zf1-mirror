@@ -20,9 +20,9 @@
  * @version    $Id: Ean2Test.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once dirname(__FILE__) . '/TestCommon.php';
+// require_once dirname(__FILE__) . '/TestCommon.php';
 
-require_once 'Zend/Barcode/Object/Ean2.php';
+// require_once 'Zend/Barcode/Object/Ean2.php';
 
 /**
  * @category   Zend

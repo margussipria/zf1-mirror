@@ -24,12 +24,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Mobile_Push_AllTests::main');
 }
 
-require_once 'Zend/Mobile/Push/Message/AllTests.php';
-require_once 'Zend/Mobile/Push/Response/AllTests.php';
-require_once 'Zend/Mobile/Push/AbstractTest.php';
-require_once 'Zend/Mobile/Push/ApnsTest.php';
-require_once 'Zend/Mobile/Push/GcmTest.php';
-require_once 'Zend/Mobile/Push/MpnsTest.php';
+// require_once 'Zend/Mobile/Push/Message/AllTests.php';
+// require_once 'Zend/Mobile/Push/Response/AllTests.php';
+// require_once 'Zend/Mobile/Push/AbstractTest.php';
+// require_once 'Zend/Mobile/Push/ApnsTest.php';
+// require_once 'Zend/Mobile/Push/GcmTest.php';
+// require_once 'Zend/Mobile/Push/MpnsTest.php';
 
 /**
  * @category   Zend

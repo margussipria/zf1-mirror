@@ -20,7 +20,7 @@
  * @version    $Id: RsaTest.php 24808 2012-05-17 19:56:09Z rob $
  */
 
-require_once 'Zend/Crypt/Rsa.php';
+// require_once 'Zend/Crypt/Rsa.php';
 
 
 /**

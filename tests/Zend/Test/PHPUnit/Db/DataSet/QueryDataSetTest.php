@@ -20,19 +20,19 @@
  * @version    $Id: QueryDataSetTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once "Zend/Test/DbAdapter.php";
+// require_once "Zend/Test/DbAdapter.php";
 
-require_once "PHPUnit/Extensions/Database/DB/IDatabaseConnection.php";
+// require_once "PHPUnit/Extensions/Database/DB/IDatabaseConnection.php";
 
 /**
  * @see Zend_Test_PHPUnit_Db_DataSet_DataSetTestCase
  */
-require_once "Zend/Test/PHPUnit/Db/DataSet/DataSetTestCase.php";
+// require_once "Zend/Test/PHPUnit/Db/DataSet/DataSetTestCase.php";
 
 /**
  * @see Zend_Test_PHPUnit_Db_DataSet_QueryTable
  */
-require_once "Zend/Test/PHPUnit/Db/DataSet/QueryDataSet.php";
+// require_once "Zend/Test/PHPUnit/Db/DataSet/QueryDataSet.php";
 
 /**
  * @category   Zend

@@ -24,12 +24,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Form_AllTests::main');
 }
 
-require_once 'Zend/Form/Decorator/AllTests.php';
-require_once 'Zend/Form/DisplayGroupTest.php';
-require_once 'Zend/Form/ElementTest.php';
-require_once 'Zend/Form/Element/AllTests.php';
-require_once 'Zend/Form/FormTest.php';
-require_once 'Zend/Form/SubFormTest.php';
+// require_once 'Zend/Form/Decorator/AllTests.php';
+// require_once 'Zend/Form/DisplayGroupTest.php';
+// require_once 'Zend/Form/ElementTest.php';
+// require_once 'Zend/Form/Element/AllTests.php';
+// require_once 'Zend/Form/FormTest.php';
+// require_once 'Zend/Form/SubFormTest.php';
 
 /**
  * @category   Zend

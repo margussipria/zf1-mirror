@@ -20,8 +20,8 @@
  * @version    $Id: FactoryException.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'PHPUnit/Extensions/ExceptionTestCase.php';
-require_once 'Zend/Cache.php';
+// require_once 'PHPUnit/Extensions/ExceptionTestCase.php';
+// require_once 'Zend/Cache.php';
 
 /**
  * @category   Zend

@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Mobile_AllTests::main');
 }
 
-require_once 'Zend/Mobile/Push/AllTests.php';
+// require_once 'Zend/Mobile/Push/AllTests.php';
 
 
 /**

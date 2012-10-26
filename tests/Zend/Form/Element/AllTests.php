@@ -24,22 +24,22 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Form_Element_AllTests::main');
 }
 
-require_once 'Zend/Form/Element/ButtonTest.php';
-require_once 'Zend/Form/Element/CaptchaTest.php';
-require_once 'Zend/Form/Element/CheckboxTest.php';
-require_once 'Zend/Form/Element/FileTest.php';
-require_once 'Zend/Form/Element/HashTest.php';
-require_once 'Zend/Form/Element/HiddenTest.php';
-require_once 'Zend/Form/Element/ImageTest.php';
-require_once 'Zend/Form/Element/MultiCheckboxTest.php';
-require_once 'Zend/Form/Element/MultiselectTest.php';
-require_once 'Zend/Form/Element/PasswordTest.php';
-require_once 'Zend/Form/Element/RadioTest.php';
-require_once 'Zend/Form/Element/ResetTest.php';
-require_once 'Zend/Form/Element/SelectTest.php';
-require_once 'Zend/Form/Element/SubmitTest.php';
-require_once 'Zend/Form/Element/TextareaTest.php';
-require_once 'Zend/Form/Element/TextTest.php';
+// require_once 'Zend/Form/Element/ButtonTest.php';
+// require_once 'Zend/Form/Element/CaptchaTest.php';
+// require_once 'Zend/Form/Element/CheckboxTest.php';
+// require_once 'Zend/Form/Element/FileTest.php';
+// require_once 'Zend/Form/Element/HashTest.php';
+// require_once 'Zend/Form/Element/HiddenTest.php';
+// require_once 'Zend/Form/Element/ImageTest.php';
+// require_once 'Zend/Form/Element/MultiCheckboxTest.php';
+// require_once 'Zend/Form/Element/MultiselectTest.php';
+// require_once 'Zend/Form/Element/PasswordTest.php';
+// require_once 'Zend/Form/Element/RadioTest.php';
+// require_once 'Zend/Form/Element/ResetTest.php';
+// require_once 'Zend/Form/Element/SelectTest.php';
+// require_once 'Zend/Form/Element/SubmitTest.php';
+// require_once 'Zend/Form/Element/TextareaTest.php';
+// require_once 'Zend/Form/Element/TextTest.php';
 
 /**
  * @category   Zend

@@ -1,8 +1,8 @@
 <?php
-require_once 'Zend/Mobile/Push/Mpns.php';
-require_once 'Zend/Mobile/Push/Message/Mpns/Raw.php';
-require_once 'Zend/Mobile/Push/Message/Mpns/Tile.php';
-require_once 'Zend/Mobile/Push/Message/Mpns/Toast.php';
+// require_once 'Zend/Mobile/Push/Mpns.php';
+// require_once 'Zend/Mobile/Push/Message/Mpns/Raw.php';
+// require_once 'Zend/Mobile/Push/Message/Mpns/Tile.php';
+// require_once 'Zend/Mobile/Push/Message/Mpns/Toast.php';
 
 $mpns = new Zend_Mobile_Push_Mpns();
 $messages = array();

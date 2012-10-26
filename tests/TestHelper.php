@@ -23,7 +23,7 @@
 /**
  * Include PHPUnit dependencies
  */
-require_once 'PHPUnit/Runner/Version.php';
+// require_once 'PHPUnit/Runner/Version.php';
 
 $phpunitVersion = PHPUnit_Runner_Version::id();
 if ($phpunitVersion == '@package_version@' || version_compare($phpunitVersion, '3.5.5', '>=')) {
@@ -40,7 +40,7 @@ To install PHPUnit 3.4:
     
 
     Now edit /usr/local/phpunit34/usr/bin/phpunit. Before the first 
-    require_once statement in that file, enter the following code:
+    // require_once statement in that file, enter the following code:
 
         set_include_path(implode(PATH_SEPARATOR, array(
             __DIR__ . '/../share/php',
@@ -73,9 +73,9 @@ EOT;
 
         exit(1);
     }
-    require_once 'PHPUnit/Autoload.php'; // >= PHPUnit 3.5.5
+    // require_once 'PHPUnit/Autoload.php'; // >= PHPUnit 3.5.5
 } else {
-    require_once 'PHPUnit/Framework.php'; // < PHPUnit 3.5.5
+    // require_once 'PHPUnit/Framework.php'; // < PHPUnit 3.5.5
 }
 
 /*
@@ -109,9 +109,9 @@ set_include_path(implode(PATH_SEPARATOR, $path));
  * the default configuration.
  */
 if (is_readable($zfCoreTests . DIRECTORY_SEPARATOR . 'TestConfiguration.php')) {
-    require_once $zfCoreTests . DIRECTORY_SEPARATOR . 'TestConfiguration.php';
+    // require_once $zfCoreTests . DIRECTORY_SEPARATOR . 'TestConfiguration.php';
 } else {
-    require_once $zfCoreTests . DIRECTORY_SEPARATOR . 'TestConfiguration.php.dist';
+    // require_once $zfCoreTests . DIRECTORY_SEPARATOR . 'TestConfiguration.php.dist';
 }
 
 /**

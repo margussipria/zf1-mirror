@@ -25,7 +25,7 @@
 /**
  * @see ZendX_Db_TestSetup
  */
-require_once 'ZendX/Db/TestSetup.php';
+// require_once 'ZendX/Db/TestSetup.php';
 
 
 PHPUnit_Util_Filter::addFileToFilter(__FILE__);

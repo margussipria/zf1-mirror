@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Twitter_AllTests::main');
 }
 
-require_once 'Zend/Service/Twitter/TwitterTest.php';
-require_once 'Zend/Service/Twitter/TwitterSearchTest.php';
+// require_once 'Zend/Service/Twitter/TwitterTest.php';
+// require_once 'Zend/Service/Twitter/TwitterSearchTest.php';
 
 /**
  * @category   Zend

@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Auth_Adapter_Ldap_AllTests::main');
 }
 
-require_once 'Zend/Auth/Adapter/Ldap/OfflineTest.php';
+// require_once 'Zend/Auth/Adapter/Ldap/OfflineTest.php';
 
 if (defined('TESTS_ZEND_AUTH_ADAPTER_LDAP_ONLINE_ENABLED')
     && constant('TESTS_ZEND_AUTH_ADAPTER_LDAP_ONLINE_ENABLED')) {
-    require_once 'Zend/Auth/Adapter/Ldap/OnlineTest.php';
+    // require_once 'Zend/Auth/Adapter/Ldap/OnlineTest.php';
 }
 
 /**

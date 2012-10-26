@@ -19,7 +19,7 @@
  * @version    $Id: SubscriptionTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Feed/Pubsubhubbub/Model/Subscription.php';
+// require_once 'Zend/Feed/Pubsubhubbub/Model/Subscription.php';
 /**
  * @category   Zend
  * @package    Zend_Feed

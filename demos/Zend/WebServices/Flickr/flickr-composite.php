@@ -26,7 +26,7 @@
 /**
  * @see Zend_Service_Flickr
  */
-require_once 'Zend/Service/Flickr.php';
+// require_once 'Zend/Service/Flickr.php';
 
 if (isset($_POST) && strtolower($_SERVER['REQUEST_METHOD']) == 'post') {
     $keywords = strip_tags($_POST['search_term']);

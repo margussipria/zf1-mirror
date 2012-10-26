@@ -1,6 +1,6 @@
 <?php
 
-require_once('Destructable.php');
+// require_once('Destructable.php');
 
 class JavaScriptTernary extends Destructable {
   protected $expression;

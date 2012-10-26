@@ -20,7 +20,7 @@
  * @version    $Id: CommonTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Feed/Reader.php';
+// require_once 'Zend/Feed/Reader.php';
 
 /**
  * @category   Zend

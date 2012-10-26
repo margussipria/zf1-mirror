@@ -23,12 +23,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Cloud_DocumentService_AllTests::main');
 }
 
-require_once 'Zend/Cloud/DocumentService/Adapter/AllTests.php';
+// require_once 'Zend/Cloud/DocumentService/Adapter/AllTests.php';
 
 /**
  * @see Zend_Cloud_DocumentService_FactoryTest
  */
-require_once 'Zend/Cloud/DocumentService/FactoryTest.php';
+// require_once 'Zend/Cloud/DocumentService/FactoryTest.php';
 
 /**
  * @category   Zend

@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Stdlib_CallbackHandlerTest::main');
 }
 
-require_once 'Zend/Stdlib/CallbackHandler.php';
-require_once 'Zend/Stdlib/TestAsset/SignalHandlers/InstanceMethod.php';
-require_once 'Zend/Stdlib/TestAsset/SignalHandlers/ObjectCallback.php';
+// require_once 'Zend/Stdlib/CallbackHandler.php';
+// require_once 'Zend/Stdlib/TestAsset/SignalHandlers/InstanceMethod.php';
+// require_once 'Zend/Stdlib/TestAsset/SignalHandlers/ObjectCallback.php';
 
 /**
  * @todo       Remove all closures from tests and refactor as methods or functions

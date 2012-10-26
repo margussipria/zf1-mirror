@@ -28,9 +28,9 @@ set_include_path(realpath(dirname(__FILE__) . '/../../../library')
                  . PATH_SEPARATOR . get_include_path());
 
 if (isset($_GET['progress_key'])) {
-    require_once 'Zend/File/Transfer/Adapter/Http.php';
-    require_once 'Zend/ProgressBar.php';
-    require_once 'Zend/ProgressBar/Adapter/JsPull.php';
+    // require_once 'Zend/File/Transfer/Adapter/Http.php';
+    // require_once 'Zend/ProgressBar.php';
+    // require_once 'Zend/ProgressBar/Adapter/JsPull.php';
 
     $adapter = new Zend_ProgressBar_Adapter_JsPull();
     Zend_File_Transfer_Adapter_Http::getProgress(array('progress' => $adapter));
@@ -190,8 +190,8 @@ if (isset($_GET['progress_key'])) {
 </head>
 <body>
     <?php
-    require_once 'Zend/View.php';
-    require_once 'Zend/Form.php';
+    // require_once 'Zend/View.php';
+    // require_once 'Zend/Form.php';
 
     $form = new Zend_Form(array(
         'enctype'  => 'multipart/form-data',

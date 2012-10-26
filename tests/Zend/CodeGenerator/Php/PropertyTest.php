@@ -20,9 +20,9 @@
  * @version    $Id $
  */
 
-require_once 'Zend/CodeGenerator/Php/Property.php';
+// require_once 'Zend/CodeGenerator/Php/Property.php';
 
-require_once 'Zend/Reflection/Class.php';
+// require_once 'Zend/Reflection/Class.php';
 
 /**
  * @category   Zend
@@ -40,7 +40,7 @@ class Zend_CodeGenerator_Php_PropertyTest extends PHPUnit_Framework_TestCase
     public function setup()
     {
         if (!class_exists('Zend_CodeGenerator_Php_TestClassWithManyProperties')) {
-            require_once dirname(__FILE__) . '/_files/TestClassWithManyProperties.php';
+            // require_once dirname(__FILE__) . '/_files/TestClassWithManyProperties.php';
         }
     }
 

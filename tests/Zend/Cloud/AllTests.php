@@ -26,22 +26,22 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Cloud_DocumentService_AllTests
  */
-require_once 'Zend/Cloud/DocumentService/AllTests.php';
+// require_once 'Zend/Cloud/DocumentService/AllTests.php';
 
 /**
  * @see Zend_Cloud_QueueService_AllTests
  */
-require_once 'Zend/Cloud/QueueService/AllTests.php';
+// require_once 'Zend/Cloud/QueueService/AllTests.php';
 
 /**
  * @see Zend_Cloud_StorageService_AllTests
  */
-require_once 'Zend/Cloud/StorageService/AllTests.php';
+// require_once 'Zend/Cloud/StorageService/AllTests.php';
 
 /**
  * @see Zend_Cloud_Infrastructure_AllTests
  */
-require_once 'Zend/Cloud/Infrastructure/AllTests.php';
+// require_once 'Zend/Cloud/Infrastructure/AllTests.php';
 
 /**
  * @category   Zend

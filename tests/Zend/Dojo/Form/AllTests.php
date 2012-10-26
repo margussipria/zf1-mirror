@@ -24,10 +24,10 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Dojo_Form_AllTests::main');
 }
 
-require_once 'Zend/Dojo/Form/Decorator/AllTests.php';
-require_once 'Zend/Dojo/Form/Element/AllTests.php';
-require_once 'Zend/Dojo/Form/FormTest.php';
-require_once 'Zend/Dojo/Form/SubFormTest.php';
+// require_once 'Zend/Dojo/Form/Decorator/AllTests.php';
+// require_once 'Zend/Dojo/Form/Element/AllTests.php';
+// require_once 'Zend/Dojo/Form/FormTest.php';
+// require_once 'Zend/Dojo/Form/SubFormTest.php';
 
 /**
  * @category   Zend

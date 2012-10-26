@@ -24,17 +24,17 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_XmlRpc_AllTests::main');
 }
 
-require_once 'Zend/XmlRpc/BigIntegerValueTest.php';
-require_once 'Zend/XmlRpc/ValueTest.php';
-require_once 'Zend/XmlRpc/RequestTest.php';
-require_once 'Zend/XmlRpc/Request/HttpTest.php';
-require_once 'Zend/XmlRpc/ResponseTest.php';
-require_once 'Zend/XmlRpc/FaultTest.php';
-require_once 'Zend/XmlRpc/ClientTest.php';
-require_once 'Zend/XmlRpc/ServerTest.php';
-require_once 'Zend/XmlRpc/GeneratorTest.php';
-require_once 'Zend/XmlRpc/Server/CacheTest.php';
-require_once 'Zend/XmlRpc/Server/FaultTest.php';
+// require_once 'Zend/XmlRpc/BigIntegerValueTest.php';
+// require_once 'Zend/XmlRpc/ValueTest.php';
+// require_once 'Zend/XmlRpc/RequestTest.php';
+// require_once 'Zend/XmlRpc/Request/HttpTest.php';
+// require_once 'Zend/XmlRpc/ResponseTest.php';
+// require_once 'Zend/XmlRpc/FaultTest.php';
+// require_once 'Zend/XmlRpc/ClientTest.php';
+// require_once 'Zend/XmlRpc/ServerTest.php';
+// require_once 'Zend/XmlRpc/GeneratorTest.php';
+// require_once 'Zend/XmlRpc/Server/CacheTest.php';
+// require_once 'Zend/XmlRpc/Server/FaultTest.php';
 
 /**
  * @category   Zend

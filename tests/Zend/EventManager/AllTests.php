@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_EventManager_AllTests::main');
 }
 
-require_once 'Zend/EventManager/EventManagerTest.php';
-require_once 'Zend/EventManager/FilterChainTest.php';
-require_once 'Zend/EventManager/GlobalEventManagerTest.php';
-require_once 'Zend/EventManager/StaticEventManagerTest.php';
-require_once 'Zend/EventManager/StaticIntegrationTest.php';
+// require_once 'Zend/EventManager/EventManagerTest.php';
+// require_once 'Zend/EventManager/FilterChainTest.php';
+// require_once 'Zend/EventManager/GlobalEventManagerTest.php';
+// require_once 'Zend/EventManager/StaticEventManagerTest.php';
+// require_once 'Zend/EventManager/StaticIntegrationTest.php';
 
 /**
  * @category   Zend

@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Session_AllTests::main');
 }
 
-require_once 'SessionTest.php';
-require_once 'Zend/Session/SaveHandler/AllTests.php';
+// require_once 'SessionTest.php';
+// require_once 'Zend/Session/SaveHandler/AllTests.php';
 
 /**
  * @category   Zend

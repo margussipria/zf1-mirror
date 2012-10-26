@@ -24,28 +24,28 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Controller_AllTests::main');
 }
 
-require_once 'ActionTest.php';
-require_once 'Action/HelperBrokerTest.php';
-require_once 'Action/Helper/AllTests.php';
-require_once 'Dispatcher/StandardTest.php';
-require_once 'FrontTest.php';
-require_once 'Plugin/ActionStackTest.php';
-require_once 'Plugin/BrokerTest.php';
-require_once 'Plugin/ErrorHandlerTest.php';
-require_once 'Plugin/PutHandlerTest.php';
-require_once 'Request/Apache404Test.php';
-require_once 'Request/HttpTest.php';
-require_once 'Request/HttpTestCaseTest.php';
-require_once 'Request/SimpleTest.php';
-require_once 'Response/HttpTest.php';
-require_once 'Response/HttpTestCaseTest.php';
-require_once 'Router/RouteTest.php';
-require_once 'Router/Route/ModuleTest.php';
-require_once 'Router/Route/RegexTest.php';
-require_once 'Router/Route/StaticTest.php';
-require_once 'Router/Route/HostnameTest.php';
-require_once 'Router/Route/ChainTest.php';
-require_once 'Router/RewriteTest.php';
+// require_once 'ActionTest.php';
+// require_once 'Action/HelperBrokerTest.php';
+// require_once 'Action/Helper/AllTests.php';
+// require_once 'Dispatcher/StandardTest.php';
+// require_once 'FrontTest.php';
+// require_once 'Plugin/ActionStackTest.php';
+// require_once 'Plugin/BrokerTest.php';
+// require_once 'Plugin/ErrorHandlerTest.php';
+// require_once 'Plugin/PutHandlerTest.php';
+// require_once 'Request/Apache404Test.php';
+// require_once 'Request/HttpTest.php';
+// require_once 'Request/HttpTestCaseTest.php';
+// require_once 'Request/SimpleTest.php';
+// require_once 'Response/HttpTest.php';
+// require_once 'Response/HttpTestCaseTest.php';
+// require_once 'Router/RouteTest.php';
+// require_once 'Router/Route/ModuleTest.php';
+// require_once 'Router/Route/RegexTest.php';
+// require_once 'Router/Route/StaticTest.php';
+// require_once 'Router/Route/HostnameTest.php';
+// require_once 'Router/Route/ChainTest.php';
+// require_once 'Router/RewriteTest.php';
 
 /**
  * @category   Zend

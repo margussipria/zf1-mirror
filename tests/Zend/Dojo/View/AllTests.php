@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Dojo_View_AllTests::main');
 }
 
-require_once 'Zend/Dojo/View/Helper/AllTests.php';
+// require_once 'Zend/Dojo/View/Helper/AllTests.php';
 
 /**
  * @category   Zend

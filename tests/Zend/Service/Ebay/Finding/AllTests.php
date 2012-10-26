@@ -26,12 +26,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_Ebay_Finding_OfflineTest
  */
-require_once 'Zend/Service/Ebay/Finding/OfflineTest.php';
+// require_once 'Zend/Service/Ebay/Finding/OfflineTest.php';
 
 /**
  * @see Zend_Service_Ebay_Finding_OfflineTest
  */
-require_once 'Zend/Service/Ebay/Finding/OnlineTest.php';
+// require_once 'Zend/Service/Ebay/Finding/OnlineTest.php';
 
 /**
  * @category   Zend

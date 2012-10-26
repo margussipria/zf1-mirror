@@ -25,13 +25,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 }
 
 /** Zend_Service_Twitter_Search */
-require_once 'Zend/Service/Twitter/Search.php';
+// require_once 'Zend/Service/Twitter/Search.php';
 
 /** Zend_Http_Client */
-require_once 'Zend/Http/Client.php';
+// require_once 'Zend/Http/Client.php';
 
 /** Zend_Http_Client_Adapter_Test */
-require_once 'Zend/Http/Client/Adapter/Test.php';
+// require_once 'Zend/Http/Client/Adapter/Test.php';
 
 /**
  * @category   Zend

@@ -24,12 +24,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Filter_Compress_AllTests::main');
 }
 
-require_once 'Zend/Filter/Compress/Bz2Test.php';
-require_once 'Zend/Filter/Compress/GzTest.php';
-require_once 'Zend/Filter/Compress/LzfTest.php';
-require_once 'Zend/Filter/Compress/RarTest.php';
-require_once 'Zend/Filter/Compress/TarTest.php';
-require_once 'Zend/Filter/Compress/ZipTest.php';
+// require_once 'Zend/Filter/Compress/Bz2Test.php';
+// require_once 'Zend/Filter/Compress/GzTest.php';
+// require_once 'Zend/Filter/Compress/LzfTest.php';
+// require_once 'Zend/Filter/Compress/RarTest.php';
+// require_once 'Zend/Filter/Compress/TarTest.php';
+// require_once 'Zend/Filter/Compress/ZipTest.php';
 
 /**
  * @category   Zend

@@ -20,9 +20,9 @@
  * @version    $Id: RegionTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Http/Client.php';
-require_once 'Zend/Http/Client/Adapter/Test.php';
-require_once 'Zend/Service/Amazon/Ec2/Region.php';
+// require_once 'Zend/Http/Client.php';
+// require_once 'Zend/Http/Client/Adapter/Test.php';
+// require_once 'Zend/Service/Amazon/Ec2/Region.php';
 
 /**
  * Zend_Service_Amazon_Ec2_Region test case.

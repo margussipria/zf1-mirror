@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Navigation_Page_AllTests::main');
 }
 
-require_once 'Zend/Navigation/Page/MvcTest.php';
-require_once 'Zend/Navigation/Page/UriTest.php';
+// require_once 'Zend/Navigation/Page/MvcTest.php';
+// require_once 'Zend/Navigation/Page/UriTest.php';
 
 /**
  * @category   Zend

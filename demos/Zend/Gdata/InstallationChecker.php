@@ -173,8 +173,8 @@ class InstallationChecker {
 
         if ($zendLoaderPresent) {
             @fclose($zendLoaderPresent);
-            require_once('Zend/Loader.php');
-            require_once('Zend/Version.php');
+            // require_once('Zend/Loader.php');
+            // require_once('Zend/Version.php');
             Zend_Loader::loadClass('Zend_Gdata_YouTube');
             Zend_Loader::loadClass('Zend_Gdata_YouTube_VideoEntry');
             $yt = new Zend_Gdata_YouTube();
@@ -242,7 +242,7 @@ class InstallationChecker {
     private function testSSLCapabilities()
     {
         $sslCapabilitiesErrors = array();
-        require_once 'Zend/Loader.php';
+        // require_once 'Zend/Loader.php';
         Zend_Loader::loadClass('Zend_Http_Client');
 
         $httpClient = new Zend_Http_Client(
@@ -272,7 +272,7 @@ class InstallationChecker {
     private function validateYouTubeAPIConnectivity()
     {
         $connectivityErrors = array();
-        require_once 'Zend/Loader.php';
+        // require_once 'Zend/Loader.php';
         Zend_Loader::loadClass('Zend_Gdata_YouTube');
         $yt = new Zend_Gdata_YouTube();
         $topRatedFeed = $yt->getTopRatedVideoFeed();

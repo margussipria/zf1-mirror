@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Auth_Adapter_DbTable_AllTests::main');
 }
 
-require_once 'Zend/Auth/Adapter/DbTable/BasicSqliteTest.php';
-require_once 'Zend/Auth/Adapter/DbTable/BasicSqliteTest/SkipTests.php';
+// require_once 'Zend/Auth/Adapter/DbTable/BasicSqliteTest.php';
+// require_once 'Zend/Auth/Adapter/DbTable/BasicSqliteTest/SkipTests.php';
 
 /**
  * @category   Zend

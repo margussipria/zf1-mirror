@@ -20,16 +20,16 @@
  * @version    $Id: AllTests.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'PHPUnit/Framework/Constraint/TraversableContainsOnly.php';
+// require_once 'PHPUnit/Framework/Constraint/TraversableContainsOnly.php';
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Navigation_AllTests::main');
 }
 
-require_once 'Zend/Navigation/ContainerTest.php';
-require_once 'Zend/Navigation/PageFactoryTest.php';
-require_once 'Zend/Navigation/PageTest.php';
-require_once 'Zend/Navigation/Page/AllTests.php';
+// require_once 'Zend/Navigation/ContainerTest.php';
+// require_once 'Zend/Navigation/PageFactoryTest.php';
+// require_once 'Zend/Navigation/PageTest.php';
+// require_once 'Zend/Navigation/Page/AllTests.php';
 
 /**
  * @category   Zend

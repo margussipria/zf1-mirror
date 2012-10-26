@@ -20,7 +20,7 @@
  * @version    $Id: TagTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Reflection/File.php';
+// require_once 'Zend/Reflection/File.php';
 
 /**
  * @category   Zend
@@ -42,7 +42,7 @@ class Zend_Reflection_Docblock_TagTest extends PHPUnit_Framework_TestCase
     {
         if (self::$_sampleClassFileRequired === false) {
             $fileToRequire = dirname(dirname(__FILE__)) . '/_files/TestSampleClass.php';
-            require_once $fileToRequire;
+            // require_once $fileToRequire;
             self::$_sampleClassFileRequired = true;
         }
     }

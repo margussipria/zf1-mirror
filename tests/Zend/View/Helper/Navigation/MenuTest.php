@@ -20,8 +20,8 @@
  * @version    $Id: MenuTest.php 24962 2012-06-15 14:28:42Z adamlundrigan $
  */
 
-require_once dirname(__FILE__) . '/TestAbstract.php';
-require_once 'Zend/View/Helper/Navigation/Menu.php';
+// require_once dirname(__FILE__) . '/TestAbstract.php';
+// require_once 'Zend/View/Helper/Navigation/Menu.php';
 
 /**
  * Tests Zend_View_Helper_Navigation_Menu

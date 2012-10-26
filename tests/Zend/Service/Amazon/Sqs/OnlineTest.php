@@ -20,8 +20,8 @@
  * @version    $Id: OnlineTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Service/Amazon/Sqs.php';
-require_once 'Zend/Http/Client/Adapter/Socket.php';
+// require_once 'Zend/Service/Amazon/Sqs.php';
+// require_once 'Zend/Http/Client/Adapter/Socket.php';
 
 /**
  * @category   Zend

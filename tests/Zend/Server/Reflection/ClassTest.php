@@ -20,9 +20,9 @@
  * @version $Id: ClassTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Server/Reflection/Class.php';
+// require_once 'Zend/Server/Reflection/Class.php';
 
-require_once 'Zend/Server/Reflection.php';
+// require_once 'Zend/Server/Reflection.php';
 
 /**
  * Test case for Zend_Server_Reflection_Class

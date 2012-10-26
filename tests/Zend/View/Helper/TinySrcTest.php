@@ -27,12 +27,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_View_Helper_TinySrc
  */
-require_once 'Zend/View/Helper/TinySrc.php';
+// require_once 'Zend/View/Helper/TinySrc.php';
 
 /**
  * @see Zend_View
  */
-require_once 'Zend/View.php';
+// require_once 'Zend/View.php';
 
 /**
  * @category   Zend

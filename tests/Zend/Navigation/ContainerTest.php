@@ -20,8 +20,8 @@
  * @version    $Id: ContainerTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Navigation.php';
-require_once 'Zend/Config.php';
+// require_once 'Zend/Navigation.php';
+// require_once 'Zend/Config.php';
 
 /**
  * Tests the class Zend_Navigation_Container
@@ -995,7 +995,7 @@ class Zend_Navigation_ContainerTest extends PHPUnit_Framework_TestCase
 
     public function testCurrentShouldThrowExceptionIfIndexIsInvalid()
     {
-        require_once dirname(__FILE__) . '/_files/My/Container.php';
+        // require_once dirname(__FILE__) . '/_files/My/Container.php';
         $container = new My_Container(array(
             array(
                 'label' => 'Page 2',

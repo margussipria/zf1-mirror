@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Pdf_Element_String_AllTests::main');
 }
 
-require_once 'Zend/Pdf/Element/String/BinaryTest.php';
+// require_once 'Zend/Pdf/Element/String/BinaryTest.php';
 
 /**
  * @category   Zend

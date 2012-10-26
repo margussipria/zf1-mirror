@@ -20,13 +20,13 @@
  * @version    $Id: TestCaseTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once "PHPUnit/Extensions/Database/DataSet/CompositeDataSet.php";
-require_once "Zend/Test/PHPUnit/DatabaseTestCase.php";
-require_once "Zend/Db/Adapter/Abstract.php";
-require_once "Zend/Db/Adapter/Pdo/Sqlite.php";
-require_once "Zend/Db/Table.php";
-require_once "Zend/Db/Table/Rowset.php";
-require_once "Zend/Test/DbAdapter.php";
+// require_once "PHPUnit/Extensions/Database/DataSet/CompositeDataSet.php";
+// require_once "Zend/Test/PHPUnit/DatabaseTestCase.php";
+// require_once "Zend/Db/Adapter/Abstract.php";
+// require_once "Zend/Db/Adapter/Pdo/Sqlite.php";
+// require_once "Zend/Db/Table.php";
+// require_once "Zend/Db/Table/Rowset.php";
+// require_once "Zend/Test/DbAdapter.php";
 
 /**
  * @category   Zend

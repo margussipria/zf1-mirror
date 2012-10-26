@@ -24,9 +24,9 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
     define("PHPUnit_MAIN_METHOD", "Zend_Cloud_StorageService_Adapter_RackspaceTest::main");
 }
 
-require_once 'Zend/Service/Rackspace/Files.php';
-require_once 'Zend/Config.php';
-require_once 'Zend/Cloud/StorageService/TestCase.php';
+// require_once 'Zend/Service/Rackspace/Files.php';
+// require_once 'Zend/Config.php';
+// require_once 'Zend/Cloud/StorageService/TestCase.php';
 
 /**
  * @category   Zend

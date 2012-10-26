@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_DeveloperGarden_BaseUserService
  */
-require_once 'Zend/Service/DeveloperGarden/BaseUserService.php';
+// require_once 'Zend/Service/DeveloperGarden/BaseUserService.php';
 
 /**
  * Zend_Service_DeveloperGarden test case

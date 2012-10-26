@@ -23,7 +23,7 @@
 /**
  * Zend_Ldap_Converter
  */
-require_once 'Zend/Ldap/Converter.php';
+// require_once 'Zend/Ldap/Converter.php';
 
 /**
  * @category   Zend

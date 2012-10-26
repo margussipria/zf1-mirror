@@ -20,8 +20,8 @@
  * @version    $Id: LinksTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once dirname(__FILE__) . '/TestAbstract.php';
-require_once 'Zend/View/Helper/Navigation/Links.php';
+// require_once dirname(__FILE__) . '/TestAbstract.php';
+// require_once 'Zend/View/Helper/Navigation/Links.php';
 
 /**
  * Tests Zend_View_Helper_Navigation_Links

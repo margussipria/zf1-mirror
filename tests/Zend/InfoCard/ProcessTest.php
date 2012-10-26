@@ -25,8 +25,8 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
     define("PHPUnit_MAIN_METHOD", "Zend_InfoCard_ProcessTest::main");
 }
 
-require_once 'Zend/InfoCard.php';
-require_once 'Zend/InfoCard/Adapter/Default.php';
+// require_once 'Zend/InfoCard.php';
+// require_once 'Zend/InfoCard/Adapter/Default.php';
 
 /**
  * @category   Zend

@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Http_Header_SetCookie
  */
-require_once 'Zend/Http/Header/SetCookieTest.php';
+// require_once 'Zend/Http/Header/SetCookieTest.php';
 
 /**
  * @category   Zend

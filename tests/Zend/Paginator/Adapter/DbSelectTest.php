@@ -23,19 +23,19 @@
 /**
  * @see Zend_Paginator_Adapter_DbSelect
  */
-require_once 'Zend/Paginator/Adapter/DbSelect.php';
+// require_once 'Zend/Paginator/Adapter/DbSelect.php';
 
 /**
  * @see Zend_Db_Adapter_Pdo_Sqlite
  */
-require_once 'Zend/Db/Adapter/Pdo/Sqlite.php';
-require_once 'Zend/Debug.php';
+// require_once 'Zend/Db/Adapter/Pdo/Sqlite.php';
+// require_once 'Zend/Debug.php';
 
 /**
  * @see PHPUnit_Framework_TestCase
  */
 
-require_once dirname(__FILE__) . '/../_files/TestTable.php';
+// require_once dirname(__FILE__) . '/../_files/TestTable.php';
 
 /**
  * @category   Zend

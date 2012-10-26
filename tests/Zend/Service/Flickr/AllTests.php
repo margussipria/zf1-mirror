@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Flickr_AllTests::main');
 }
 
-require_once 'Zend/Service/Flickr/OfflineTest.php';
-require_once 'Zend/Service/Flickr/OnlineTest.php';
+// require_once 'Zend/Service/Flickr/OfflineTest.php';
+// require_once 'Zend/Service/Flickr/OnlineTest.php';
 
 /**
  * @category   Zend

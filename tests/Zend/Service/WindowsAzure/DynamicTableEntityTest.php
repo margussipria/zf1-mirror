@@ -27,15 +27,15 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Test helpers
  */
-require_once dirname(__FILE__) . '/../../../TestHelper.php';
-require_once dirname(__FILE__) . '/../../../TestConfiguration.php.dist';
-require_once 'PHPUnit/Framework/TestCase.php';
+// require_once dirname(__FILE__) . '/../../../TestHelper.php';
+// require_once dirname(__FILE__) . '/../../../TestConfiguration.php.dist';
+// require_once 'PHPUnit/Framework/TestCase.php';
 
 /** Zend_Service_WindowsAzure_Storage_Table */
-require_once 'Zend/Service/WindowsAzure/Storage/Table.php';
+// require_once 'Zend/Service/WindowsAzure/Storage/Table.php';
 
 /** Zend_Service_WindowsAzure_Storage_DynamicTableEntity */
-require_once 'Zend/Service/WindowsAzure/Storage/DynamicTableEntity.php';
+// require_once 'Zend/Service/WindowsAzure/Storage/DynamicTableEntity.php';
 
 /**
  * @category   Zend

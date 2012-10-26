@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Stdlib_AllTests::main');
 }
 
-require_once 'Zend/Stdlib/CallbackHandlerTest.php';
-require_once 'Zend/Stdlib/PriorityQueueTest.php';
-require_once 'Zend/Stdlib/SplPriorityQueueTest.php';
+// require_once 'Zend/Stdlib/CallbackHandlerTest.php';
+// require_once 'Zend/Stdlib/PriorityQueueTest.php';
+// require_once 'Zend/Stdlib/SplPriorityQueueTest.php';
 
 /**
  * @category   Zend

@@ -22,12 +22,12 @@
 /**
  * @see Zend_Feed
  */
-require_once 'Zend/Feed.php';
+// require_once 'Zend/Feed.php';
 
 /**
  * @see Zend_Search_Lucene
  */
-require_once 'Zend/Search/Lucene.php';
+// require_once 'Zend/Search/Lucene.php';
 
 //create the index
 $index = new Zend_Search_Lucene('/tmp/feeds_index', true);

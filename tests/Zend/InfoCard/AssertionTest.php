@@ -25,7 +25,7 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
     define("PHPUnit_MAIN_METHOD", "Zend_InfoCard_AssertionTest::main");
 }
 
-require_once 'Zend/InfoCard.php';
+// require_once 'Zend/InfoCard.php';
 
 /**
  * @category   Zend

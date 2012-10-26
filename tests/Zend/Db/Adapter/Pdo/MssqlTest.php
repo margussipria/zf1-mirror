@@ -23,12 +23,12 @@
 /**
  * @see Zend_Db_Adapter_Pdo_TestCommon
  */
-require_once 'Zend/Db/Adapter/Pdo/TestCommon.php';
+// require_once 'Zend/Db/Adapter/Pdo/TestCommon.php';
 
 /**
  * @see Zend_Db_Adapter_Pdo_Mysql
  */
-require_once 'Zend/Db/Adapter/Pdo/Mysql.php';
+// require_once 'Zend/Db/Adapter/Pdo/Mysql.php';
 
 
 /**

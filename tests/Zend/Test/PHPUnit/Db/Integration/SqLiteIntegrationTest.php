@@ -20,7 +20,7 @@
  * @version    $Id: SqLiteIntegrationTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once "AbstractTestCase.php";
+// require_once "AbstractTestCase.php";
 
 /**
  * @category   Zend

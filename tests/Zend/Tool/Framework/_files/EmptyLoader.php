@@ -20,7 +20,7 @@
  * @version    $Id: EmptyLoader.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Tool/Framework/Loader/Abstract.php';
+// require_once 'Zend/Tool/Framework/Loader/Abstract.php';
 
 /**
  * @category   Zend

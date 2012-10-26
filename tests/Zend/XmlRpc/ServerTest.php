@@ -20,9 +20,9 @@
  * @version $Id: ServerTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/XmlRpc/Server.php';
-require_once 'Zend/XmlRpc/Request.php';
-require_once 'Zend/XmlRpc/Response.php';
+// require_once 'Zend/XmlRpc/Server.php';
+// require_once 'Zend/XmlRpc/Request.php';
+// require_once 'Zend/XmlRpc/Response.php';
 
 /**
  * Test case for Zend_XmlRpc_Server

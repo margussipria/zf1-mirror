@@ -23,7 +23,7 @@
 /**
  * @see Zend_Session
  */
-require_once 'Zend/Session.php';
+// require_once 'Zend/Session.php';
 
 
 /**
@@ -1056,7 +1056,7 @@ class Zend_SessionTest extends PHPUnit_Framework_TestCase
     {
         try {
             Zend_Session::start();
-            require_once dirname(__FILE__) . '/Validator/NoticeValidator.php';
+            // require_once dirname(__FILE__) . '/Validator/NoticeValidator.php';
             Zend_Session::registerValidator(new Zend_Session_Validator_NoticeValidator);
         } catch (PHPUnit_Framework_Error_Notice $exception) {
             $this->fail($exception->getMessage());
@@ -1091,7 +1091,7 @@ class Zend_SessionTest extends PHPUnit_Framework_TestCase
         // Attempt to start the session
         try {
             /** @see Zend_Session */
-            require_once "Zend/Session.php";
+            // require_once "Zend/Session.php";
             Zend_Session::start();
         } catch (Zend_Session_Exception $e) {
             Zend_Session::regenerateId();

@@ -20,8 +20,8 @@
  * @version    $Id: ServerUrlTest.php 25024 2012-07-30 15:08:15Z rob $
  */
 
-require_once 'Zend/Controller/Front.php';
-require_once 'Zend/View/Helper/ServerUrl.php';
+// require_once 'Zend/Controller/Front.php';
+// require_once 'Zend/View/Helper/ServerUrl.php';
 
 /**
  * Tests Zend_View_Helper_ServerUrl

@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 }
 
 
-require_once 'Zend/Pdf/Filter/Ascii85Test.php';
-require_once 'Zend/Pdf/Filter/RunLengthTest.php';
+// require_once 'Zend/Pdf/Filter/Ascii85Test.php';
+// require_once 'Zend/Pdf/Filter/RunLengthTest.php';
 
 /**
  * @category   Zend

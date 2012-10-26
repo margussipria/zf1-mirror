@@ -25,12 +25,12 @@ set_include_path("$dir/library" . PATH_SEPARATOR . get_include_path());
 /**
  * @see Zend_OpenId_Consumer
  */
-require_once "Zend/OpenId/Consumer.php";
+// require_once "Zend/OpenId/Consumer.php";
 
 /**
  * @see Zend_OpenId_Extension_Sreg
  */
-require_once "Zend/OpenId/Extension/Sreg.php";
+// require_once "Zend/OpenId/Extension/Sreg.php";
 
 $id = "";
 $status = "";

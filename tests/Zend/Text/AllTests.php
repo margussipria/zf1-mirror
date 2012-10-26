@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Text_AllTests::main');
 }
 
-require_once 'Zend/Text/FigletTest.php';
-require_once 'Zend/Text/TableTest.php';
-require_once 'Zend/Text/MultiByteTest.php';
+// require_once 'Zend/Text/FigletTest.php';
+// require_once 'Zend/Text/TableTest.php';
+// require_once 'Zend/Text/MultiByteTest.php';
 
 /**
  * @category   Zend

@@ -20,8 +20,8 @@
  * @version    $Id: DiffieHellmanTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Crypt/DiffieHellman.php';
-require_once 'Zend/Crypt/Math/BigInteger.php';
+// require_once 'Zend/Crypt/DiffieHellman.php';
+// require_once 'Zend/Crypt/Math/BigInteger.php';
 
 /**
  * @category   Zend

@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Rackspace_Servers_AllTests::main');
 }
 
-require_once 'Zend/Service/Rackspace/Servers/OfflineTest.php';
-require_once 'Zend/Service/Rackspace/Servers/OnlineTest.php';
+// require_once 'Zend/Service/Rackspace/Servers/OfflineTest.php';
+// require_once 'Zend/Service/Rackspace/Servers/OnlineTest.php';
 
 /**
  * @category   Zend

@@ -20,9 +20,9 @@
  * @version $Id: RequestTest.php 25033 2012-08-17 19:50:08Z matthew $
  */
 
-require_once 'Zend/XmlRpc/Request.php';
-require_once 'Zend/XmlRpc/Value/Nil.php';
-require_once 'Zend/XmlRpc/Value/String.php';
+// require_once 'Zend/XmlRpc/Request.php';
+// require_once 'Zend/XmlRpc/Value/Nil.php';
+// require_once 'Zend/XmlRpc/Value/String.php';
 
 
 /**

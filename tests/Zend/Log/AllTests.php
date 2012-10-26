@@ -24,10 +24,10 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Log_AllTests::main');
 }
 
-require_once 'Zend/Log/LogTest.php';
-require_once 'Zend/Log/Filter/AllTests.php';
-require_once 'Zend/Log/Formatter/AllTests.php';
-require_once 'Zend/Log/Writer/AllTests.php';
+// require_once 'Zend/Log/LogTest.php';
+// require_once 'Zend/Log/Filter/AllTests.php';
+// require_once 'Zend/Log/Formatter/AllTests.php';
+// require_once 'Zend/Log/Writer/AllTests.php';
 
 /**
  * @category   Zend

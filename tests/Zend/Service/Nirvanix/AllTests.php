@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Nirvanix_AllTests::main');
 }
 
-require_once 'Zend/Service/Nirvanix/NirvanixTest.php';
-require_once 'Zend/Service/Nirvanix/ExceptionTest.php';
-require_once 'Zend/Service/Nirvanix/ResponseTest.php';
-require_once 'Zend/Service/Nirvanix/Namespace/BaseTest.php';
-require_once 'Zend/Service/Nirvanix/Namespace/ImfsTest.php';
+// require_once 'Zend/Service/Nirvanix/NirvanixTest.php';
+// require_once 'Zend/Service/Nirvanix/ExceptionTest.php';
+// require_once 'Zend/Service/Nirvanix/ResponseTest.php';
+// require_once 'Zend/Service/Nirvanix/Namespace/BaseTest.php';
+// require_once 'Zend/Service/Nirvanix/Namespace/ImfsTest.php';
 
 /**
  * @category   Zend

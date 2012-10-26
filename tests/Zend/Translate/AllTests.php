@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Translate_AllTests::main');
 }
 
-require_once 'Zend/Translate/Adapter/AllTests.php';
+// require_once 'Zend/Translate/Adapter/AllTests.php';
 
 /**
  * @category   Zend

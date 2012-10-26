@@ -23,7 +23,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL ^ E_NOTICE);
 $debug = true;
 
-require_once('lib/parser2/dojo2.inc');
+// require_once('lib/parser2/dojo2.inc');
 // Use file serializers by default
 
 $keys = array();
@@ -86,10 +86,10 @@ if (!isset($kwargs['store'])) {
   $kwargs['store'] = 'file';
 }
 
-require_once('lib/generator/' . $kwargs['store'] . '/Freezer.php');
-require_once('lib/generator/' . $kwargs['store'] . '/Serializer.php');
-require_once('lib/generator/JsonSerializer.php');
-require_once('lib/generator/XmlSerializer.php');
+// require_once('lib/generator/' . $kwargs['store'] . '/Freezer.php');
+// require_once('lib/generator/' . $kwargs['store'] . '/Serializer.php');
+// require_once('lib/generator/JsonSerializer.php');
+// require_once('lib/generator/XmlSerializer.php');
 
 if ($clean) {
   Freezer::clean('cache', 'nodes');

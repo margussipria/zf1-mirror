@@ -20,7 +20,7 @@
  * @version    $Id: LastmodTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Validate/Sitemap/Lastmod.php';
+// require_once 'Zend/Validate/Sitemap/Lastmod.php';
 
 /**
  * Tests Zym_Validate_Sitemap_Lastmod

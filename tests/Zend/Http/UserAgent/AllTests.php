@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Http_UserAgent_AllTests::main');
 }
 
-require_once 'Zend/Http/UserAgentTest.php';
-require_once 'Zend/Http/UserAgent/AbstractDeviceTest.php';
-require_once 'Zend/Http/UserAgent/Features/Adapter/BrowscapTest.php';
-require_once 'Zend/Http/UserAgent/Features/Adapter/DeviceAtlasTest.php';
-require_once 'Zend/Http/UserAgent/Features/Adapter/TeraWurflTest.php';
+// require_once 'Zend/Http/UserAgentTest.php';
+// require_once 'Zend/Http/UserAgent/AbstractDeviceTest.php';
+// require_once 'Zend/Http/UserAgent/Features/Adapter/BrowscapTest.php';
+// require_once 'Zend/Http/UserAgent/Features/Adapter/DeviceAtlasTest.php';
+// require_once 'Zend/Http/UserAgent/Features/Adapter/TeraWurflTest.php';
 
 /**
  * @category   Zend

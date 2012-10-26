@@ -27,12 +27,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Cloud_Infrastructure_Adapter_Ec2
  */
-require_once 'Zend/Cloud/Infrastructure/Adapter/Ec2Test.php';
+// require_once 'Zend/Cloud/Infrastructure/Adapter/Ec2Test.php';
 
 /**
  * @see Zend_Cloud_Infrastructure_Adapter_Rackspace
  */
-require_once 'Zend/Cloud/Infrastructure/Adapter/RackspaceTest.php';
+// require_once 'Zend/Cloud/Infrastructure/Adapter/RackspaceTest.php';
 
 /**
  * @category   Zend

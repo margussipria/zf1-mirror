@@ -20,8 +20,8 @@
  * @version    $Id: NavigationTest.php 24987 2012-06-19 20:30:46Z rob $
  */
 
-require_once dirname(__FILE__) . '/TestAbstract.php';
-require_once 'Zend/View/Helper/Navigation.php';
+// require_once dirname(__FILE__) . '/TestAbstract.php';
+// require_once 'Zend/View/Helper/Navigation.php';
 
 /**
  * Tests Zend_View_Helper_Navigation

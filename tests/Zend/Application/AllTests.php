@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Application_AllTests::main');
 }
 
-require_once 'Zend/Application/ApplicationTest.php';
-require_once 'Zend/Application/Bootstrap/BootstrapAbstractTest.php';
-require_once 'Zend/Application/Module/AutoloaderTest.php';
-require_once 'Zend/Application/Module/BootstrapTest.php';
-require_once 'Zend/Application/Resource/AllTests.php';
+// require_once 'Zend/Application/ApplicationTest.php';
+// require_once 'Zend/Application/Bootstrap/BootstrapAbstractTest.php';
+// require_once 'Zend/Application/Module/AutoloaderTest.php';
+// require_once 'Zend/Application/Module/BootstrapTest.php';
+// require_once 'Zend/Application/Resource/AllTests.php';
 
 /**
  * @category   Zend

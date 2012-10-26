@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Tag_Cloud_Decorator_AllTests::main');
 }
 
-require_once 'Zend/Tag/Cloud/Decorator/HtmlCloudTest.php';
-require_once 'Zend/Tag/Cloud/Decorator/HtmlTagTest.php';
+// require_once 'Zend/Tag/Cloud/Decorator/HtmlCloudTest.php';
+// require_once 'Zend/Tag/Cloud/Decorator/HtmlTagTest.php';
 
 /**
  * @category   Zend

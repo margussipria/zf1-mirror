@@ -20,8 +20,8 @@
  * @version    $Id: ConnectionTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once "Zend/Test/DbAdapter.php";
-require_once "Zend/Test/PHPUnit/Db/Connection.php";
+// require_once "Zend/Test/DbAdapter.php";
+// require_once "Zend/Test/PHPUnit/Db/Connection.php";
 
 /**
  * @category   Zend

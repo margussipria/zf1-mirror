@@ -24,34 +24,34 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Dojo_View_Helper_AllTests::main');
 }
 
-require_once 'Zend/Dojo/View/Helper/DojoTest.php';
-require_once 'Zend/Dojo/View/Helper/AccordionContainerTest.php';
-require_once 'Zend/Dojo/View/Helper/AccordionPaneTest.php';
-require_once 'Zend/Dojo/View/Helper/BorderContainerTest.php';
-require_once 'Zend/Dojo/View/Helper/ButtonTest.php';
-require_once 'Zend/Dojo/View/Helper/CheckBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/ComboBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/ContentPaneTest.php';
-require_once 'Zend/Dojo/View/Helper/CurrencyTextBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/CustomDijitTest.php';
-require_once 'Zend/Dojo/View/Helper/DateTextBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/FilteringSelectTest.php';
-require_once 'Zend/Dojo/View/Helper/FormTest.php';
-require_once 'Zend/Dojo/View/Helper/HorizontalSliderTest.php';
-require_once 'Zend/Dojo/View/Helper/NumberSpinnerTest.php';
-require_once 'Zend/Dojo/View/Helper/NumberTextBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/PasswordTextBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/RadioButtonTest.php';
-require_once 'Zend/Dojo/View/Helper/SimpleTextareaTest.php';
-require_once 'Zend/Dojo/View/Helper/SubmitButtonTest.php';
-require_once 'Zend/Dojo/View/Helper/SplitContainerTest.php';
-require_once 'Zend/Dojo/View/Helper/StackContainerTest.php';
-require_once 'Zend/Dojo/View/Helper/TabContainerTest.php';
-require_once 'Zend/Dojo/View/Helper/TextareaTest.php';
-require_once 'Zend/Dojo/View/Helper/TextBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/TimeTextBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/ValidationTextBoxTest.php';
-require_once 'Zend/Dojo/View/Helper/VerticalSliderTest.php';
+// require_once 'Zend/Dojo/View/Helper/DojoTest.php';
+// require_once 'Zend/Dojo/View/Helper/AccordionContainerTest.php';
+// require_once 'Zend/Dojo/View/Helper/AccordionPaneTest.php';
+// require_once 'Zend/Dojo/View/Helper/BorderContainerTest.php';
+// require_once 'Zend/Dojo/View/Helper/ButtonTest.php';
+// require_once 'Zend/Dojo/View/Helper/CheckBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/ComboBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/ContentPaneTest.php';
+// require_once 'Zend/Dojo/View/Helper/CurrencyTextBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/CustomDijitTest.php';
+// require_once 'Zend/Dojo/View/Helper/DateTextBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/FilteringSelectTest.php';
+// require_once 'Zend/Dojo/View/Helper/FormTest.php';
+// require_once 'Zend/Dojo/View/Helper/HorizontalSliderTest.php';
+// require_once 'Zend/Dojo/View/Helper/NumberSpinnerTest.php';
+// require_once 'Zend/Dojo/View/Helper/NumberTextBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/PasswordTextBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/RadioButtonTest.php';
+// require_once 'Zend/Dojo/View/Helper/SimpleTextareaTest.php';
+// require_once 'Zend/Dojo/View/Helper/SubmitButtonTest.php';
+// require_once 'Zend/Dojo/View/Helper/SplitContainerTest.php';
+// require_once 'Zend/Dojo/View/Helper/StackContainerTest.php';
+// require_once 'Zend/Dojo/View/Helper/TabContainerTest.php';
+// require_once 'Zend/Dojo/View/Helper/TextareaTest.php';
+// require_once 'Zend/Dojo/View/Helper/TextBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/TimeTextBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/ValidationTextBoxTest.php';
+// require_once 'Zend/Dojo/View/Helper/VerticalSliderTest.php';
 
 /**
  * @category   Zend

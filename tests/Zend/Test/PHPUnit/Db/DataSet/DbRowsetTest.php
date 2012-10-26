@@ -20,9 +20,9 @@
  * @version    $Id: DbRowsetTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once "Zend/Test/PHPUnit/Db/DataSet/DbRowset.php";
-require_once "Zend/Db/Table/Rowset.php";
-require_once "PHPUnit/Extensions/Database/DataSet/DefaultTableMetaData.php";
+// require_once "Zend/Test/PHPUnit/Db/DataSet/DbRowset.php";
+// require_once "Zend/Db/Table/Rowset.php";
+// require_once "PHPUnit/Extensions/Database/DataSet/DefaultTableMetaData.php";
 
 /**
  * @category   Zend

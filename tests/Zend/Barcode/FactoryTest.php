@@ -20,8 +20,8 @@
  * @version    $Id: FactoryTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Barcode.php';
-require_once 'Zend/Config.php';
+// require_once 'Zend/Barcode.php';
+// require_once 'Zend/Config.php';
 
 /**
  * @category   Zend
@@ -220,7 +220,7 @@ class Zend_Barcode_FactoryTest extends PHPUnit_Framework_TestCase
 
     public function testBarcodeObjectFactoryWithNamespace()
     {
-        require_once dirname(__FILE__) . '/Object/_files/BarcodeNamespace.php';
+        // require_once dirname(__FILE__) . '/Object/_files/BarcodeNamespace.php';
         $barcode = Zend_Barcode::makeBarcode('error',
                 array(
                         'barcodeNamespace' => 'My_Namespace'));
@@ -232,7 +232,7 @@ class Zend_Barcode_FactoryTest extends PHPUnit_Framework_TestCase
      */
     public function testBarcodeObjectFactoryWithNamespaceButWithoutExtendingObjectAbstract()
     {
-        require_once dirname(__FILE__) . '/Object/_files/BarcodeNamespaceWithoutExtendingObjectAbstract.php';
+        // require_once dirname(__FILE__) . '/Object/_files/BarcodeNamespaceWithoutExtendingObjectAbstract.php';
         $barcode = Zend_Barcode::makeBarcode('error',
                 array(
                         'barcodeNamespace' => 'My_Namespace_Other'));
@@ -319,7 +319,7 @@ class Zend_Barcode_FactoryTest extends PHPUnit_Framework_TestCase
     {
         $this->_checkGDRequirement();
 
-        require_once dirname(__FILE__) . '/Renderer/_files/RendererNamespace.php';
+        // require_once dirname(__FILE__) . '/Renderer/_files/RendererNamespace.php';
         $renderer = Zend_Barcode::makeRenderer('image',
                 array(
                         'rendererNamespace' => 'My_Namespace'));
@@ -331,7 +331,7 @@ class Zend_Barcode_FactoryTest extends PHPUnit_Framework_TestCase
      */
     public function testBarcodeFactoryWithNamespaceButWithoutExtendingRendererAbstract()
     {
-        require_once dirname(__FILE__) . '/Renderer/_files/RendererNamespaceWithoutExtendingRendererAbstract.php';
+        // require_once dirname(__FILE__) . '/Renderer/_files/RendererNamespaceWithoutExtendingRendererAbstract.php';
         $renderer = Zend_Barcode::makeRenderer('image',
                 array(
                         'rendererNamespace' => 'My_Namespace_Other'));

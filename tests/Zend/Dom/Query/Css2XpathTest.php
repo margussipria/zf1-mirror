@@ -20,7 +20,7 @@
  * @version    $Id: Css2XpathTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Dom/Query/Css2Xpath.php';
+// require_once 'Zend/Dom/Query/Css2Xpath.php';
 
 /**
  * Test class for Css2Xpath.

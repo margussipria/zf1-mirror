@@ -24,13 +24,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Amazon_AllTests::main');
 }
 
-require_once 'Zend/Service/Amazon/OfflineTest.php';
-require_once 'Zend/Service/Amazon/OnlineTest.php';
-require_once 'Zend/Service/Amazon/Ec2/AllTests.php';
-require_once 'Zend/Service/Amazon/S3/AllTests.php';
-require_once 'Zend/Service/Amazon/SimpleDb/AllTests.php';
-require_once 'Zend/Service/Amazon/Sqs/AllTests.php';
-require_once 'Zend/Service/Amazon/Authentication/AllTests.php';
+// require_once 'Zend/Service/Amazon/OfflineTest.php';
+// require_once 'Zend/Service/Amazon/OnlineTest.php';
+// require_once 'Zend/Service/Amazon/Ec2/AllTests.php';
+// require_once 'Zend/Service/Amazon/S3/AllTests.php';
+// require_once 'Zend/Service/Amazon/SimpleDb/AllTests.php';
+// require_once 'Zend/Service/Amazon/Sqs/AllTests.php';
+// require_once 'Zend/Service/Amazon/Authentication/AllTests.php';
 
 /**
  * @category   Zend

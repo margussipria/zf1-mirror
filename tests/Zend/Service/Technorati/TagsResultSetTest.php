@@ -24,12 +24,12 @@
 /**
  * Test helper
  */
-require_once dirname(__FILE__) . DIRECTORY_SEPARATOR .'TestCase.php';
+// require_once dirname(__FILE__) . DIRECTORY_SEPARATOR .'TestCase.php';
 
 /**
  * @see Zend_Service_Technorati_TagsResultSet
  */
-require_once 'Zend/Service/Technorati/TagsResultSet.php';
+// require_once 'Zend/Service/Technorati/TagsResultSet.php';
 
 
 /**

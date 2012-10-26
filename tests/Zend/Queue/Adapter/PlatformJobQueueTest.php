@@ -21,16 +21,16 @@
  */
 
 /** Zend_Queue */
-require_once 'Zend/Queue.php';
+// require_once 'Zend/Queue.php';
 
 /** Zend_Queue */
-require_once 'Zend/Queue/Message.php';
+// require_once 'Zend/Queue/Message.php';
 
 /** Zend_Queue_Message_Test */
-require_once 'MessageTestClass.php';
+// require_once 'MessageTestClass.php';
 
 /** Base Adapter test class */
-require_once dirname(__FILE__) . '/AdapterTest.php';
+// require_once dirname(__FILE__) . '/AdapterTest.php';
 
 /**
  * @category   Zend

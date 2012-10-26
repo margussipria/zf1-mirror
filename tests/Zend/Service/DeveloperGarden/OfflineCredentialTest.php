@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_DeveloperGarden_Credential
  */
-require_once 'Zend/Service/DeveloperGarden/Credential.php';
+// require_once 'Zend/Service/DeveloperGarden/Credential.php';
 
 /**
  * Zend_Service_DeveloperGarden test case

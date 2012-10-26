@@ -27,27 +27,27 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Cloud_StorageService_Adapter_WindowsAzureTest
  */
-require_once 'Zend/Cloud/StorageService/Adapter/WindowsAzureTest.php';
+// require_once 'Zend/Cloud/StorageService/Adapter/WindowsAzureTest.php';
 
 /**
  * @see Zend_Cloud_StorageService_Adapter_S3Test
  */
-require_once 'Zend/Cloud/StorageService/Adapter/S3Test.php';
+// require_once 'Zend/Cloud/StorageService/Adapter/S3Test.php';
 
 /**
  * @see Zend_Cloud_StorageService_Adapter_NirvanixTest
  */
-require_once 'Zend/Cloud/StorageService/Adapter/NirvanixTest.php';
+// require_once 'Zend/Cloud/StorageService/Adapter/NirvanixTest.php';
 
 /**
  * @see Zend_Cloud_StorageService_Adapter_RackspaceTest
  */
-require_once 'Zend/Cloud/StorageService/Adapter/RackspaceTest.php';
+// require_once 'Zend/Cloud/StorageService/Adapter/RackspaceTest.php';
 
 /**
  * @see Zend_Cloud_StorageService_Adapter_FileSystemTest
  */
-require_once 'Zend/Cloud/StorageService/Adapter/FileSystemTest.php';
+// require_once 'Zend/Cloud/StorageService/Adapter/FileSystemTest.php';
 
 /**
  * @category   Zend

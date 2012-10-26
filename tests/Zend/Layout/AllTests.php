@@ -24,10 +24,10 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Layout_AllTests::main');
 }
 
-require_once 'Zend/Layout/LayoutTest.php';
-require_once 'Zend/Layout/HelperTest.php';
-require_once 'Zend/Layout/PluginTest.php';
-require_once 'Zend/Layout/FunctionalTest.php';
+// require_once 'Zend/Layout/LayoutTest.php';
+// require_once 'Zend/Layout/HelperTest.php';
+// require_once 'Zend/Layout/PluginTest.php';
+// require_once 'Zend/Layout/FunctionalTest.php';
 
 /**
  * @category   Zend

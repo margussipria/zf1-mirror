@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Reflection_Docblock_AllTests::main');
 }
 
-require_once 'Zend/Reflection/Docblock/TagTest.php';
-require_once 'Zend/Reflection/Docblock/Tag/ParamTest.php';
-require_once 'Zend/Reflection/Docblock/Tag/ReturnTest.php';
+// require_once 'Zend/Reflection/Docblock/TagTest.php';
+// require_once 'Zend/Reflection/Docblock/Tag/ParamTest.php';
+// require_once 'Zend/Reflection/Docblock/Tag/ReturnTest.php';
 
 /**
  * @category   Zend

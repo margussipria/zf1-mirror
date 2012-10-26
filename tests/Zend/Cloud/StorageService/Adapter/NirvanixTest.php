@@ -27,11 +27,11 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
 /**
  * @see Zend_Cloud_StorageService_TestCase
  */
-require_once 'Zend/Cloud/StorageService/TestCase.php';
+// require_once 'Zend/Cloud/StorageService/TestCase.php';
 /**
  * @see Zend_Cloud_StorageService_Adapter_Nirvanix
  */
-require_once 'Zend/Cloud/StorageService/Adapter/Nirvanix.php';
+// require_once 'Zend/Cloud/StorageService/Adapter/Nirvanix.php';
 
 /**
  * @category   Zend

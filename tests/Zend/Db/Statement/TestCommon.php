@@ -20,9 +20,9 @@
  * @version    $Id: TestCommon.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Db/TestSetup.php';
+// require_once 'Zend/Db/TestSetup.php';
 
-require_once 'Zend/Db/Statement/Exception.php';
+// require_once 'Zend/Db/Statement/Exception.php';
 
 
 

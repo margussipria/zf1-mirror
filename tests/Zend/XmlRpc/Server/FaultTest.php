@@ -26,8 +26,8 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
 }
 
 
-require_once 'Zend/XmlRpc/Server.php';
-require_once 'Zend/XmlRpc/Server/Fault.php';
+// require_once 'Zend/XmlRpc/Server.php';
+// require_once 'Zend/XmlRpc/Server/Fault.php';
 
 /**
  * Test case for Zend_XmlRpc_Server_Fault
@@ -239,7 +239,7 @@ class Zend_XmlRpc_Server_FaultTest extends PHPUnit_Framework_TestCase
 
         $xml = $dom->saveXML();
 
-        require_once 'Zend/XmlRpc/Server/Exception.php';
+        // require_once 'Zend/XmlRpc/Server/Exception.php';
         $e = new Zend_XmlRpc_Server_Exception('Testing fault', 411);
         $fault = Zend_XmlRpc_Server_Fault::getInstance($e);
 

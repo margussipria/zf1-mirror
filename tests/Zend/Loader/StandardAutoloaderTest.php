@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Loader_StandardAutoloaderTest::main');
 }
 
-require_once 'Zend/Loader/StandardAutoloader.php';
-require_once 'Zend/Loader/TestAsset/StandardAutoloader.php';
+// require_once 'Zend/Loader/StandardAutoloader.php';
+// require_once 'Zend/Loader/TestAsset/StandardAutoloader.php';
 
 /**
  * @category   Zend

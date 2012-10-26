@@ -1,6 +1,6 @@
 <?php
-require_once 'Zend/Mobile/Push/Apns.php';
-require_once 'Zend/Mobile/Push/Message/Apns.php';
+// require_once 'Zend/Mobile/Push/Apns.php';
+// require_once 'Zend/Mobile/Push/Message/Apns.php';
 
 $message = new Zend_Mobile_Push_Message_Apns();
 $message->setAlert('Zend Mobile Push Example');

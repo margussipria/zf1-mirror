@@ -23,12 +23,12 @@
 /**
  * @see Zend_Reflection_Method
  */
-require_once 'Zend/Reflection/Method.php';
+// require_once 'Zend/Reflection/Method.php';
 
 /**
  * @see ZF-9018
  */
-require_once dirname(__FILE__) . '/_files/ZF9018TestClass.php';
+// require_once dirname(__FILE__) . '/_files/ZF9018TestClass.php';
 
 /**
  * @category   Zend
@@ -48,7 +48,7 @@ class Zend_Reflection_MethodTest extends PHPUnit_Framework_TestCase
     {
         if (self::$_sampleClassFileRequired === false) {
             $fileToRequire = dirname(__FILE__) . '/_files/TestSampleClass.php';
-            require_once $fileToRequire;
+            // require_once $fileToRequire;
             self::$_sampleClassFileRequired = true;
         }
     }

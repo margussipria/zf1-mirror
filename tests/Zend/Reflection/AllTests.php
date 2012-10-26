@@ -24,15 +24,15 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Reflection_AllTests::main');
 }
 
-require_once 'Zend/Reflection/ClassTest.php';
-require_once 'Zend/Reflection/Docblock/AllTests.php';
-require_once 'Zend/Reflection/DocblockTest.php';
-require_once 'Zend/Reflection/ExtensionTest.php';
-require_once 'Zend/Reflection/FileTest.php';
-require_once 'Zend/Reflection/FunctionTest.php';
-require_once 'Zend/Reflection/MethodTest.php';
-require_once 'Zend/Reflection/ParameterTest.php';
-require_once 'Zend/Reflection/PropertyTest.php';
+// require_once 'Zend/Reflection/ClassTest.php';
+// require_once 'Zend/Reflection/Docblock/AllTests.php';
+// require_once 'Zend/Reflection/DocblockTest.php';
+// require_once 'Zend/Reflection/ExtensionTest.php';
+// require_once 'Zend/Reflection/FileTest.php';
+// require_once 'Zend/Reflection/FunctionTest.php';
+// require_once 'Zend/Reflection/MethodTest.php';
+// require_once 'Zend/Reflection/ParameterTest.php';
+// require_once 'Zend/Reflection/PropertyTest.php';
 
 /**
  * @category   Zend

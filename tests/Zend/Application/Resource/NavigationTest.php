@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Zend_Loader_Autoloader
  */
-require_once 'Zend/Loader/Autoloader.php';
+// require_once 'Zend/Loader/Autoloader.php';
 
 /**
  * @category   Zend
@@ -142,7 +142,7 @@ class Zend_Application_Resource_NavigationTest extends PHPUnit_Framework_TestCas
      */
     public function testViewMethodIsUsedWhenAvailableInsteadOfResourcePlugin()
     {
-        require_once '_files/ZfAppBootstrapCustomView.php';
+        // require_once '_files/ZfAppBootstrapCustomView.php';
 
         $bootstrap = new ZfAppBootstrapCustomView($this->application);
         $bootstrap->registerPluginResource('view');

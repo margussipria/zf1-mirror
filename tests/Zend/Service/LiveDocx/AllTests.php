@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_LiveDocx_AllTests::main');
 }
 
-require_once 'Zend/Service/LiveDocx/LiveDocxTest.php';
-require_once 'Zend/Service/LiveDocx/MailMergeTest.php';
+// require_once 'Zend/Service/LiveDocx/LiveDocxTest.php';
+// require_once 'Zend/Service/LiveDocx/MailMergeTest.php';
 
 /**
  * Zend_Service_LiveDocx test suite

@@ -23,13 +23,13 @@
 /**
  * Test helpers
  */
-require_once dirname(__FILE__) . '/../../../TestHelper.php';
+// require_once dirname(__FILE__) . '/../../../TestHelper.php';
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_SqlAzure_AllTests::main');
 }
 
-require_once 'Zend/Service/SqlAzure/Management/AllTests.php';
+// require_once 'Zend/Service/SqlAzure/Management/AllTests.php';
 
 /**
  * @category   Zend

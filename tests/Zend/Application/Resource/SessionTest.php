@@ -21,10 +21,10 @@
  * @version    $Id: SessionTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once "Zend/Application/Resource/ResourceAbstract.php";
-require_once "Zend/Application/Resource/Session.php";
-require_once "Zend/Session.php";
-require_once "Zend/Session/SaveHandler/Interface.php";
+// require_once "Zend/Application/Resource/ResourceAbstract.php";
+// require_once "Zend/Application/Resource/Session.php";
+// require_once "Zend/Session.php";
+// require_once "Zend/Session/SaveHandler/Interface.php";
 
 /**
  * @category   Zend

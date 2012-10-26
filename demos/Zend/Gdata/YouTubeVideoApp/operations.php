@@ -34,7 +34,7 @@
  * to filtering the input data should be used.  This code is designed only
  * for demonstration purposes.
  */
-require_once 'Zend/Loader.php';
+// require_once 'Zend/Loader.php';
 Zend_Loader::loadClass('Zend_Gdata_YouTube');
 Zend_Loader::loadClass('Zend_Gdata_AuthSub');
 Zend_Loader::loadClass('Zend_Gdata_App_Exception');

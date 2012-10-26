@@ -23,8 +23,8 @@
 /**
  * Zend_Currency
  */
-require_once 'Zend/Locale.php';
-require_once 'Zend/Currency.php';
+// require_once 'Zend/Locale.php';
+// require_once 'Zend/Currency.php';
 
 
 /**
@@ -40,7 +40,7 @@ class Zend_CurrencyTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        require_once 'Zend/Cache.php';
+        // require_once 'Zend/Cache.php';
         $this->_cache = Zend_Cache::factory('Core', 'File',
                  array('lifetime' => 120, 'automatic_serialization' => true),
                  array('cache_dir' => dirname(__FILE__) . '/_files/'));
@@ -542,7 +542,7 @@ class Zend_CurrencyTest extends PHPUnit_Framework_TestCase
     public function testRegistryLocale()
     {
         $locale = new Zend_Locale('de_AT');
-        require_once 'Zend/Registry.php';
+        // require_once 'Zend/Registry.php';
         Zend_Registry::set('Zend_Locale', $locale);
 
         $currency = new Zend_Currency('EUR');
@@ -763,7 +763,7 @@ class Zend_CurrencyTest extends PHPUnit_Framework_TestCase
         $currency  = new Zend_Currency(array('currency' => 'EUR', 'locale' => 'de_AT', 'value' => 100));
         $currency2 = new Zend_Currency(array('currency' => 'EUR', 'locale' => 'de_AT', 'value' => 100));
 
-        require_once 'Currency/ExchangeTest.php';
+        // require_once 'Currency/ExchangeTest.php';
 
         $this->assertEquals(null, $currency->getService());
         $currency->setService(new ExchangeTest());
@@ -797,7 +797,7 @@ class Zend_CurrencyTest extends PHPUnit_Framework_TestCase
     public function testSetValueWithoutLocale()
     {
         $currency = new Zend_Currency('RUB', 'ru_RU');
-        require_once 'Currency/ExchangeTest.php';
+        // require_once 'Currency/ExchangeTest.php';
 
         $this->assertEquals(null, $currency->getService());
         $currency->setService(new ExchangeTest());

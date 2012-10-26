@@ -24,23 +24,23 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_AllTests::main');
 }
 
-require_once 'Zend/Service/AkismetTest.php';
-require_once 'Zend/Service/Amazon/AllTests.php';
-require_once 'Zend/Service/Audioscrobbler/AllTests.php';
-require_once 'Zend/Service/Delicious/AllTests.php';
-require_once 'Zend/Service/DeveloperGarden/AllTests.php';
-require_once 'Zend/Service/Ebay/AllTests.php';
-require_once 'Zend/Service/Flickr/AllTests.php';
-require_once 'Zend/Service/LiveDocx/AllTests.php';
-require_once 'Zend/Service/Nirvanix/AllTests.php';
-require_once 'Zend/Service/ReCaptcha/AllTests.php';
-require_once 'Zend/Service/ShortUrl/AllTests.php';
-require_once 'Zend/Service/SlideShareTest.php';
-require_once 'Zend/Service/StrikeIron/AllTests.php';
-require_once 'Zend/Service/Technorati/AllTests.php';
-require_once 'Zend/Service/Twitter/AllTests.php';
-require_once 'Zend/Service/WindowsAzure/AllTests.php';
-require_once 'Zend/Service/Yahoo/AllTests.php';
+// require_once 'Zend/Service/AkismetTest.php';
+// require_once 'Zend/Service/Amazon/AllTests.php';
+// require_once 'Zend/Service/Audioscrobbler/AllTests.php';
+// require_once 'Zend/Service/Delicious/AllTests.php';
+// require_once 'Zend/Service/DeveloperGarden/AllTests.php';
+// require_once 'Zend/Service/Ebay/AllTests.php';
+// require_once 'Zend/Service/Flickr/AllTests.php';
+// require_once 'Zend/Service/LiveDocx/AllTests.php';
+// require_once 'Zend/Service/Nirvanix/AllTests.php';
+// require_once 'Zend/Service/ReCaptcha/AllTests.php';
+// require_once 'Zend/Service/ShortUrl/AllTests.php';
+// require_once 'Zend/Service/SlideShareTest.php';
+// require_once 'Zend/Service/StrikeIron/AllTests.php';
+// require_once 'Zend/Service/Technorati/AllTests.php';
+// require_once 'Zend/Service/Twitter/AllTests.php';
+// require_once 'Zend/Service/WindowsAzure/AllTests.php';
+// require_once 'Zend/Service/Yahoo/AllTests.php';
 
 /**
  * @category   Zend

@@ -20,7 +20,7 @@
  * @version $Id: ResponseTest.php 25033 2012-08-17 19:50:08Z matthew $
  */
 
-require_once 'Zend/XmlRpc/Response.php';
+// require_once 'Zend/XmlRpc/Response.php';
 
 /**
  * Test case for Zend_XmlRpc_Response

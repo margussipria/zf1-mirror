@@ -22,12 +22,12 @@
 /**
  * @see Zend_Controller_Action
  */
-require_once 'Zend/Controller/Action.php';
+// require_once 'Zend/Controller/Action.php';
 
 /**
  * @see Zend_Auth
  */
-require_once 'Zend/Auth.php';
+// require_once 'Zend/Auth.php';
 
 /**
  * @category   Zend

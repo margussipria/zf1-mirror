@@ -28,9 +28,9 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
 /**
  * Zend_ProgressBar_Adapter_Console
  */
-require_once 'Zend/ProgressBar/Adapter/Console.php';
+// require_once 'Zend/ProgressBar/Adapter/Console.php';
 
-require_once 'MockupStream.php';
+// require_once 'MockupStream.php';
 
 /**
  * @category   Zend

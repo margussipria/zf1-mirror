@@ -24,12 +24,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Memory_AllTests::main');
 }
 
-require_once 'Zend/Memory/MemoryTest.php';
-require_once 'Zend/Memory/ValueTest.php';
-require_once 'Zend/Memory/MovableTest.php';
-require_once 'Zend/Memory/LockedTest.php';
-require_once 'Zend/Memory/AccessControllerTest.php';
-require_once 'Zend/Memory/MemoryManagerTest.php';
+// require_once 'Zend/Memory/MemoryTest.php';
+// require_once 'Zend/Memory/ValueTest.php';
+// require_once 'Zend/Memory/MovableTest.php';
+// require_once 'Zend/Memory/LockedTest.php';
+// require_once 'Zend/Memory/AccessControllerTest.php';
+// require_once 'Zend/Memory/MemoryManagerTest.php';
 
 /**
  * @category   Zend

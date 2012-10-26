@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Test_PHPUnit_AllTests::main');
 }
 
-require_once 'Zend/Test/PHPUnit/ControllerTestCaseTest.php';
-require_once 'Zend/Test/PHPUnit/Db/AllTests.php';
-require_once 'Zend/Test/PHPUnit/Constraint/AllTests.php';
+// require_once 'Zend/Test/PHPUnit/ControllerTestCaseTest.php';
+// require_once 'Zend/Test/PHPUnit/Db/AllTests.php';
+// require_once 'Zend/Test/PHPUnit/Constraint/AllTests.php';
 
 /**
  * @category   Zend

@@ -20,7 +20,7 @@
  * @version    $Id: UriTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Navigation/Page/Uri.php';
+// require_once 'Zend/Navigation/Page/Uri.php';
 
 /**
  * Tests the class Zend_Navigation_Page_Uri

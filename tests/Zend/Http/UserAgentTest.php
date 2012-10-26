@@ -20,15 +20,15 @@
  * @version    $Id: JsonTest.php 12081 2008-10-22 19:07:55Z norm2782 $
  */
 
-require_once 'Zend/Config.php';
-require_once 'Zend/Http/UserAgent.php';
-require_once 'Zend/Http/UserAgent/Mobile.php';
-require_once 'Zend/Http/UserAgent/Storage/NonPersistent.php';
+// require_once 'Zend/Config.php';
+// require_once 'Zend/Http/UserAgent.php';
+// require_once 'Zend/Http/UserAgent/Mobile.php';
+// require_once 'Zend/Http/UserAgent/Storage/NonPersistent.php';
 
-require_once dirname(__FILE__) . '/TestAsset/TestPluginLoader.php';
-require_once dirname(__FILE__) . '/TestAsset/DesktopDevice.php';
-require_once dirname(__FILE__) . '/TestAsset/InvalidDevice.php';
-require_once dirname(__FILE__) . '/TestAsset/PopulatedStorage.php';
+// require_once dirname(__FILE__) . '/TestAsset/TestPluginLoader.php';
+// require_once dirname(__FILE__) . '/TestAsset/DesktopDevice.php';
+// require_once dirname(__FILE__) . '/TestAsset/InvalidDevice.php';
+// require_once dirname(__FILE__) . '/TestAsset/PopulatedStorage.php';
 
 /**
  * @category   Zend

@@ -26,17 +26,17 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Cloud_QueueService_Adapter_SqsTest
  */
-require_once 'Zend/Cloud/QueueService/Adapter/SqsTest.php';
+// require_once 'Zend/Cloud/QueueService/Adapter/SqsTest.php';
 
 /**
  * @see Zend_Cloud_QueueService_Adapter_WindowsAzureTest
  */
-require_once 'Zend/Cloud/QueueService/Adapter/WindowsAzureTest.php';
+// require_once 'Zend/Cloud/QueueService/Adapter/WindowsAzureTest.php';
 
 /**
  * @see Zend_Cloud_QueueService_Adapter_ZendQueueTest
  */
-require_once 'Zend/Cloud/QueueService/Adapter/ZendQueueTest.php';
+// require_once 'Zend/Cloud/QueueService/Adapter/ZendQueueTest.php';
 
 /**
  * @category   Zend

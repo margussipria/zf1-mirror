@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Dom_AllTests::main');
 }
 
-require_once 'Zend/Dom/QueryTest.php';
-require_once 'Zend/Dom/Query/ResultTest.php';
-require_once 'Zend/Dom/Query/Css2XpathTest.php';
+// require_once 'Zend/Dom/QueryTest.php';
+// require_once 'Zend/Dom/Query/ResultTest.php';
+// require_once 'Zend/Dom/Query/Css2XpathTest.php';
 
 /**
  * @category   Zend

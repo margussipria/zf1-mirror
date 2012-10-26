@@ -24,12 +24,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Tag_Cloud_CloudTest::main');
 }
 
-require_once 'Zend/Config.php';
-require_once 'Zend/Loader/PluginLoader.php';
-require_once 'Zend/Tag/Cloud.php';
-require_once 'Zend/Tag/ItemList.php';
-require_once dirname(__FILE__) . '/_classes/CloudDummy.php';
-require_once dirname(__FILE__) . '/_classes/TagDummy.php';
+// require_once 'Zend/Config.php';
+// require_once 'Zend/Loader/PluginLoader.php';
+// require_once 'Zend/Tag/Cloud.php';
+// require_once 'Zend/Tag/ItemList.php';
+// require_once dirname(__FILE__) . '/_classes/CloudDummy.php';
+// require_once dirname(__FILE__) . '/_classes/TagDummy.php';
 
 /**
  * @category   Zend

@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Tag_AllTests::main');
 }
 
-require_once 'Zend/Tag/ItemTest.php';
-require_once 'Zend/Tag/ItemListTest.php';
-require_once 'Zend/Tag/Cloud/AllTests.php';
+// require_once 'Zend/Tag/ItemTest.php';
+// require_once 'Zend/Tag/ItemListTest.php';
+// require_once 'Zend/Tag/Cloud/AllTests.php';
 
 /**
  * @category   Zend

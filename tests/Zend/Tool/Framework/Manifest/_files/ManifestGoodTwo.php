@@ -20,14 +20,14 @@
  * @version    $Id: ManifestGoodTwo.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Tool/Framework/Manifest/ActionManifestable.php';
-require_once 'Zend/Tool/Framework/Manifest/ProviderManifestable.php';
-require_once 'Zend/Tool/Framework/Manifest/MetadataManifestable.php';
-require_once 'Zend/Tool/Framework/Manifest/Indexable.php';
-require_once 'Zend/Tool/Framework/Metadata/Basic.php';
+// require_once 'Zend/Tool/Framework/Manifest/ActionManifestable.php';
+// require_once 'Zend/Tool/Framework/Manifest/ProviderManifestable.php';
+// require_once 'Zend/Tool/Framework/Manifest/MetadataManifestable.php';
+// require_once 'Zend/Tool/Framework/Manifest/Indexable.php';
+// require_once 'Zend/Tool/Framework/Metadata/Basic.php';
 
-require_once 'ProviderTwo.php';
-require_once 'ActionTwo.php';
+// require_once 'ProviderTwo.php';
+// require_once 'ActionTwo.php';
 
 /**
  * @category   Zend

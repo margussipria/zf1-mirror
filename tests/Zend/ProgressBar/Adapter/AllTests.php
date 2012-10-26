@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_ProgressBar_Adapter_AllTests::main');
 }
 
-require_once 'Zend/ProgressBar/Adapter/ConsoleTest.php';
-require_once 'Zend/ProgressBar/Adapter/JsPushTest.php';
-require_once 'Zend/ProgressBar/Adapter/JsPullTest.php';
+// require_once 'Zend/ProgressBar/Adapter/ConsoleTest.php';
+// require_once 'Zend/ProgressBar/Adapter/JsPushTest.php';
+// require_once 'Zend/ProgressBar/Adapter/JsPullTest.php';
 
 /**
  * @category   Zend

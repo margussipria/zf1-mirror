@@ -20,8 +20,8 @@
  * @version    $Id: TestAdapterTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Http/Client.php';
-require_once 'Zend/Http/Client/Adapter/Test.php';
+// require_once 'Zend/Http/Client.php';
+// require_once 'Zend/Http/Client/Adapter/Test.php';
 
 /**
  * Exercises Zend_Http_Client_Adapter_Test

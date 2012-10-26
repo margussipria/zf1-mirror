@@ -20,7 +20,7 @@
  * @version    $Id: Ec2Test.php 25024 2012-07-30 15:08:15Z rob $
  */
 
-require_once 'Zend/Service/Amazon/Ec2.php';
+// require_once 'Zend/Service/Amazon/Ec2.php';
 
 /**
  * Zend_Service_Amazon_Ec2 test case.

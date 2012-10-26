@@ -29,7 +29,7 @@ error_reporting(E_ALL);
 /**
  * @see Zend_Service_Flickr
  */
-require_once 'Zend/Service/Flickr.php';
+// require_once 'Zend/Service/Flickr.php';
 
 $flickr = new Zend_Service_Flickr('your api key here');
 

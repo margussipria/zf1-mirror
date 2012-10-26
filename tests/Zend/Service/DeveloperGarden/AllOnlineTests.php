@@ -24,14 +24,14 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_DeveloperGarden_AllTests::main');
 }
 
-require_once 'Zend/Service/DeveloperGarden/SecurityTokenServerTest.php';
-require_once 'Zend/Service/DeveloperGarden/BaseUserServiceTest.php';
-require_once 'Zend/Service/DeveloperGarden/IpLocationTest.php';
-require_once 'Zend/Service/DeveloperGarden/LocalSearchTest.php';
-require_once 'Zend/Service/DeveloperGarden/SmsValidationTest.php';
-require_once 'Zend/Service/DeveloperGarden/SendSmsTest.php';
-require_once 'Zend/Service/DeveloperGarden/ConferenceCallTest.php';
-require_once 'Zend/Service/DeveloperGarden/VoiceCallTest.php';
+// require_once 'Zend/Service/DeveloperGarden/SecurityTokenServerTest.php';
+// require_once 'Zend/Service/DeveloperGarden/BaseUserServiceTest.php';
+// require_once 'Zend/Service/DeveloperGarden/IpLocationTest.php';
+// require_once 'Zend/Service/DeveloperGarden/LocalSearchTest.php';
+// require_once 'Zend/Service/DeveloperGarden/SmsValidationTest.php';
+// require_once 'Zend/Service/DeveloperGarden/SendSmsTest.php';
+// require_once 'Zend/Service/DeveloperGarden/ConferenceCallTest.php';
+// require_once 'Zend/Service/DeveloperGarden/VoiceCallTest.php';
 
 /**
  * Zend_Service_DeveloperGarden test suite

@@ -26,14 +26,14 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 
 if (defined('TESTS_ZEND_SERVICE_DELICIOUS_ENABLED') &&
     constant('TESTS_ZEND_SERVICE_DELICIOUS_ENABLED')) {
-    require_once 'Zend/Service/Delicious/PublicDataTest.php';
-    require_once 'Zend/Service/Delicious/PrivateDataTest.php';
+    // require_once 'Zend/Service/Delicious/PublicDataTest.php';
+    // require_once 'Zend/Service/Delicious/PrivateDataTest.php';
 } else {
-    require_once 'Zend/Service/Delicious/SkipTests.php';
+    // require_once 'Zend/Service/Delicious/SkipTests.php';
 }
 
-require_once 'Zend/Service/Delicious/SimplePostTest.php';
-require_once 'Zend/Service/Delicious/PostTest.php';
+// require_once 'Zend/Service/Delicious/SimplePostTest.php';
+// require_once 'Zend/Service/Delicious/PostTest.php';
 
 /**
  * @category   Zend

@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Service_Amazon_Sqs_AllTests::main');
 }
 
-require_once 'Zend/Service/Amazon/Sqs/OfflineTest.php';
-require_once 'Zend/Service/Amazon/Sqs/OnlineTest.php';
+// require_once 'Zend/Service/Amazon/Sqs/OfflineTest.php';
+// require_once 'Zend/Service/Amazon/Sqs/OnlineTest.php';
 
 /**
  * @category   Zend

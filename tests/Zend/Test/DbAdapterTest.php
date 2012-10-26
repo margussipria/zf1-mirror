@@ -20,8 +20,8 @@
  * @version    $Id: DbAdapterTest.php 25024 2012-07-30 15:08:15Z rob $
  */
 
-require_once "Zend/Test/DbAdapter.php";
-require_once "Zend/Test/DbStatement.php";
+// require_once "Zend/Test/DbAdapter.php";
+// require_once "Zend/Test/DbStatement.php";
 
 /**
  * @category   Zend

@@ -24,19 +24,19 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Oauth_AllTests::main');
 }
 
-require_once 'OauthTest.php';
-require_once 'Oauth/ConsumerTest.php';
-require_once 'Oauth/Signature/AbstractTest.php';
-require_once 'Oauth/Signature/PlaintextTest.php';
-require_once 'Oauth/Signature/HmacTest.php';
-require_once 'Oauth/Signature/RsaTest.php';
-require_once 'Oauth/Http/RequestTokenTest.php';
-require_once 'Oauth/Http/UserAuthorizationTest.php';
-require_once 'Oauth/Http/AccessTokenTest.php';
-require_once 'Oauth/Http/UtilityTest.php';
-require_once 'Oauth/Token/RequestTest.php';
-require_once 'Oauth/Token/AuthorizedRequestTest.php';
-require_once 'Oauth/Token/AccessTest.php';
+// require_once 'OauthTest.php';
+// require_once 'Oauth/ConsumerTest.php';
+// require_once 'Oauth/Signature/AbstractTest.php';
+// require_once 'Oauth/Signature/PlaintextTest.php';
+// require_once 'Oauth/Signature/HmacTest.php';
+// require_once 'Oauth/Signature/RsaTest.php';
+// require_once 'Oauth/Http/RequestTokenTest.php';
+// require_once 'Oauth/Http/UserAuthorizationTest.php';
+// require_once 'Oauth/Http/AccessTokenTest.php';
+// require_once 'Oauth/Http/UtilityTest.php';
+// require_once 'Oauth/Token/RequestTest.php';
+// require_once 'Oauth/Token/AuthorizedRequestTest.php';
+// require_once 'Oauth/Token/AccessTest.php';
 
 /**
  * @category   Zend

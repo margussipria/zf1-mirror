@@ -24,12 +24,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Json_Server_AllTests::main');
 }
 
-require_once 'Zend/Json/Server/CacheTest.php';
-require_once 'Zend/Json/Server/ErrorTest.php';
-require_once 'Zend/Json/Server/RequestTest.php';
-require_once 'Zend/Json/Server/ResponseTest.php';
-require_once 'Zend/Json/Server/SmdTest.php';
-require_once 'Zend/Json/Server/Smd/ServiceTest.php';
+// require_once 'Zend/Json/Server/CacheTest.php';
+// require_once 'Zend/Json/Server/ErrorTest.php';
+// require_once 'Zend/Json/Server/RequestTest.php';
+// require_once 'Zend/Json/Server/ResponseTest.php';
+// require_once 'Zend/Json/Server/SmdTest.php';
+// require_once 'Zend/Json/Server/Smd/ServiceTest.php';
 
 /**
  * @category   Zend

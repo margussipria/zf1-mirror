@@ -1,5 +1,5 @@
 <?php
-require_once 'Zend/Mobile/Push/Apns.php';
+// require_once 'Zend/Mobile/Push/Apns.php';
 
 $apns = new Zend_Mobile_Push_Apns();
 $apns->setCertificate('/path/to/provisioning-certificate.pem');

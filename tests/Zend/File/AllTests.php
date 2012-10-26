@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_File_AllTests::main');
 }
 
-require_once 'Zend/File/Transfer/AllTests.php';
-require_once 'Zend/File/ClassFileLocatorTest.php';
+// require_once 'Zend/File/Transfer/AllTests.php';
+// require_once 'Zend/File/ClassFileLocatorTest.php';
 
 /**
  * @category   Zend

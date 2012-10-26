@@ -22,7 +22,7 @@
 /**
  * @see Zend_Loader
  */
-require_once 'Zend/Loader.php';
+// require_once 'Zend/Loader.php';
 
 /**
  * A simple web-mailer based on Zend_Mail_Storage classes.

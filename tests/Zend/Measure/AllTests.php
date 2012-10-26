@@ -26,37 +26,37 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 
 // define('TESTS_ZEND_LOCALE_BCMATH_ENABLED', false); // uncomment to disable use of bcmath extension by Zend_Date
 
-require_once 'Zend/Measure/Cooking/VolumeTest.php';
-require_once 'Zend/Measure/Cooking/WeightTest.php';
+// require_once 'Zend/Measure/Cooking/VolumeTest.php';
+// require_once 'Zend/Measure/Cooking/WeightTest.php';
 
-require_once 'Zend/Measure/Flow/MassTest.php';
-require_once 'Zend/Measure/Flow/MoleTest.php';
-require_once 'Zend/Measure/Flow/VolumeTest.php';
+// require_once 'Zend/Measure/Flow/MassTest.php';
+// require_once 'Zend/Measure/Flow/MoleTest.php';
+// require_once 'Zend/Measure/Flow/VolumeTest.php';
 
-require_once 'Zend/Measure/Viscosity/DynamicTest.php';
-require_once 'Zend/Measure/Viscosity/KinematicTest.php';
-require_once 'Zend/Measure/AccelerationTest.php';
-require_once 'Zend/Measure/AngleTest.php';
-require_once 'Zend/Measure/AreaTest.php';
-require_once 'Zend/Measure/BinaryTest.php';
-require_once 'Zend/Measure/CapacitanceTest.php';
-require_once 'Zend/Measure/CurrentTest.php';
-require_once 'Zend/Measure/DensityTest.php';
-require_once 'Zend/Measure/EnergyTest.php';
-require_once 'Zend/Measure/ForceTest.php';
-require_once 'Zend/Measure/FrequencyTest.php';
-require_once 'Zend/Measure/IlluminationTest.php';
-require_once 'Zend/Measure/LengthTest.php';
-require_once 'Zend/Measure/LightnessTest.php';
-require_once 'Zend/Measure/NumberTest.php';
-require_once 'Zend/Measure/PowerTest.php';
-require_once 'Zend/Measure/PressureTest.php';
-require_once 'Zend/Measure/SpeedTest.php';
-require_once 'Zend/Measure/TemperatureTest.php';
-require_once 'Zend/Measure/TimeTest.php';
-require_once 'Zend/Measure/TorqueTest.php';
-require_once 'Zend/Measure/VolumeTest.php';
-require_once 'Zend/Measure/WeightTest.php';
+// require_once 'Zend/Measure/Viscosity/DynamicTest.php';
+// require_once 'Zend/Measure/Viscosity/KinematicTest.php';
+// require_once 'Zend/Measure/AccelerationTest.php';
+// require_once 'Zend/Measure/AngleTest.php';
+// require_once 'Zend/Measure/AreaTest.php';
+// require_once 'Zend/Measure/BinaryTest.php';
+// require_once 'Zend/Measure/CapacitanceTest.php';
+// require_once 'Zend/Measure/CurrentTest.php';
+// require_once 'Zend/Measure/DensityTest.php';
+// require_once 'Zend/Measure/EnergyTest.php';
+// require_once 'Zend/Measure/ForceTest.php';
+// require_once 'Zend/Measure/FrequencyTest.php';
+// require_once 'Zend/Measure/IlluminationTest.php';
+// require_once 'Zend/Measure/LengthTest.php';
+// require_once 'Zend/Measure/LightnessTest.php';
+// require_once 'Zend/Measure/NumberTest.php';
+// require_once 'Zend/Measure/PowerTest.php';
+// require_once 'Zend/Measure/PressureTest.php';
+// require_once 'Zend/Measure/SpeedTest.php';
+// require_once 'Zend/Measure/TemperatureTest.php';
+// require_once 'Zend/Measure/TimeTest.php';
+// require_once 'Zend/Measure/TorqueTest.php';
+// require_once 'Zend/Measure/VolumeTest.php';
+// require_once 'Zend/Measure/WeightTest.php';
 
 // echo "BCMATH is ", Zend_Locale_Math::isBcmathDisabled() ? 'disabled':'not disabled', "\n";
 

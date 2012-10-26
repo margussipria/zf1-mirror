@@ -27,12 +27,12 @@ if (!defined("PHPUnit_MAIN_METHOD")) {
 /**
  * @see Zend_Cloud_QueueServiceTestCase
  */
-require_once 'Zend/Cloud/QueueService/TestCase.php';
+// require_once 'Zend/Cloud/QueueService/TestCase.php';
 
 /**
  * @see Zend_Cloud_QueueeService_Adapter_WindowsAzure
  */
-require_once 'Zend/Cloud/QueueService/Adapter/WindowsAzure.php';
+// require_once 'Zend/Cloud/QueueService/Adapter/WindowsAzure.php';
 
 /**
  * @category   Zend

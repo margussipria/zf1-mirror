@@ -24,13 +24,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Loader_AllTests::main');
 }
 
-require_once 'Zend/Loader/AutoloaderTest.php';
-require_once 'Zend/Loader/AutoloaderFactoryTest.php';
-require_once 'Zend/Loader/AutoloaderMultiVersionTest.php';
-require_once 'Zend/Loader/Autoloader/ResourceTest.php';
-require_once 'Zend/Loader/ClassMapAutoloaderTest.php';
-require_once 'Zend/Loader/PluginLoaderTest.php';
-require_once 'Zend/Loader/StandardAutoloaderTest.php';
+// require_once 'Zend/Loader/AutoloaderTest.php';
+// require_once 'Zend/Loader/AutoloaderFactoryTest.php';
+// require_once 'Zend/Loader/AutoloaderMultiVersionTest.php';
+// require_once 'Zend/Loader/Autoloader/ResourceTest.php';
+// require_once 'Zend/Loader/ClassMapAutoloaderTest.php';
+// require_once 'Zend/Loader/PluginLoaderTest.php';
+// require_once 'Zend/Loader/StandardAutoloaderTest.php';
 
 /**
  * @category   Zend

@@ -24,24 +24,24 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Validate_File_AllTests::main');
 }
 
-require_once 'Zend/Validate/File/CountTest.php';
-require_once 'Zend/Validate/File/Crc32Test.php';
-require_once 'Zend/Validate/File/ExcludeExtensionTest.php';
-require_once 'Zend/Validate/File/ExcludeMimeTypeTest.php';
-require_once 'Zend/Validate/File/ExistsTest.php';
-require_once 'Zend/Validate/File/ExtensionTest.php';
-require_once 'Zend/Validate/File/FilesSizeTest.php';
-require_once 'Zend/Validate/File/HashTest.php';
-require_once 'Zend/Validate/File/ImageSizeTest.php';
-require_once 'Zend/Validate/File/IsCompressedTest.php';
-require_once 'Zend/Validate/File/IsImageTest.php';
-require_once 'Zend/Validate/File/Md5Test.php';
-require_once 'Zend/Validate/File/MimeTypeTest.php';
-require_once 'Zend/Validate/File/NotExistsTest.php';
-require_once 'Zend/Validate/File/Sha1Test.php';
-require_once 'Zend/Validate/File/SizeTest.php';
-require_once 'Zend/Validate/File/UploadTest.php';
-require_once 'Zend/Validate/File/WordCountTest.php';
+// require_once 'Zend/Validate/File/CountTest.php';
+// require_once 'Zend/Validate/File/Crc32Test.php';
+// require_once 'Zend/Validate/File/ExcludeExtensionTest.php';
+// require_once 'Zend/Validate/File/ExcludeMimeTypeTest.php';
+// require_once 'Zend/Validate/File/ExistsTest.php';
+// require_once 'Zend/Validate/File/ExtensionTest.php';
+// require_once 'Zend/Validate/File/FilesSizeTest.php';
+// require_once 'Zend/Validate/File/HashTest.php';
+// require_once 'Zend/Validate/File/ImageSizeTest.php';
+// require_once 'Zend/Validate/File/IsCompressedTest.php';
+// require_once 'Zend/Validate/File/IsImageTest.php';
+// require_once 'Zend/Validate/File/Md5Test.php';
+// require_once 'Zend/Validate/File/MimeTypeTest.php';
+// require_once 'Zend/Validate/File/NotExistsTest.php';
+// require_once 'Zend/Validate/File/Sha1Test.php';
+// require_once 'Zend/Validate/File/SizeTest.php';
+// require_once 'Zend/Validate/File/UploadTest.php';
+// require_once 'Zend/Validate/File/WordCountTest.php';
 
 /**
  * @category   Zend

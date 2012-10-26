@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Validate_Db_AllTests::main');
 }
 
-require_once 'Zend/Validate/Db/RecordExistsTest.php';
-require_once 'Zend/Validate/Db/NoRecordExistsTest.php';
+// require_once 'Zend/Validate/Db/RecordExistsTest.php';
+// require_once 'Zend/Validate/Db/NoRecordExistsTest.php';
 
 /**
  * @category   Zend

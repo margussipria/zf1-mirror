@@ -25,13 +25,13 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 }
 
 /** Zend_Service_Twitter */
-require_once 'Zend/Service/Twitter.php';
+// require_once 'Zend/Service/Twitter.php';
 
 /** Zend_Http_Client */
-require_once 'Zend/Http/Client.php';
+// require_once 'Zend/Http/Client.php';
 
 /** Zend_Http_Client_Adapter_Test */
-require_once 'Zend/Http/Client/Adapter/Test.php';
+// require_once 'Zend/Http/Client/Adapter/Test.php';
 
 /**
  * @category   Zend
@@ -673,7 +673,7 @@ class Zend_Service_Twitter_TwitterTest extends PHPUnit_Framework_TestCase
      */
     public function testConstructorPassedObjectZendConfig()
     {
-        require_once 'Zend/Config.php';
+        // require_once 'Zend/Config.php';
         $config = new Zend_Config(array('username' => 'zf'));
         $twitter = new Zend_Service_Twitter($config);
         $this->assertEquals('zf', $twitter->getUsername());

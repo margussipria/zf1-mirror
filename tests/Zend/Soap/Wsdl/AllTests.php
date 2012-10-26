@@ -24,9 +24,9 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Soap_Wsdl_AllTests::main');
 }
 
-require_once "ArrayOfTypeComplexStrategyTest.php";
-require_once "ArrayOfTypeSequenceStrategyTest.php";
-require_once "DefaultComplexTypeTest.php";
+// require_once "ArrayOfTypeComplexStrategyTest.php";
+// require_once "ArrayOfTypeSequenceStrategyTest.php";
+// require_once "DefaultComplexTypeTest.php";
 
 /**
  * @category   Zend

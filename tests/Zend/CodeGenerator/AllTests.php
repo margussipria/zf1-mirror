@@ -24,7 +24,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_CodeGenerator_AllTests::main');
 }
 
-require_once 'Zend/CodeGenerator/Php/AllTests.php';
+// require_once 'Zend/CodeGenerator/Php/AllTests.php';
 
 /**
  * @category   Zend

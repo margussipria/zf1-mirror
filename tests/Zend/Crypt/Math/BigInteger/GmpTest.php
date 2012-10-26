@@ -20,9 +20,9 @@
  * @version    $Id: GmpTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Crypt/Math/BigInteger/Gmp.php';
+// require_once 'Zend/Crypt/Math/BigInteger/Gmp.php';
 
-require_once 'Zend/Crypt/Math/BigInteger/Bcmath.php';
+// require_once 'Zend/Crypt/Math/BigInteger/Bcmath.php';
 
 
 /**

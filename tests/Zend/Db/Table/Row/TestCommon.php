@@ -24,12 +24,12 @@
 /**
  * @see Zend_Db_Table_TestSetup
  */
-require_once 'Zend/Db/Table/TestSetup.php';
+// require_once 'Zend/Db/Table/TestSetup.php';
 
 
 
 
-require_once 'Zend/Db/Table/Row.php';
+// require_once 'Zend/Db/Table/Row.php';
 
 
 /**
@@ -136,7 +136,7 @@ abstract class Zend_Db_Table_Row_TestCommon extends Zend_Db_Table_TestSetup
         /**
          * @see Zend_Db_Table_Row_TestStandaloneRow
          */
-        require_once 'My/ZendDbTable/Row/TestStandaloneRow.php';
+        // require_once 'My/ZendDbTable/Row/TestStandaloneRow.php';
 
         Zend_Db_Table_Abstract::setDefaultAdapter($this->_db);
 

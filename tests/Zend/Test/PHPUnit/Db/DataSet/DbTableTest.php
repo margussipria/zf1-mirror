@@ -20,8 +20,8 @@
  * @version    $Id: DbTableTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once "Zend/Test/PHPUnit/Db/DataSet/DbTable.php";
-require_once "Zend/Db/Table.php";
+// require_once "Zend/Test/PHPUnit/Db/DataSet/DbTable.php";
+// require_once "Zend/Db/Table.php";
 
 /**
  * @category   Zend

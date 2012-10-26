@@ -23,12 +23,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Cloud_Infrastructure_AllTests::main');
 }
 
-require_once 'Zend/Cloud/Infrastructure/Adapter/AllTests.php';
+// require_once 'Zend/Cloud/Infrastructure/Adapter/AllTests.php';
 
 /**
  * @see Zend_Cloud_Infrastructure_FactoryTest
  */
-require_once 'Zend/Cloud/Infrastructure/FactoryTest.php';
+// require_once 'Zend/Cloud/Infrastructure/FactoryTest.php';
 
 /**
  * @category   Zend

@@ -20,8 +20,8 @@
  * @version    $Id: ReaderTest.php 25033 2012-08-17 19:50:08Z matthew $
  */
 
-require_once 'Zend/Feed/Reader.php';
-require_once 'Zend/Cache.php';
+// require_once 'Zend/Feed/Reader.php';
+// require_once 'Zend/Cache.php';
 
 /**
  * @category   Zend

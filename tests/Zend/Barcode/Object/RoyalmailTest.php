@@ -20,9 +20,9 @@
  * @version    $Id: RoyalmailTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once dirname(__FILE__) . '/TestCommon.php';
+// require_once dirname(__FILE__) . '/TestCommon.php';
 
-require_once 'Zend/Barcode/Object/Royalmail.php';
+// require_once 'Zend/Barcode/Object/Royalmail.php';
 
 /**
  * @category   Zend

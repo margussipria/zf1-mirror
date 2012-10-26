@@ -1,6 +1,6 @@
 <?php
-require_once 'Zend/Mobile/Push/Gcm.php';
-require_once 'Zend/Mobile/Push/Message/Gcm.php';
+// require_once 'Zend/Mobile/Push/Gcm.php';
+// require_once 'Zend/Mobile/Push/Message/Gcm.php';
 
 $message = new Zend_Mobile_Push_Message_Gcm();
 $message->addToken('ABCDEF0123456789');

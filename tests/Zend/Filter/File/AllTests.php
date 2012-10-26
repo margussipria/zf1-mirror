@@ -24,11 +24,11 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Filter_File_AllTests::main');
 }
 
-require_once 'Zend/Filter/File/DecryptTest.php';
-require_once 'Zend/Filter/File/EncryptTest.php';
-require_once 'Zend/Filter/File/LowerCaseTest.php';
-require_once 'Zend/Filter/File/RenameTest.php';
-require_once 'Zend/Filter/File/UpperCaseTest.php';
+// require_once 'Zend/Filter/File/DecryptTest.php';
+// require_once 'Zend/Filter/File/EncryptTest.php';
+// require_once 'Zend/Filter/File/LowerCaseTest.php';
+// require_once 'Zend/Filter/File/RenameTest.php';
+// require_once 'Zend/Filter/File/UpperCaseTest.php';
 
 /**
  * @category   Zend

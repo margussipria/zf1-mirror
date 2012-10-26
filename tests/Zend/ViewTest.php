@@ -27,17 +27,17 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Zend_View
  */
-require_once 'Zend/View.php';
+// require_once 'Zend/View.php';
 
 /**
  * Zend_View_Interface
  */
-require_once 'Zend/View/Interface.php';
+// require_once 'Zend/View/Interface.php';
 
 /**
  * Zend_Loader
  */
-require_once 'Zend/Loader.php';
+// require_once 'Zend/Loader.php';
 
 /**
  * @category   Zend
@@ -844,7 +844,7 @@ class Zend_ViewTest extends PHPUnit_Framework_TestCase
     public function testGetHelper()
     {
         // require so we can do type hinting
-        require_once 'Zend/View/Helper/DeclareVars.php';
+        // require_once 'Zend/View/Helper/DeclareVars.php';
         $view = new Zend_View();
         $view->declareVars();
         $helper = $view->getHelper('declareVars');
@@ -853,7 +853,7 @@ class Zend_ViewTest extends PHPUnit_Framework_TestCase
 
     public function testGetHelperPath()
     {
-        require_once 'Zend/View/Helper/DeclareVars.php';
+        // require_once 'Zend/View/Helper/DeclareVars.php';
         $reflection = new ReflectionClass('Zend_View_Helper_DeclareVars');
         $expected   = $reflection->getFileName();
 
@@ -866,7 +866,7 @@ class Zend_ViewTest extends PHPUnit_Framework_TestCase
     public function testGetFilter()
     {
         $base = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'View' . DIRECTORY_SEPARATOR;
-        require_once $base . '_stubs' . DIRECTORY_SEPARATOR . 'FilterDir1' . DIRECTORY_SEPARATOR . 'Foo.php';
+        // require_once $base . '_stubs' . DIRECTORY_SEPARATOR . 'FilterDir1' . DIRECTORY_SEPARATOR . 'Foo.php';
 
         $view = new Zend_View();
         $view->setScriptPath($base . '_templates');
@@ -1090,7 +1090,7 @@ class Zend_ViewTest extends PHPUnit_Framework_TestCase
      */
     public function testRegisterHelperShouldRegisterHelperWithView()
     {
-    	require_once dirname(__FILE__) . '/View/_stubs/HelperDir1/Stub1.php';
+    	// require_once dirname(__FILE__) . '/View/_stubs/HelperDir1/Stub1.php';
 
     	$view = new Zend_View();
     	$helper = new Foo_View_Helper_Stub1();
@@ -1126,7 +1126,7 @@ class Zend_ViewTest extends PHPUnit_Framework_TestCase
      */
     public function testRegisterHelperShouldRegisterViewObjectWithHelper()
     {
-    	require_once 'Zend/View/Helper/Doctype.php';
+    	// require_once 'Zend/View/Helper/Doctype.php';
     	$view = new Zend_View();
     	$helper = new Zend_View_Helper_Doctype();
     	$view->registerHelper($helper, 'doctype');

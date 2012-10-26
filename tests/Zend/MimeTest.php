@@ -21,10 +21,10 @@
  */
 
 /** Zend_Mail */
-require_once 'Zend/Mail.php';
+// require_once 'Zend/Mail.php';
 
 /** Zend_Mime */
-require_once 'Zend/Mime.php';
+// require_once 'Zend/Mime.php';
 
 /**
  * @category   Zend
@@ -100,7 +100,7 @@ class Zend_MimeTest extends PHPUnit_Framework_TestCase
         $mail->addTo('test@email.com');
 
         // test with generic transport
-        require_once 'Mail/MailTest.php';
+        // require_once 'Mail/MailTest.php';
         $mock = new Zend_Mail_Transport_Sendmail_Mock();
         $mail->send($mock);
         $body = quoted_printable_decode($mock->body);

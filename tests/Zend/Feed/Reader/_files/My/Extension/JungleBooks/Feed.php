@@ -20,7 +20,7 @@
  * @version    $Id: Feed.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Feed/Reader/Extension/FeedAbstract.php';
+// require_once 'Zend/Feed/Reader/Extension/FeedAbstract.php';
 
 /**
  * @category   Zend

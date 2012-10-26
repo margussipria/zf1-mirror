@@ -1,6 +1,6 @@
 <?php
 
-require_once('JavaScriptVariable.php');
+// require_once('JavaScriptVariable.php');
 
 class JavaScriptAssignment extends JavaScriptVariable {
   protected $value;

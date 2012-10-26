@@ -20,7 +20,7 @@
  * @version $Id: ValueTest.php 18442 2009-09-30 13:17:48Z lars $
  */
 
-require_once 'Zend/XmlRpc/TestProvider.php';
+// require_once 'Zend/XmlRpc/TestProvider.php';
 
 /**
  * Test case for Zend_XmlRpc_Generator_*

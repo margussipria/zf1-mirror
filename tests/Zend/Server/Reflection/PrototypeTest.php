@@ -20,11 +20,11 @@
  * @version $Id: PrototypeTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Server/Reflection/Prototype.php';
+// require_once 'Zend/Server/Reflection/Prototype.php';
 
-require_once 'Zend/Server/Reflection.php';
-require_once 'Zend/Server/Reflection/Parameter.php';
-require_once 'Zend/Server/Reflection/ReturnValue.php';
+// require_once 'Zend/Server/Reflection.php';
+// require_once 'Zend/Server/Reflection/Parameter.php';
+// require_once 'Zend/Server/Reflection/ReturnValue.php';
 
 /**
  * Test case for Zend_Server_Reflection_Prototype

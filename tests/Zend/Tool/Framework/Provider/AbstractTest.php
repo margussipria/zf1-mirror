@@ -20,11 +20,11 @@
  * @version    $Id: AbstractTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Tool/Framework/Registry.php';
-require_once 'Zend/Tool/Framework/Client/Request.php';
-require_once 'Zend/Tool/Framework/Client/Response.php';
+// require_once 'Zend/Tool/Framework/Registry.php';
+// require_once 'Zend/Tool/Framework/Client/Request.php';
+// require_once 'Zend/Tool/Framework/Client/Response.php';
 
-require_once '_files/ProviderFullFeatured.php';
+// require_once '_files/ProviderFullFeatured.php';
 
 /**
  * @category   Zend

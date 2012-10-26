@@ -24,43 +24,43 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Feed_AllTests::main');
 }
 
-require_once 'Zend/Feed/ArrayAccessTest.php';
-require_once 'Zend/Feed/AtomEntryOnlyTest.php';
-require_once 'Zend/Feed/AtomPublishingTest.php';
-require_once 'Zend/Feed/CountTest.php';
-require_once 'Zend/Feed/ElementTest.php';
-require_once 'Zend/Feed/ImportTest.php';
-require_once 'Zend/Feed/IteratorTest.php';
-require_once 'Zend/Feed/Entry/RssTest.php';
+// require_once 'Zend/Feed/ArrayAccessTest.php';
+// require_once 'Zend/Feed/AtomEntryOnlyTest.php';
+// require_once 'Zend/Feed/AtomPublishingTest.php';
+// require_once 'Zend/Feed/CountTest.php';
+// require_once 'Zend/Feed/ElementTest.php';
+// require_once 'Zend/Feed/ImportTest.php';
+// require_once 'Zend/Feed/IteratorTest.php';
+// require_once 'Zend/Feed/Entry/RssTest.php';
 
-require_once 'Zend/Feed/ReaderTest.php';
-require_once 'Zend/Feed/Reader/Feed/RssTest.php';
-require_once 'Zend/Feed/Reader/Entry/RssTest.php';
-require_once 'Zend/Feed/Reader/Feed/AtomTest.php';
-require_once 'Zend/Feed/Reader/Entry/AtomTest.php';
-require_once 'Zend/Feed/Reader/Feed/CommonTest.php';
-require_once 'Zend/Feed/Reader/Entry/CommonTest.php';
+// require_once 'Zend/Feed/ReaderTest.php';
+// require_once 'Zend/Feed/Reader/Feed/RssTest.php';
+// require_once 'Zend/Feed/Reader/Entry/RssTest.php';
+// require_once 'Zend/Feed/Reader/Feed/AtomTest.php';
+// require_once 'Zend/Feed/Reader/Entry/AtomTest.php';
+// require_once 'Zend/Feed/Reader/Feed/CommonTest.php';
+// require_once 'Zend/Feed/Reader/Entry/CommonTest.php';
 
-require_once 'Zend/Feed/Reader/Feed/AtomSourceTest.php';
-require_once 'Zend/Feed/Reader/Entry/AtomStandaloneEntryTest.php';
+// require_once 'Zend/Feed/Reader/Feed/AtomSourceTest.php';
+// require_once 'Zend/Feed/Reader/Entry/AtomStandaloneEntryTest.php';
 
-require_once 'Zend/Feed/Reader/Integration/WordpressRss2DcAtomTest.php';
-require_once 'Zend/Feed/Reader/Integration/WordpressAtom10Test.php';
-require_once 'Zend/Feed/Reader/Integration/LautDeRdfTest.php';
-require_once 'Zend/Feed/Reader/Integration/H-OnlineComAtom10Test.php';
+// require_once 'Zend/Feed/Reader/Integration/WordpressRss2DcAtomTest.php';
+// require_once 'Zend/Feed/Reader/Integration/WordpressAtom10Test.php';
+// require_once 'Zend/Feed/Reader/Integration/LautDeRdfTest.php';
+// require_once 'Zend/Feed/Reader/Integration/H-OnlineComAtom10Test.php';
 
-require_once 'Zend/Feed/Writer/FeedTest.php';
-require_once 'Zend/Feed/Writer/EntryTest.php';
-require_once 'Zend/Feed/Writer/DeletedTest.php';
-require_once 'Zend/Feed/Writer/Renderer/Feed/AtomTest.php';
-require_once 'Zend/Feed/Writer/Renderer/Feed/RssTest.php';
-require_once 'Zend/Feed/Writer/Renderer/Entry/AtomTest.php';
-require_once 'Zend/Feed/Writer/Renderer/Entry/RssTest.php';
+// require_once 'Zend/Feed/Writer/FeedTest.php';
+// require_once 'Zend/Feed/Writer/EntryTest.php';
+// require_once 'Zend/Feed/Writer/DeletedTest.php';
+// require_once 'Zend/Feed/Writer/Renderer/Feed/AtomTest.php';
+// require_once 'Zend/Feed/Writer/Renderer/Feed/RssTest.php';
+// require_once 'Zend/Feed/Writer/Renderer/Entry/AtomTest.php';
+// require_once 'Zend/Feed/Writer/Renderer/Entry/RssTest.php';
 
-require_once 'Zend/Feed/Writer/Extension/ITunes/EntryTest.php';
-require_once 'Zend/Feed/Writer/Extension/ITunes/FeedTest.php';
+// require_once 'Zend/Feed/Writer/Extension/ITunes/EntryTest.php';
+// require_once 'Zend/Feed/Writer/Extension/ITunes/FeedTest.php';
 
-require_once 'Zend/Feed/Pubsubhubbub/AllTests.php';
+// require_once 'Zend/Feed/Pubsubhubbub/AllTests.php';
 
 /**
  * @category   Zend

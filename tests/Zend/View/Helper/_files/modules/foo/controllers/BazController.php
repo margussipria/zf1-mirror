@@ -20,7 +20,7 @@
  * @version    $Id: BazController.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Controller/Action.php';
+// require_once 'Zend/Controller/Action.php';
 
 /**
  * @category   Zend

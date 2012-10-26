@@ -23,7 +23,7 @@
 /**
  * @see Zend_Db_TestUtil_Common
  */
-require_once 'Zend/Db/TestUtil/Common.php';
+// require_once 'Zend/Db/TestUtil/Common.php';
 
 
 

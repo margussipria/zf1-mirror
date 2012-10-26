@@ -29,12 +29,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * Test helpers
  */
-require_once dirname(__FILE__) . '/../../../../TestHelper.php';
-require_once dirname(__FILE__) . '/../../../../TestConfiguration.php.dist';
-require_once 'PHPUnit/Framework/TestCase.php';
+// require_once dirname(__FILE__) . '/../../../../TestHelper.php';
+// require_once dirname(__FILE__) . '/../../../../TestConfiguration.php.dist';
+// require_once 'PHPUnit/Framework/TestCase.php';
 
 /** Zend_Service_WindowsAzure_Management_Client */
-require_once 'Zend/Service/WindowsAzure/Management/Client.php';
+// require_once 'Zend/Service/WindowsAzure/Management/Client.php';
 
 /**
  * @category   Zend

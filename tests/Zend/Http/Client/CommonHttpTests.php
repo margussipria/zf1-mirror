@@ -23,12 +23,12 @@
 if (! defined('TESTS_ZEND_HTTP_CLIENT_BASEURI') &&
     is_readable('TestConfiguration.php')) {
 
-    require_once 'TestConfiguration.php';
+    // require_once 'TestConfiguration.php';
 }
 
-require_once 'Zend/Http/Client.php';
+// require_once 'Zend/Http/Client.php';
 
-require_once 'Zend/Uri/Http.php';
+// require_once 'Zend/Uri/Http.php';
 
 
 /**

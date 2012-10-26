@@ -20,9 +20,9 @@
  * @version      $Id: VideoEntryTest.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Gdata/YouTube/VideoEntry.php';
-require_once 'Zend/Gdata/YouTube/Extension/State.php';
-require_once 'Zend/Gdata/YouTube.php';
+// require_once 'Zend/Gdata/YouTube/VideoEntry.php';
+// require_once 'Zend/Gdata/YouTube/Extension/State.php';
+// require_once 'Zend/Gdata/YouTube.php';
 
 /**
  * @category   Zend

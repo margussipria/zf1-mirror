@@ -27,12 +27,12 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Cloud_DocumentService_Adapter_SimpleDbTest
  */
-require_once 'Zend/Cloud/DocumentService/Adapter/SimpleDbTest.php';
+// require_once 'Zend/Cloud/DocumentService/Adapter/SimpleDbTest.php';
 
 /**
  * @see Zend_Cloud_DocumentService_Adapter_WindowsAzureTest
  */
-require_once 'Zend/Cloud/DocumentService/Adapter/WindowsAzureTest.php';
+// require_once 'Zend/Cloud/DocumentService/Adapter/WindowsAzureTest.php';
 
 /**
  * @category   Zend

@@ -27,7 +27,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 /**
  * @see Zend_Service_DeveloperGarden_VoiceCall
  */
-require_once 'Zend/Service/DeveloperGarden/VoiceCall.php';
+// require_once 'Zend/Service/DeveloperGarden/VoiceCall.php';
 
 /**
  * Zend_Service_DeveloperGarden test case

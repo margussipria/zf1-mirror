@@ -24,8 +24,8 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_Tool_Project_AllTests::main');
 }
 
-require_once 'Zend/Tool/Project/ProfileTest.php';
-require_once 'Zend/Tool/Project/Context/RegistryTest.php';
+// require_once 'Zend/Tool/Project/ProfileTest.php';
+// require_once 'Zend/Tool/Project/Context/RegistryTest.php';
 
 /**
  * @category   Zend

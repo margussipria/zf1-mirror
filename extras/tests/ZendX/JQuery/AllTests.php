@@ -20,21 +20,21 @@
  * @version     $Id: AllTests.php 20165 2010-01-09 18:57:56Z bkarwin $
  */
 
-require_once dirname(__FILE__)."/../../TestHelper.php";
+// require_once dirname(__FILE__)."/../../TestHelper.php";
 
 if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'ZendX_JQuery_View_AllTests::main');
 }
 
-require_once "Zend/Registry.php";
-require_once "Zend/View.php";
-require_once "ZendX/JQuery.php";
-require_once "ZendX/JQuery/View/Helper/JQuery.php";
+// require_once "Zend/Registry.php";
+// require_once "Zend/View.php";
+// require_once "ZendX/JQuery.php";
+// require_once "ZendX/JQuery/View/Helper/JQuery.php";
 
-require_once "ZendX/JQuery/JQueryTest.php";
-require_once "ZendX/JQuery/AutoCompleteActionHelperTest.php";
-require_once "ZendX/JQuery/View/AllTests.php";
-require_once "ZendX/JQuery/Form/AllTests.php";
+// require_once "ZendX/JQuery/JQueryTest.php";
+// require_once "ZendX/JQuery/AutoCompleteActionHelperTest.php";
+// require_once "ZendX/JQuery/View/AllTests.php";
+// require_once "ZendX/JQuery/Form/AllTests.php";
 
 class ZendX_JQuery_AllTests
 {

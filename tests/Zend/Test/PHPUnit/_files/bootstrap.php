@@ -20,12 +20,12 @@
  * @version    $Id: bootstrap.php 24593 2012-01-05 20:35:02Z matthew $
  */
 
-require_once 'Zend/Controller/Action/HelperBroker.php';
-require_once 'Zend/Controller/Dispatcher/Standard.php';
-require_once 'Zend/Controller/Front.php';
-require_once 'Zend/Controller/Plugin/ErrorHandler.php';
-require_once 'Zend/Controller/Router/Rewrite.php';
-require_once 'Zend/Registry.php';
+// require_once 'Zend/Controller/Action/HelperBroker.php';
+// require_once 'Zend/Controller/Dispatcher/Standard.php';
+// require_once 'Zend/Controller/Front.php';
+// require_once 'Zend/Controller/Plugin/ErrorHandler.php';
+// require_once 'Zend/Controller/Router/Rewrite.php';
+// require_once 'Zend/Registry.php';
 $router     = new Zend_Controller_Router_Rewrite();
 $dispatcher = new Zend_Controller_Dispatcher_Standard();
 $plugin     = new Zend_Controller_Plugin_ErrorHandler();
